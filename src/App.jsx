@@ -10,169 +10,184 @@ const data = [{
   benefits: [
     {
       group: 'Climate Change Adaptation & Mitigation',
-      function: 'Shelter from wind',
-      tool: 'Reduced building energy consumption for heating',
-      amount: 1166560,
-      unit: 'kWh/yr energy saved',
-      benefit_per_year: 42625,
-      gross_value: 366906,
-      indirect: 0, 
-      timeframe: 10
+      rows: [
+        {
+          function: 'Shelter from wind',
+          tool: 'Reduced building energy consumption for heating',
+          amount: 1166560,
+          unit: 'kWh/yr energy saved',
+          benefit_per_year: 42625,
+          gross_value: 366906,
+          indirect: 0, 
+          timeframe: 10
+        },
+        {
+          function: 'Shelter from wind',
+          tool: 'Avoided carbon emissions from building energy saving for heating',
+          amount: 223472,
+          unit: 'kgCO2/yr not emitted',
+          benefit_per_year: 44024,
+          gross_value: 0,
+          indirect: 390667, 
+          timeframe: 10
+        },
+        {
+          function: 'Reduction of urban heat island effect',
+          tool: 'Reduced peak summer surface temperatures',
+          amount: -0.9,
+          unit: '°C in surf. temperature reduction',
+          benefit_per_year: 0,
+          gross_value: 0,
+          indirect: 0, 
+          timeframe: 0
+        },
+        {
+          function: 'Reduction of urban heat island effect',
+          tool: 'Reduced Heat-Related Mortality',
+          amount: 0,
+          unit: 'lives saved per yr',
+          benefit_per_year: 2078458,
+          gross_value: 0,
+          indirect: 18444144, 
+          timeframe: 10
+        },
+        {
+          "function": "Reduction of urban heat island effect",
+          "tool": "Reduced Hospital Costs from Heat-Related Morbidity",
+          "amount": 49,
+          "unit": "patient days per yr",
+          "benefit_per_year": 177491,
+          "gross_value": 0,
+          "indirect": 1575044,
+          "timeframe": 10
+        },
+        {
+          "function": "Carbon storage and sequestration",
+          "tool": "Carbon sequestered by trees",
+          "amount": 701,
+          "unit": "kgCO2e sequestered",
+          "benefit_per_year": 2764,
+          "gross_value": 0,
+          "indirect": 69343,
+          "timeframe": 50
+        }
+      ],
     },
     {
-      group: 'Climate Change Adaptation & Mitigation',
-      function: 'Shelter from wind',
-      tool: 'Avoided carbon emissions from building energy saving for heating',
-      amount: 223472,
-      unit: 'kgCO2/yr not emitted',
-      benefit_per_year: 44024,
-      gross_value: 0,
-      indirect: 390667, 
-      timeframe: 10
-    },
-    {
-      group: 'Climate Change Adaptation & Mitigation',
-      function: 'Reduction of urban heat island effect',
-      tool: 'Reduced peak summer surface temperatures',
-      amount: -0.9,
-      unit: '°C in surf. temperature reduction',
-      benefit_per_year: 0,
-      gross_value: 0,
-      indirect: 0, 
-      timeframe: 0
-    },
-    {
-      group: 'Climate Change Adaptation & Mitigation',
-      function: 'Reduction of urban heat island effect',
-      tool: 'Reduced Heat-Related Mortality',
-      amount: 0,
-      unit: 'lives saved per yr',
-      benefit_per_year: 2078458,
-      gross_value: 0,
-      indirect: 18444144, 
-      timeframe: 10
-    },
-    {
-      "group": "Climate Change Adaptation & Mitigation",
-      "function": "Reduction of urban heat island effect",
-      "tool": "Reduced Hospital Costs from Heat-Related Morbidity",
-      "amount": 49,
-      "unit": "patient days per yr",
-      "benefit_per_year": 177491,
-      "gross_value": 0,
-      "indirect": 1575044,
-      "timeframe": 10
-    },
-    {
-      "group": "Climate Change Adaptation & Mitigation",
-      "function": "Carbon storage and sequestration",
-      "tool": "Carbon sequestered by trees",
-      "amount": 701,
-      "unit": "kgCO2e sequestered",
-      "benefit_per_year": 2764,
-      "gross_value": 0,
-      "indirect": 69343,
-      "timeframe": 50
-    },
-    {
-      "group": "Water Management & Flood Alleviation",
-      "function": "Interception, storage and infiltration of rainwater",
-      "tool": "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
-      "amount": 77814213,
-      "unit": "L/yr water diverted from sewers",
-      "benefit_per_year": 13677,
-      "gross_value": 260347,
-      "indirect": 0,
-      "timeframe": 30
-    },
-    {
-      "group": "Water Management & Flood Alleviation",
-      "function": "Interception, storage and infiltration of rainwater",
-      "tool": "Reduced carbon emissions",
-      "amount": 27.34,
-      "unit": "tCO2e/yr carbon saved",
-      "benefit_per_year": 2242,
-      "gross_value": 260347,
-      "indirect": 0,
-      "timeframe": 30
-    },
-    {
-      "group": "Health & Well-being",
-      "function": "Provision of attractive opportunities for walking and cycling",
-      "tool": "Reduced mortality from increased walking and cycling",
-      "amount": 2,
-      "unit": "lives saved per yr",
-      "benefit_per_year": 7594328,
-      "gross_value": 0,
-      "indirect": 65288500,
-      "timeframe": 10
-    },
-    {
-      "group": "Health & Well-being",
-      "function": "Stress and mental illness alleviation",
-      "tool": "Health cost savings from mental health disorders",
-      "amount": 0,
-      "unit": "number of patients",
-      "benefit_per_year": 0,
-      "gross_value": 0,
-      "indirect": 0,
-      "timeframe": 20
+      group: "Water Management & Flood Alleviation",
+      rows: [
+        {
+          "function": "Interception, storage and infiltration of rainwater",
+          "tool": "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+          "amount": 77814213,
+          "unit": "L/yr water diverted from sewers",
+          "benefit_per_year": 15919,
+          "gross_value": 0,
+          "indirect": 0,
+          "timeframe": 30
+        },
+        {
+          "function": "Interception, storage and infiltration of rainwater",
+          "tool": "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+          "amount": 68865.58,
+          "unit": "kWh/yr energy saved",
+          "benefit_per_year": 13677,
+          "gross_value": 260347,
+          "indirect": 0,
+          "timeframe": 30
+        },
+        {
+          "function": "Interception, storage and infiltration of rainwater",
+          "tool": "Reduced carbon emissions",
+          "amount": 27.34,
+          "unit": "tCO2e/yr carbon saved",
+          "benefit_per_year": 2242,
+          "gross_value": 260347,
+          "indirect": 0,
+          "timeframe": 30
+        },
+      ],
     },
     {
       "group": "Health & Well-being",
-      "function": "Air pollution removal",
-      "tool": "Reduced air pollution",
-      "amount": 0.02,
-      "unit": "t/yr of NO2 removed",
-      "benefit_per_year": 8781,
-      "gross_value": 220325,
-      "indirect": 0,
-      "timeframe": 50
-    },
-    {
-      "group": "Health & Well-being",
-      "function": "Air pollution removal",
-      "tool": "Reduced air pollution",
-      "amount": 0.04,
-      "unit": "t/yr of O3 removed",
-      "benefit_per_year": 8781,
-      "gross_value": 220325,
-      "indirect": 0,
-      "timeframe": 50
-    },
-    {
-      "group": "Health & Well-being",
-      "function": "Air pollution removal",
-      "tool": "Reduced air pollution",
-      "amount": 0.08,
-      "unit": "t/yr of PM2.5 removed",
-      "benefit_per_year": 8781,
-      "gross_value": 220325,
-      "indirect": 0,
-      "timeframe": 50
+      rows: [
+        {
+          "function": "Provision of attractive opportunities for walking and cycling",
+          "tool": "Reduced mortality from increased walking and cycling",
+          "amount": 2,
+          "unit": "lives saved per yr",
+          "benefit_per_year": 7594328,
+          "gross_value": 0,
+          "indirect": 65288500,
+          "timeframe": 10
+        },
+        {
+          "function": "Stress and mental illness alleviation",
+          "tool": "Health cost savings from mental health disorders",
+          "amount": 0,
+          "unit": "number of patients",
+          "benefit_per_year": 0,
+          "gross_value": 0,
+          "indirect": 0,
+          "timeframe": 20
+        },
+        {
+          "function": "Air pollution removal",
+          "tool": "Reduced air pollution",
+          "amount": 0.02,
+          "unit": "t/yr of NO2 removed",
+          "benefit_per_year": 8781,
+          "gross_value": 220325,
+          "indirect": 0,
+          "timeframe": 50
+        },
+        {
+          "function": "Air pollution removal",
+          "tool": "Reduced air pollution",
+          "amount": 0.04,
+          "unit": "t/yr of O3 removed",
+          "benefit_per_year": 8781,
+          "gross_value": 220325,
+          "indirect": 0,
+          "timeframe": 50
+        },
+        {
+          "function": "Air pollution removal",
+          "tool": "Reduced air pollution",
+          "amount": 0.08,
+          "unit": "t/yr of PM2.5 removed",
+          "benefit_per_year": 8781,
+          "gross_value": 220325,
+          "indirect": 0,
+          "timeframe": 50
+        },
+      ]
     },
     {
       "group": "Biodiversity",
-      "function": "Provision, protection and enhancement of natural habitats",
-      "tool": "Willingness to pay for protection or enhancement of biodiversity",
-      "amount": 0,
-      "unit": "Ha of land w/ biodiversity value",
-      "benefit_per_year": 0,
-      "gross_value": 0,
-      "indirect": 0,
-      "timeframe": 10
-    },
-    {
-      "group": "Biodiversity",
-      "function": "Provision, protection and enhancement of natural habitats",
-      "tool": "Contribution to biodiversity targets",
-      "amount": 0,
-      "unit": "Ha of grassland habitat",
-      "benefit_per_year": 0,
-      "gross_value": 0,
-      "indirect": 0,
-      "timeframe": 40
-    }
+      rows: [
+        {
+          "function": "Provision, protection and enhancement of natural habitats",
+          "tool": "Willingness to pay for protection or enhancement of biodiversity",
+          "amount": 0,
+          "unit": "Ha of land w/ biodiversity value",
+          "benefit_per_year": 0,
+          "gross_value": 0,
+          "indirect": 0,
+          "timeframe": 10
+        },
+      {
+        "function": "Provision, protection and enhancement of natural habitats",
+        "tool": "Contribution to biodiversity targets",
+        "amount": 0,
+        "unit": "Ha of grassland habitat",
+        "benefit_per_year": 0,
+        "gross_value": 0,
+        "indirect": 0,
+        "timeframe": 40
+      }
+    ]
+  }
   ]
 },
 {
@@ -185,125 +200,129 @@ const data = [{
   benefits: [
       {
         "group": "Climate Change Adaptation & Mitigation",
-        "function": "Shelter from wind",
-        "tool": "Reduced building energy consumption for heating",
-        "amount": -82400,
-        "unit": "kWh/yr energy saved",
-        "benefit_per_year": -7129,
-        "gross_value": -61364,
-        "indirect": 0,
-        "timeframe": 10
-      },
-      {
-        "group": "Climate Change Adaptation & Mitigation",
-        "function": "Shelter from wind",
-        "tool": "Avoided carbon emissions from building energy saving for heating",
-        "amount": -17965,
-        "unit": "kgCO2/yr not emitted",
-        "benefit_per_year": -3539,
-        "gross_value": 0,
-        "indirect": -31407,
-        "timeframe": 10
-      },
-      {
-        "group": "Climate Change Adaptation & Mitigation",
-        "function": "Reduction of urban heat island effect",
-        "tool": "Reduced peak summer surface temperatures",
-        "amount": 0.8,
-        "unit": "°C in surf. temperature",
-        "benefit_per_year": 0,
-        "gross_value": 0,
-        "indirect": 0,
-        "timeframe": 0
-      },
-      {
-        "group": "Climate Change Adaptation & Mitigation",
-        "function": "Reduction of urban heat island effect",
-        "tool": "Reduced Heat-Related Mortality",
-        "amount": 0,
-        "unit": "lives saved per yr",
-        "benefit_per_year": -258793,
-        "gross_value": 0,
-        "indirect": -2296519,
-        "timeframe": 10
-      },
-      {
-        "group": "Climate Change Adaptation & Mitigation",
-        "function": "Reduction of urban heat island effect",
-        "tool": "Reduced Hospital Costs from Heat-Related Morbidity",
-        "amount": -6,
-        "unit": "patient days per yr",
-        "benefit_per_year": -22100,
-        "gross_value": 0,
-        "indirect": -196112,
-        "timeframe": 10
-      },
-      {
-        "group": "Climate Change Adaptation & Mitigation",
-        "function": "Carbon storage and sequestration",
-        "tool": "Carbon sequestered by trees",
-        "amount": -87,
-        "unit": "kgCO2e sequestered",
-        "benefit_per_year": -344,
-        "gross_value": 0,
-        "indirect": -8634,
-        "timeframe": 50
-      },
-      {
-        "group": "Water Management & Flood Alleviation",
-        "function": "Interception, storage and infiltration of rainwater",
-        "tool": "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
-        "amount": -6939182,
-        "unit": "L/yr water diverted from sewers",
-        "benefit_per_year": -1220,
-        "gross_value": -23217,
-        "indirect": 0,
-        "timeframe": 30
+        rows: [
+          {
+            "function": "Shelter from wind",
+            "tool": "Reduced building energy consumption for heating",
+            "amount": -82400,
+            "unit": "kWh/yr energy saved",
+            "benefit_per_year": -7129,
+            "gross_value": -61364,
+            "indirect": 0,
+            "timeframe": 10
+          },
+          {
+            "function": "Shelter from wind",
+            "tool": "Avoided carbon emissions from building energy saving for heating",
+            "amount": -17965,
+            "unit": "kgCO2/yr not emitted",
+            "benefit_per_year": -3539,
+            "gross_value": 0,
+            "indirect": -31407,
+            "timeframe": 10
+          },
+          {
+            "function": "Reduction of urban heat island effect",
+            "tool": "Reduced peak summer surface temperatures",
+            "amount": 0.8,
+            "unit": "°C in surf. temperature",
+            "benefit_per_year": 0,
+            "gross_value": 0,
+            "indirect": 0,
+            "timeframe": 0
+          },
+          {
+            "function": "Reduction of urban heat island effect",
+            "tool": "Reduced Heat-Related Mortality",
+            "amount": 0,
+            "unit": "lives saved per yr",
+            "benefit_per_year": -258793,
+            "gross_value": 0,
+            "indirect": -2296519,
+            "timeframe": 10
+          },
+          {
+            "function": "Reduction of urban heat island effect",
+            "tool": "Reduced Hospital Costs from Heat-Related Morbidity",
+            "amount": -6,
+            "unit": "patient days per yr",
+            "benefit_per_year": -22100,
+            "gross_value": 0,
+            "indirect": -196112,
+            "timeframe": 10
+          },
+          {
+            "function": "Carbon storage and sequestration",
+            "tool": "Carbon sequestered by trees",
+            "amount": -87,
+            "unit": "kgCO2e sequestered",
+            "benefit_per_year": -344,
+            "gross_value": 0,
+            "indirect": -8634,
+            "timeframe": 50
+          },
+        ]
       },
       {
         "group": "Water Management & Flood Alleviation",
-        "function": "Interception, storage and infiltration of rainwater",
-        "tool": "Reduced carbon emissions",
-        "amount": -2.44,
-        "unit": "tCO2e/yr carbon saved",
-        "benefit_per_year": -200,
-        "gross_value": -23217,
-        "indirect": 0,
-        "timeframe": 30
+        rows: [
+          {
+            "function": "Interception, storage and infiltration of rainwater",
+            "tool": "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+            "amount": -6939182,
+            "unit": "L/yr water diverted from sewers",
+            "benefit_per_year": -1220,
+            "gross_value": -23217,
+            "indirect": 0,
+            "timeframe": 30
+          },
+          {
+            "function": "Interception, storage and infiltration of rainwater",
+            "tool": "Reduced carbon emissions",
+            "amount": -2.44,
+            "unit": "tCO2e/yr carbon saved",
+            "benefit_per_year": -200,
+            "gross_value": -23217,
+            "indirect": 0,
+            "timeframe": 30
+          },
+        ]
       },
       {
         "group": "Health & Well-being",
-        "function": "Provision of attractive opportunities for walking and cycling",
-        "tool": "Reduced mortality from increased walking and cycling",
-        "amount": 0,
-        "unit": "lives saved per yr",
-        "benefit_per_year": 0,
-        "gross_value": 0,
-        "indirect": 0,
-        "timeframe": 10
-      },
-      {
-        "group": "Health & Well-being",
-        "function": "Stress and mental illness alleviation",
-        "tool": "Health cost savings from mental health disorders",
-        "amount": 0,
-        "unit": "number of patients",
-        "benefit_per_year": 0,
-        "gross_value": 0,
-        "indirect": 0,
-        "timeframe": 20
-      },
-      {
-        "group": "Health & Well-being",
-        "function": "Air pollution removal",
-        "tool": "Reduced air pollution",
-        "amount": -0.003,
-        "unit": "t/yr of NO2 removed",
-        "benefit_per_year": -1093,
-        "gross_value": -27433,
-        "indirect": 0,
-        "timeframe": 50
-      }  
+        rows: [
+          {
+            "function": "Provision of attractive opportunities for walking and cycling",
+            "tool": "Reduced mortality from increased walking and cycling",
+            "amount": 0,
+            "unit": "lives saved per yr",
+            "benefit_per_year": 0,
+            "gross_value": 0,
+            "indirect": 0,
+            "timeframe": 10
+          },
+          {
+            "function": "Stress and mental illness alleviation",
+            "tool": "Health cost savings from mental health disorders",
+            "amount": 0,
+            "unit": "number of patients",
+            "benefit_per_year": 0,
+            "gross_value": 0,
+            "indirect": 0,
+            "timeframe": 20
+          },
+          {
+            "function": "Air pollution removal",
+            "tool": "Reduced air pollution",
+            "amount": -0.003,
+            "unit": "t/yr of NO2 removed",
+            "benefit_per_year": -1093,
+            "gross_value": -27433,
+            "indirect": 0,
+            "timeframe": 50
+          }  
+        ]
+      }
   ]
 },
 {
@@ -316,125 +335,129 @@ const data = [{
   benefits: [
     {
       "group": "Climate Change Adaptation & Mitigation",
-      "function": "Shelter from wind",
-      "tool": "Reduced building energy consumption for heating",
-      "amount": -184000,
-      "unit": "kWh/yr energy saved",
-      "benefit_per_year": -16907,
-      "gross_value": -145530,
-      "indirect": 0,
-      "timeframe": 10
-    },
-    {
-      "group": "Climate Change Adaptation & Mitigation",
-      "function": "Shelter from wind",
-      "tool": "Avoided carbon emissions from building energy saving for heating",
-      "amount": -42239,
-      "unit": "kgCO2/yr not emitted",
-      "benefit_per_year": -8321,
-      "gross_value": 0,
-      "indirect": -73841,
-      "timeframe": 10
-    },
-    {
-      "group": "Climate Change Adaptation & Mitigation",
-      "function": "Reduction of urban heat island effect",
-      "tool": "Reduced peak summer surface temperatures",
-      "amount": 0.8,
-      "unit": "°C in surf. temperature",
-      "benefit_per_year": 0,
-      "gross_value": 0,
-      "indirect": 0,
-      "timeframe": 0
-    },
-    {
-      "group": "Climate Change Adaptation & Mitigation",
-      "function": "Reduction of urban heat island effect",
-      "tool": "Reduced Heat-Related Mortality",
-      "amount": 0,
-      "unit": "lives saved per yr",
-      "benefit_per_year": -1119544,
-      "gross_value": 0,
-      "indirect": -9934785,
-      "timeframe": 10
-    },
-    {
-      "group": "Climate Change Adaptation & Mitigation",
-      "function": "Reduction of urban heat island effect",
-      "tool": "Reduced Hospital Costs from Heat-Related Morbidity",
-      "amount": -27,
-      "unit": "patient days per yr",
-      "benefit_per_year": -95604,
-      "gross_value": 0,
-      "indirect": -848384,
-      "timeframe": 10
-    },
-    {
-      "group": "Climate Change Adaptation & Mitigation",
-      "function": "Carbon storage and sequestration",
-      "tool": "Carbon sequestered by trees",
-      "amount": -378,
-      "unit": "kgCO2e sequestered",
-      "benefit_per_year": -1489,
-      "gross_value": 0,
-      "indirect": -37351,
-      "timeframe": 50
-    },
-    {
-      "group": "Water Management & Flood Alleviation",
-      "function": "Interception, storage and infiltration of rainwater",
-      "tool": "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
-      "amount": -35419864,
-      "unit": "L/yr water diverted from sewers",
-      "benefit_per_year": -6225,
-      "gross_value": -118506,
-      "indirect": 0,
-      "timeframe": 30
+      rows: [
+        {
+          "function": "Shelter from wind",
+          "tool": "Reduced building energy consumption for heating",
+          "amount": -184000,
+          "unit": "kWh/yr energy saved",
+          "benefit_per_year": -16907,
+          "gross_value": -145530,
+          "indirect": 0,
+          "timeframe": 10
+        },
+        {
+          "function": "Shelter from wind",
+          "tool": "Avoided carbon emissions from building energy saving for heating",
+          "amount": -42239,
+          "unit": "kgCO2/yr not emitted",
+          "benefit_per_year": -8321,
+          "gross_value": 0,
+          "indirect": -73841,
+          "timeframe": 10
+        },
+        {
+          "function": "Reduction of urban heat island effect",
+          "tool": "Reduced peak summer surface temperatures",
+          "amount": 0.8,
+          "unit": "°C in surf. temperature",
+          "benefit_per_year": 0,
+          "gross_value": 0,
+          "indirect": 0,
+          "timeframe": 0
+        },
+        {
+          "function": "Reduction of urban heat island effect",
+          "tool": "Reduced Heat-Related Mortality",
+          "amount": 0,
+          "unit": "lives saved per yr",
+          "benefit_per_year": -1119544,
+          "gross_value": 0,
+          "indirect": -9934785,
+          "timeframe": 10
+        },
+        {
+          "function": "Reduction of urban heat island effect",
+          "tool": "Reduced Hospital Costs from Heat-Related Morbidity",
+          "amount": -27,
+          "unit": "patient days per yr",
+          "benefit_per_year": -95604,
+          "gross_value": 0,
+          "indirect": -848384,
+          "timeframe": 10
+        },
+        {
+          "function": "Carbon storage and sequestration",
+          "tool": "Carbon sequestered by trees",
+          "amount": -378,
+          "unit": "kgCO2e sequestered",
+          "benefit_per_year": -1489,
+          "gross_value": 0,
+          "indirect": -37351,
+          "timeframe": 50
+        },
+      ],
     },
     {
       "group": "Water Management & Flood Alleviation",
-      "function": "Interception, storage and infiltration of rainwater",
-      "tool": "Reduced carbon emissions",
-      "amount": -12.44,
-      "unit": "tCO2e/yr carbon saved",
-      "benefit_per_year": -1020,
-      "gross_value": -118506,
-      "indirect": 0,
-      "timeframe": 30
+      rows: [
+      {
+        "function": "Interception, storage and infiltration of rainwater",
+        "tool": "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+        "amount": -35419864,
+        "unit": "L/yr water diverted from sewers",
+        "benefit_per_year": -6225,
+        "gross_value": -118506,
+        "indirect": 0,
+        "timeframe": 30
+      },
+      {
+        "function": "Interception, storage and infiltration of rainwater",
+        "tool": "Reduced carbon emissions",
+        "amount": -12.44,
+        "unit": "tCO2e/yr carbon saved",
+        "benefit_per_year": -1020,
+        "gross_value": -118506,
+        "indirect": 0,
+        "timeframe": 30
+      },
+    ],
     },
     {
       "group": "Health & Well-being",
-      "function": "Provision of attractive opportunities for walking and cycling",
-      "tool": "Reduced mortality from increased walking and cycling",
-      "amount": 0,
-      "unit": "lives saved per yr",
-      "benefit_per_year": 0,
-      "gross_value": 0,
-      "indirect": 0,
-      "timeframe": 10
-    },
-    {
-      "group": "Health & Well-being",
-      "function": "Stress and mental illness alleviation",
-      "tool": "Health cost savings from mental health disorders",
-      "amount": 0,
-      "unit": "number of patients",
-      "benefit_per_year": 0,
-      "gross_value": 0,
-      "indirect": 0,
-      "timeframe": 20
-    },
-    {
-      "group": "Health & Well-being",
-      "function": "Air pollution removal",
-      "tool": "Reduced air pollution",
-      "amount": -0.011,
-      "unit": "t/yr of NO2 removed",
-      "benefit_per_year": -4730,
-      "gross_value": -118676,
-      "indirect": 0,
-      "timeframe": 50
-    }
+      rows: [
+        {
+          "function": "Provision of attractive opportunities for walking and cycling",
+          "tool": "Reduced mortality from increased walking and cycling",
+          "amount": 0,
+          "unit": "lives saved per yr",
+          "benefit_per_year": 0,
+          "gross_value": 0,
+          "indirect": 0,
+          "timeframe": 10
+        },
+      {
+        "function": "Stress and mental illness alleviation",
+        "tool": "Health cost savings from mental health disorders",
+        "amount": 0,
+        "unit": "number of patients",
+        "benefit_per_year": 0,
+        "gross_value": 0,
+        "indirect": 0,
+        "timeframe": 20
+      },
+      {
+        "function": "Air pollution removal",
+        "tool": "Reduced air pollution",
+        "amount": -0.011,
+        "unit": "t/yr of NO2 removed",
+        "benefit_per_year": -4730,
+        "gross_value": -118676,
+        "indirect": 0,
+        "timeframe": 50
+      }
+    ]
+  }
   ]
 },
 ];
@@ -512,17 +535,20 @@ function App() {
               </tr>
             </thead>
             <tbody>
-            
-                {selectedScenario.benefits.map(benefit => (
-                  <tr key={benefit.tool}>
-                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.group}</td>
-                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.function}</td>
-                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.tool}</td>
-                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.amount +' '+benefit.unit}</td>
-                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.benefit_per_year}</td>
-                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.timeframe}</td>
+                {selectedScenario.benefits.map((benefit, benefitIndex) => (
+                  benefit.rows.map((row, rowIndex) => (
+                  <tr key={`${benefitIndex}-${rowIndex}`}>
+                    {rowIndex === 0 && (
+                <td rowSpan={benefit.rows.length}>{benefit.group}</td>
+              )}
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{row.function}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{row.tool}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{row.amount +' '+row.unit}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{row.benefit_per_year}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{row.timeframe}</td>
                   </tr>
-                ))}
+                ))
+              ))}
             </tbody>
           </table>
         </div>
