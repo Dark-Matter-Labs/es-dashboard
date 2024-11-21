@@ -229,7 +229,7 @@ const data = [{
     },
     {
       "id": "Provision, protection and enhancement of natural habitats",
-      "label": "Air pollution removal",
+      "label": "Provision, protection and enhancement of natural habitats",
       "value": 0,
       "color": "hsl(11, 42%, 42%)"
     },
@@ -598,12 +598,12 @@ function App() {
           </table>
         </div>
 
-        <div className="bg-gray-50 p-6 rounded-lg mt-6">
+        <div className="bg-gray-50 p-6 rounded-lg my-6">
           <h3 className="text-lg font-semibold text-gray-800">Visualization of Benefits</h3>
           <div className="w-full h-96">
           <ResponsivePie
             data={selectedScenario.chartData}
-            margin={{ top: 10, right: 0, bottom: 80, left: 0 }}
+            margin={{ top: 10, right: 40, bottom: 80, left: 40 }}
             innerRadius={0.5}
             padAngle={0.7}
             cornerRadius={3}
@@ -618,7 +618,7 @@ function App() {
                     ]
                 ]
             }}
-            arcLinkLabelsSkipAngle={10}
+            arcLinkLabelsSkipAngle={20}
             arcLinkLabelsTextColor="#333333"
             arcLinkLabelsThickness={2}
             arcLinkLabelsColor={{ from: 'color' }}
@@ -634,14 +634,14 @@ function App() {
             }}
             legends={[
                 {
-                    anchor: 'bottom',
-                    direction: 'colomn',
+                    anchor: 'right',
+                    direction: 'column',
                     justify: false,
-                    translateX: 0,
-                    translateY: 50,
-                    itemsSpacing: 200,
-                    itemWidth: 100,
-                    itemHeight: 18,
+                    translateX: -220,
+                    translateY: 10,
+                    itemsSpacing: 20,
+                    itemWidth: 20,
+                    itemHeight: 32,
                     itemTextColor: '#999',
                     itemDirection: 'left-to-right',
                     itemOpacity: 1,
