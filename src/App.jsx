@@ -530,7 +530,7 @@ function App() {
                 <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">Tree Function</th>
                 <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">Tool</th>
                 <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">Benefit Quantification</th>
-                <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">€ Value per year</th>
+                <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">Value per year</th>
                 <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">Timeframe</th>
               </tr>
             </thead>
@@ -544,8 +544,8 @@ function App() {
                     <td className="px-6 py-4 border-b text-sm text-gray-600">{row.function}</td>
                     <td className="px-6 py-4 border-b text-sm text-gray-600">{row.tool}</td>
                     <td className="px-6 py-4 border-b text-sm text-gray-600">{row.amount +' '+row.unit}</td>
-                    <td className="px-6 py-4 border-b text-sm text-gray-600">{row.benefit_per_year}</td>
-                    <td className="px-6 py-4 border-b text-sm text-gray-600">{row.timeframe}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{euro.format(row.benefit_per_year)}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{row.timeframe} years</td>
                   </tr>
                 ))
               ))}
