@@ -2,7 +2,8 @@ import { useState } from "react";
 
 const data = [{
   id: 0,
-  title: 'Scenario A',
+  title: 'Scenario A - Baseline',
+  description: 'Ecosystem Services value from all existing trees in a 50m buffer from road.',
   trees: 357,
   canopy_cover: 2.56,
   total_benefit: 86875623,
@@ -176,7 +177,8 @@ const data = [{
 },
 {
   id: 1,
-  title: 'Scenario B',
+  title: 'Scenario B - Optimistic',
+  description: 'Ecosystem Services value from trees that are to be cut according to a technical survey commissioned by BVG (public transport agency).',
   trees: 35,
   canopy_cover: 0.31,
   total_benefit: -2667903,
@@ -306,7 +308,8 @@ const data = [{
 },
 {
   id: 2,
-  title: 'Scenario C',
+  title: 'Scenario C - Realistic',
+  description: 'Ecosystem Services value from all trees considered at risk of being cut off if they are located within the construction area or their crown diameter area overlaps with the construction area based on the Berlin Tree Protection Ordinance.',
   trees: 131,
   canopy_cover: 1.38,
   total_benefit: -11395579,
@@ -453,9 +456,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="max-w-7xl mx-auto bg-white shadow-lg rounded-lg p-6 space-y-6">
-        
-        <h1 className="text-2xl font-bold text-gray-800">Ecosystem Services Indicative Valuation Dashboard</h1>
-        
+        <h1 className=" text-gray-800">Ecosystem Services Indicative Valuation Dashboard</h1>
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
           <div className="w-full md:w-1/3">
             <label className="block text-sm font-medium text-gray-700">Scenario</label>
@@ -464,12 +465,15 @@ function App() {
               <option key={scenario.id} value={scenario.id}>{scenario.title}</option>
             ))}
             </select>
+
+            <div className="w-full mt-4 p-4 bg-gray-50 border rounded-lg ">
+            <h2 className="text-sm font-semibold text-gray-600">Description</h2>
+            <p>{selectedScenario.description}</p>
+            </div>
           </div>
 
           <div className="flex flex-col w-full md:w-2/3 space-y-4 md:space-y-0 md:flex-row md:space-x-4">
             <div className="w-full md:w-1/2 p-4 bg-gray-50 border rounded-lg">
-              <h2 className="text-sm font-semibold text-gray-600">Title</h2>
-              <p className="text-gray-800">Ecosystem_Valuation_Model_BCW</p>
               <h2 className="text-sm font-semibold text-gray-600">Site Location</h2>
               <p className="text-gray-800">Berlin, Germany</p>
               <h2 className="text-sm font-semibold text-gray-600">Site Area</h2>
@@ -479,19 +483,19 @@ function App() {
               <h2 className="text-sm font-semibold text-gray-600">Number of Trees</h2>
               <p className="text-gray-800">{selectedScenario.trees}</p>
               <h2 className="text-sm font-semibold text-gray-600">Canopy Cover</h2>
-              <p className="text-gray-800">{selectedScenario.canopy_cover}</p>
+              <p className="text-gray-800">{selectedScenario.canopy_cover} Ha</p>
             </div>
           </div>
         </div>
 
         <div className="grid grid-cols-2 gap-4">
           <div className={selectedScenario.total_benefit > 0 ? ' bg-green-100 p-6 rounded-lg' : 'bg-red-100 p-6 rounded-lg'}>
-            <h3 className="text-xl font-bold text-gray-800">NPV Total Ecosystem Service Valuation</h3>
+            <h3 className="text-xl font-bold text-gray-800">Total Ecosystem Service Valuation</h3>
             <p className={selectedScenario.total_benefit > 0 ? "text-green-600 text-2xl font-semibold" : "text-red-600 text-2xl font-semibold" }>{euro.format(selectedScenario.total_benefit)}</p>
           </div>
-          <div className="bg-green-100 p-6 rounded-lg">
+          <div className={(selectedScenario.total_benefit / selectedScenario.trees) > 0 ? ' bg-green-100 p-6 rounded-lg' : 'bg-red-100 p-6 rounded-lg'}>
             <h3 className="text-xl font-bold text-gray-800">Average Value Generated per Tree</h3>
-            <p className="text-2xl font-semibold text-green-600">€ 3,000</p>
+            <p className={(selectedScenario.total_benefit / selectedScenario.trees) > 0 ? "text-green-600 text-2xl font-semibold" : "text-red-600 text-2xl font-semibold" }>{euro.format(selectedScenario.total_benefit / selectedScenario.trees)}</p>
           </div>
         </div>
 
@@ -510,16 +514,15 @@ function App() {
             <tbody>
             
                 {selectedScenario.benefits.map(benefit => (
-                    <tr key={benefit.tool}>
-                  <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.group}</td>
-                  <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.function}</td>
-                  <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.tool}</td>
-                  <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.amount +' '+benefit.unit}</td>
-                  <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.benefit_per_year}</td>
-                  <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.timeframe}</td>
+                  <tr key={benefit.tool}>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.group}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.function}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.tool}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.amount +' '+benefit.unit}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.benefit_per_year}</td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">{benefit.timeframe}</td>
                   </tr>
                 ))}
-             
             </tbody>
           </table>
         </div>
