@@ -490,11 +490,11 @@ function App() {
 
         <div className="grid grid-cols-2 gap-4">
           <div className={selectedScenario.total_benefit > 0 ? ' bg-green-100 p-6 rounded-lg' : 'bg-red-100 p-6 rounded-lg'}>
-            <h3 className="text-xl font-bold text-gray-800">Total Ecosystem Service Valuation</h3>
+            <h3 className="medium-intro-md text-gray-800">Total Ecosystem Service Valuation</h3>
             <p className={selectedScenario.total_benefit > 0 ? "text-green-600 text-2xl font-semibold" : "text-red-600 text-2xl font-semibold" }>{euro.format(selectedScenario.total_benefit)}</p>
           </div>
           <div className={(selectedScenario.total_benefit / selectedScenario.trees) > 0 ? ' bg-green-100 p-6 rounded-lg' : 'bg-red-100 p-6 rounded-lg'}>
-            <h3 className="text-xl font-bold text-gray-800">Average Value Generated per Tree</h3>
+            <h3 className="medium-intro-md text-gray-800">Average Value Generated per Tree</h3>
             <p className={(selectedScenario.total_benefit / selectedScenario.trees) > 0 ? "text-green-600 text-2xl font-semibold" : "text-red-600 text-2xl font-semibold" }>{euro.format(selectedScenario.total_benefit / selectedScenario.trees)}</p>
           </div>
         </div>
