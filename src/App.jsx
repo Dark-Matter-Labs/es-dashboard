@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ResponsivePie } from '@nivo/pie'
 
 const data = [{
   id: 0,
@@ -188,6 +189,50 @@ const data = [{
       }
     ]
   }
+  ],
+  chartData: [
+    {
+      "id": "Shelter from wind",
+      "label": "Shelter from wind",
+      "value": 366906+390667,
+      "color": "hsl(6, 70%, 50%)"
+    },
+    {
+      "id": "Reduction of urban heat island effect",
+      "label": "Reduction of urban heat island effect",
+      "value": 0+18444144+1575044+69343,
+      "color": "hsl(72, 70%, 50%)"
+    },
+    {
+      "id": "Interception, storage and infiltration of rainwater",
+      "label": "Interception, storage and infiltration of rainwater",
+      "value": 0+260347+260347,
+      "color": "hsl(107, 70%, 50%)"
+    },
+    {
+      "id": "Provision of attractive opportunities for walking and cycling",
+      "label": "Provision of attractive opportunities for walking and cycling",
+      "value": 65288500,
+      "color": "hsl(300, 70%, 50%)"
+    },
+    {
+      "id": "Stress and mental illness alleviation",
+      "label": "Provision of attractive opportunities for walking and cycling",
+      "value": 0,
+      "color": "hsl(11, 70%, 50%)"
+    },
+    {
+      "id": "Air pollution removal",
+      "label": "Air pollution removal",
+      "value": 220325+220325+220325+220325,
+      "color": "hsl(11, 70%, 50%)"
+    },
+    {
+      "id": "Provision, protection and enhancement of natural habitats",
+      "label": "Air pollution removal",
+      "value": 0,
+      "color": "hsl(11, 42%, 42%)"
+    },
   ]
 },
 {
@@ -477,8 +522,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
-      <div className="max-w-7xl mx-auto bg-white shadow-lg rounded-lg p-6 space-y-6">
+    <div className="global-margin bg-gray-100">
+      <div className=" bg-white shadow-lg rounded-lg p-6 space-y-6">
         <h1 className=" text-gray-800">Ecosystem Services Indicative Valuation Dashboard</h1>
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
           <div className="w-full md:w-1/3">
@@ -555,8 +600,64 @@ function App() {
 
         <div className="bg-gray-50 p-6 rounded-lg mt-6">
           <h3 className="text-lg font-semibold text-gray-800">Visualization of Benefits</h3>
-          <div className="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">Chart Placeholder</p>
+          <div className="w-full h-96">
+          <ResponsivePie
+            data={selectedScenario.chartData}
+            margin={{ top: 10, right: 0, bottom: 80, left: 0 }}
+            innerRadius={0.5}
+            padAngle={0.7}
+            cornerRadius={3}
+            activeOuterRadiusOffset={8}
+            borderWidth={1}
+            borderColor={{
+                from: 'color',
+                modifiers: [
+                    [
+                        'darker',
+                        0.2
+                    ]
+                ]
+            }}
+            arcLinkLabelsSkipAngle={10}
+            arcLinkLabelsTextColor="#333333"
+            arcLinkLabelsThickness={2}
+            arcLinkLabelsColor={{ from: 'color' }}
+            arcLabelsSkipAngle={10}
+            arcLabelsTextColor={{
+                from: 'color',
+                modifiers: [
+                    [
+                        'darker',
+                        2
+                    ]
+                ]
+            }}
+            legends={[
+                {
+                    anchor: 'bottom',
+                    direction: 'colomn',
+                    justify: false,
+                    translateX: 0,
+                    translateY: 50,
+                    itemsSpacing: 200,
+                    itemWidth: 100,
+                    itemHeight: 18,
+                    itemTextColor: '#999',
+                    itemDirection: 'left-to-right',
+                    itemOpacity: 1,
+                    symbolSize: 18,
+                    symbolShape: 'circle',
+                    effects: [
+                        {
+                            on: 'hover',
+                            style: {
+                                itemTextColor: '#000'
+                            }
+                        }
+                    ]
+                }
+            ]}
+        />
           </div>
         </div>
       </div>

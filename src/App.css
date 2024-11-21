@@ -67,8 +67,6 @@
   .global-margin {
     @apply max-w-screen-2xl;
     @apply mx-7;
-    @apply md:mx-10;
-    @apply xl:mx-20;
     @apply 2xl:mx-auto;
   }
 }
