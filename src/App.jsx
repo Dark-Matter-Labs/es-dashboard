@@ -368,6 +368,50 @@ const data = [{
           }  
         ]
       }
+  ],
+  chartData: [
+    {
+      "id": "Shelter from wind",
+      "label": "Shelter from wind",
+      "value": 366906+390667,
+      "color": "hsl(6, 70%, 50%)"
+    },
+    {
+      "id": "Reduction of urban heat island effect",
+      "label": "Reduction of urban heat island effect",
+      "value": 0+18444144+1575044+69343,
+      "color": "hsl(72, 70%, 50%)"
+    },
+    {
+      "id": "Interception, storage and infiltration of rainwater",
+      "label": "Interception, storage and infiltration of rainwater",
+      "value": 0+260347+260347,
+      "color": "hsl(107, 70%, 50%)"
+    },
+    {
+      "id": "Provision of attractive opportunities for walking and cycling",
+      "label": "Provision of attractive opportunities for walking and cycling",
+      "value": 65288500,
+      "color": "hsl(300, 70%, 50%)"
+    },
+    {
+      "id": "Stress and mental illness alleviation",
+      "label": "Provision of attractive opportunities for walking and cycling",
+      "value": 0,
+      "color": "hsl(11, 70%, 50%)"
+    },
+    {
+      "id": "Air pollution removal",
+      "label": "Air pollution removal",
+      "value": 220325+220325+220325+220325,
+      "color": "hsl(11, 70%, 50%)"
+    },
+    {
+      "id": "Provision, protection and enhancement of natural habitats",
+      "label": "Provision, protection and enhancement of natural habitats",
+      "value": 0,
+      "color": "hsl(11, 42%, 42%)"
+    },
   ]
 },
 {
@@ -503,6 +547,50 @@ const data = [{
       }
     ]
   }
+  ],
+  chartData: [
+    {
+      "id": "Shelter from wind",
+      "label": "Shelter from wind",
+      "value": -145530-73841,
+      "color": "hsl(6, 70%, 50%)"
+    },
+    {
+      "id": "Reduction of urban heat island effect",
+      "label": "Reduction of urban heat island effect",
+      "value": 0-9934785-848384,
+      "color": "hsl(72, 70%, 50%)"
+    },
+    {
+      "id": "Interception, storage and infiltration of rainwater",
+      "label": "Interception, storage and infiltration of rainwater",
+      "value": 0+260347+260347,
+      "color": "hsl(107, 70%, 50%)"
+    },
+    {
+      "id": "Provision of attractive opportunities for walking and cycling",
+      "label": "Provision of attractive opportunities for walking and cycling",
+      "value": 65288500,
+      "color": "hsl(300, 70%, 50%)"
+    },
+    {
+      "id": "Stress and mental illness alleviation",
+      "label": "Provision of attractive opportunities for walking and cycling",
+      "value": 0,
+      "color": "hsl(11, 70%, 50%)"
+    },
+    {
+      "id": "Air pollution removal",
+      "label": "Air pollution removal",
+      "value": 220325+220325+220325+220325,
+      "color": "hsl(11, 70%, 50%)"
+    },
+    {
+      "id": "Provision, protection and enhancement of natural habitats",
+      "label": "Provision, protection and enhancement of natural habitats",
+      "value": 0,
+      "color": "hsl(11, 42%, 42%)"
+    },
   ]
 },
 ];
