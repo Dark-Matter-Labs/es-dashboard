@@ -12,7 +12,7 @@
         "type":"Feature",
         "properties":{
            "baumid":"00008100:000c3665",
-           "area_ha":1.7162
+           "area(ha":1.7162
         },
         "geometry":{
            "type":"MultiPolygon",
