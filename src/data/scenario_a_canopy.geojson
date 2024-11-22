@@ -12,7 +12,7 @@
         "type":"Feature",
         "properties":{
            "baumid":"00008100:000c3665",
-           "area(ha":1.7162
+           "area (ha)":1.7162
         },
         "geometry":{
            "type":"MultiPolygon",
@@ -14560,7 +14560,7 @@
         "type":"Feature",
         "properties":{
            "baumid":"00008100:000c8a46",
-           "area(ha":0.3098
+           "area (ha)":0.3098
         },
         "geometry":{
            "type":"MultiPolygon",
@@ -18946,7 +18946,7 @@
         "type":"Feature",
         "properties":{
            "baumid":"00008100:000c18c4",
-           "area(ha":0.5366
+           "area (ha)":0.5366
         },
         "geometry":{
            "type":"MultiPolygon",
