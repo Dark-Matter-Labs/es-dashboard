@@ -655,13 +655,13 @@ function App() {
         </h1>
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4">
           <div className="w-full md:w-1/3">
-            <label className="block text-sm font-medium text-gray-700">
+            <label className="block medium-info-sm text-gray-700">
               Scenario
             </label>
             <select
               value={selectedScenario.id}
               onChange={handleSelectChange}
-              className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary"
+              className="book-info-md mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary"
             >
               {data.map((scenario) => (
                 <option key={scenario.id} value={scenario.id}>
@@ -671,31 +671,31 @@ function App() {
             </select>
 
             <div className="w-full mt-4 p-4 bg-gray-50 border rounded-lg ">
-              <h2 className="text-sm font-semibold text-gray-600">
+              <h2 className="medium-info-sm text-gray-600">
                 Description
               </h2>
-              <p>{selectedScenario.description}</p>
+              <p className="book-info-md">{selectedScenario.description}</p>
             </div>
           </div>
 
           <div className="flex flex-col w-full md:w-2/3 space-y-4 md:space-y-0 md:flex-row md:space-x-4">
             <div className="w-full md:w-1/2 p-4 bg-gray-50 border rounded-lg">
-              <h2 className="text-sm font-semibold text-gray-600">
+              <h2 className="medium-info-sm text-gray-600">
                 Site Location
               </h2>
-              <p className="text-gray-800">Berlin, Germany</p>
-              <h2 className="text-sm font-semibold text-gray-600">Site Area</h2>
-              <p className="text-gray-800">16.83 Ha</p>
+              <p className="text-gray-800 book-info-md">Berlin, Germany</p>
+              <h2 className="medium-info-sm text-gray-600 pt-6">Site Area</h2>
+              <p className="text-gray-800 book-info-md">16.83 Ha</p>
             </div>
             <div className="w-full md:w-1/2 p-4 bg-gray-50 border rounded-lg">
-              <h2 className="text-sm font-semibold text-gray-600">
+              <h2 className="medium-info-sm text-gray-600">
                 Number of Trees
               </h2>
-              <p className="text-gray-800">{selectedScenario.trees}</p>
-              <h2 className="text-sm font-semibold text-gray-600">
+              <p className="text-gray-800 book-info-md">{selectedScenario.trees}</p>
+              <h2 className="medium-info-sm text-gray-600 pt-6">
                 Canopy Cover
               </h2>
-              <p className="text-gray-800">
+              <p className="text-gray-800 book-info-md">
                 {selectedScenario.canopy_cover} Ha
               </p>
             </div>
@@ -748,7 +748,7 @@ function App() {
         </div>
 
         <div className="overflow-x-auto">
-          <table className="min-w-full bg-white border">
+          <table className="min-w-full bg-white border book-info-md">
             <thead>
               <tr>
                 <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
@@ -794,7 +794,7 @@ function App() {
                       {row.tool}
                     </td>
                     <td className="px-6 py-4 border-b text-sm text-gray-600">
-                      {row.amount + " " + row.unit}
+                      {row.amount.toLocaleString() + " " + row.unit}
                     </td>
                     <td className="px-6 py-4 border-b text-sm text-gray-600">
                       {euro.format(row.benefit_per_year)}
