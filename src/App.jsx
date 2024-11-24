@@ -216,43 +216,43 @@ const data = [
         id: "Shelter from wind",
         label: "Shelter from wind",
         value: 366906 + 390667,
-        color: "hsl(6, 70%, 50%)",
+        color: "hsl(109, 97%, 88%)",
       },
       {
         id: "Reduction of urban heat island effect",
         label: "Reduction of urban heat island effect",
         value: 0 + 18444144 + 1575044 + 69343,
-        color: "hsl(72, 70%, 50%)",
+        color: "hsl(84, 100%, 70%)",
       },
       {
         id: "Interception, storage and infiltration of rainwater",
         label: "Interception, storage and infiltration of rainwater",
         value: 0 + 260347 + 260347,
-        color: "hsl(107, 70%, 50%)",
+        color: "hsl(74, 73%, 51%)",
       },
       {
         id: "Provision of attractive opportunities for walking and cycling",
         label: "Provision of attractive opportunities for walking and cycling",
         value: 65288500,
-        color: "hsl(300, 70%, 50%)",
+        color: "hsl(130, 91%, 78%)",
       },
       {
         id: "Stress and mental illness alleviation",
         label: "Provision of attractive opportunities for walking and cycling",
         value: 0,
-        color: "hsl(11, 70%, 50%)",
+        color: "hsl(130, 91%, 78%)",
       },
       {
         id: "Air pollution removal",
         label: "Air pollution removal",
         value: 220325 + 220325 + 220325 + 220325,
-        color: "hsl(11, 70%, 50%)",
+        color: "hsl(145, 63%, 49%)",
       },
       {
         id: "Provision, protection and enhancement of natural habitats",
         label: "Provision, protection and enhancement of natural habitats",
         value: 0,
-        color: "hsl(11, 42%, 42%)",
+        color: "hsl(126, 32%, 67%)",
       },
     ],
   },
@@ -396,27 +396,27 @@ const data = [
     chartData: [
       {
         id: "Shelter from wind",
-        label: "Shelter from wind",
-        value: -61364 -31407,
-        color: "hsl(6, 70%, 50%)",
+        label: "(-)Shelter from wind",
+        value: (-61364 -31407) * -1,
+        color: "hsl(5, 90%, 51%)",
       },
       {
         id: "Reduction of urban heat island effect",
-        label: "Reduction of urban heat island effect",
-        value: 0 - 2296519 - 196112 + 69343,
-        color: "hsl(72, 70%, 50%)",
+        label: "(-)Reduction of urban heat island effect",
+        value: (0 - 2296519 - 196112 + 69343)*-1,
+        color: "hsl(355, 50%, 54%)",
       },
       {
         id: "Carbon storage and sequestration",
-        label: "Carbon storage and sequestration",
-        value: -8634,
-        color: "hsl(72, 70%, 50%)",
+        label: "(-)Carbon storage and sequestration",
+        value: -8634 * -1,
+        color: "hsl(355, 60%, 56%)",
       },
       {
         id: "Interception, storage and infiltration of rainwater",
-        label: "Interception, storage and infiltration of rainwater",
-        value: -23217 - 23217,
-        color: "hsl(107, 70%, 50%)",
+        label: "(-)Interception, storage and infiltration of rainwater",
+        value: (-23217 - 23217) * -1,
+        color: "hsl(0, 89%, 28%)",
       },
       {
         id: "Provision of attractive opportunities for walking and cycling",
@@ -578,27 +578,27 @@ const data = [
     chartData: [
       {
         id: "Shelter from wind",
-        label: "Shelter from wind",
-        value: -145530 - 73841,
-        color: "hsl(6, 70%, 50%)",
+        label: "(-)Shelter from wind",
+        value: (-145530 - 73841)*-1,
+        color: "hsl(5, 90%, 51%)",
       },
       {
         id: "Reduction of urban heat island effect",
-        label: "Reduction of urban heat island effect",
-        value: 0 - 9934785 - 848384,
-        color: "hsl(72, 70%, 50%)",
+        label: "(-)Reduction of urban heat island effect",
+        value: (0 - 9934785 - 848384)*-1,
+        color: "hsl(355, 50%, 54%)",
       },
       {
         id: "Carbon storage and sequestration",
-        label: "Carbon storage and sequestration",
-        value: -37351,
-        color: "hsl(72, 70%, 50%)",
+        label: "(-)Carbon storage and sequestration",
+        value: -37351 *-1,
+        color: "hsl(355, 60%, 56%)",
       },
       {
         id: "Interception, storage and infiltration of rainwater",
-        label: "Interception, storage and infiltration of rainwater",
-        value: -118506 - 118506,
-        color: "hsl(107, 70%, 50%)",
+        label: "(-)Interception, storage and infiltration of rainwater",
+        value: (-118506 - 118506) *.1,
+        color: "hsl(0, 89%, 28%)",
       },
       {
         id: "Provision of attractive opportunities for walking and cycling",
@@ -614,9 +614,9 @@ const data = [
       },
       {
         id: "Air pollution removal",
-        label: "Air pollution removal",
-        value: -118676,
-        color: "hsl(11, 70%, 50%)",
+        label: "(-)Air pollution removal",
+        value: -118676 *-1,
+        color: "hsl(2, 80%, 47%)",
       },
     ],
   },
@@ -819,6 +819,7 @@ function App() {
               margin={{ top: 10, right: 40, bottom: 80, left: 40 }}
               innerRadius={0.5}
               padAngle={0.7}
+             colors={{datum: 'data.color'}}
               cornerRadius={3}
               activeOuterRadiusOffset={8}
               borderWidth={1}
