@@ -1214,6 +1214,22 @@ const data = [
   },
 ];
 
+// TODO: calculate dynamically
+const total_valuation_chart = [
+  {
+    scenario: "Scenario A Baseline",
+    value: 26483560,
+  },
+  {
+    scenario: "Scenario B Optimistic",
+    value: -2882491,
+  },
+  {
+    scenario: "Scenario C Realistic",
+    value: -11914807,
+  },
+];
+
 let euro = new Intl.NumberFormat("en-DE", {
   style: "currency",
   currency: "EUR",
@@ -1500,6 +1516,109 @@ function App() {
               }}
             />
           </div>
+        </div>
+
+
+        <div className="py-10">
+        <h3 className="text-gray-800 pb-8">Scenario Comparison Dashboard</h3>
+        <div className="grid grid-cols-2 gap-4">
+        <table className="min-w-full bg-white border book-info-md table-fixed">
+            <thead>
+              <tr>
+                <th
+                  width="20%"
+                  className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                >
+                  Scenario
+                  </th>
+                  <th
+                  width="30%"
+                  className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                >
+                  Description
+                  </th>
+                  <th
+                  width="25%"
+                  className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                >
+                  Number of Trees
+                  </th>
+                  <th
+                  width="25%"
+                  className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                >
+                  Canaopy Cover(Ha)
+                  </th>
+                  
+              </tr>
+            </thead>
+            <tbody>
+              {data.map(scenario => 
+              <tr key={scenario.id}>
+                <td className="px-6 py-4 border-b text-sm text-gray-600">
+               {scenario.title}
+                        </td>
+                        <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        {scenario.description}
+                        </td>
+    
+                        <td className="px-6 py-4 border-b text-sm text-gray-600">
+                          {scenario.trees}
+                        </td>
+    
+                        <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        {scenario.canopy_cover}
+                        </td>
+                        </tr>
+              )}
+            
+
+
+
+            </tbody>
+          </table>
+          <Map
+              initialViewState={{
+                latitude: 52.526,
+                longitude: 13.3,
+                zoom: 14,
+              }}
+              mapStyle="mapbox://styles/mapbox/light-v9"
+              mapboxAccessToken={MAPBOX_TOKEN}
+            >
+              <Source type="geojson" data={mapData}>
+                <Layer {...dataLayer} />
+              </Source>
+            </Map>
+
+            <div className="w-full h-[60vh]">
+            <ResponsiveBar
+              data={total_valuation_chart }
+              keys={["value"]}
+              indexBy="scenario"
+              margin={{
+                top: 20,
+                right: 0,
+                bottom: 40,
+                left: 100,
+              }}
+              padding={0.6}
+              colors="#2a7ef0"
+              axisTop={null}
+              axisRight={null}
+              enableGridX
+              enableGridY
+              enableLabel={false}
+              axisBottom={{
+                tickSize: 0,
+                tickPadding: 10,
+                tickRotation: 0,
+                truncateTickAt: 20,
+              }}
+            />
+          </div>
+
+        </div>
         </div>
       </div>
     </div>
