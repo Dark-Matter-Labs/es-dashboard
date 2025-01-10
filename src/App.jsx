@@ -5,6 +5,39 @@ import Map, { Source, Layer } from "react-map-gl";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
+const tempData = [
+  {
+    "scenario": "Scenario C: Realistic",
+    "Interception, storage and infiltration of rainwater": -8677,
+    "Shelter from wind": -25228,
+    "Reduced Urban heat island effect": -1215148,
+    "Carbon Storage and Sequestration": -1489,
+    "Provision of opportunities for exercise": 0,
+    "Stress and metnal illness alleviation": -195480,
+    "Air Pollution Removal": -4183,
+  },
+  {
+    "scenario": "Scenario B: Optimistic",
+    "Interception, storage and infiltration of rainwater": -1700,
+    "Shelter from wind": -10668,
+    "Reduced Urban heat island effect": -280893,
+    "Carbon Storage and Sequestration": -344,
+    "Provision of opportunities for exercise": 0,
+    "Stress and metnal illness alleviation": -74934,
+    "Air Pollution Removal": -967,
+  },
+  {
+    "scenario": "Scenaio A: Baseline",
+    "Interception, storage and infiltration of rainwater": 38125,
+    "Shelter from wind": 86649,
+    "Reduced Urban heat island effect": 2255949,
+    "Carbon Storage and Sequestration": 2764,
+    "Provision of opportunities for exercise": 518030,
+    "Stress and metnal illness alleviation": 216983,
+    "Air Pollution Removal": 8980,
+  },
+]
+
 const dataLayer = {
   id: "data",
   type: "fill",
@@ -1518,66 +1551,60 @@ function App() {
           </div>
         </div>
 
-
         <div className="py-10">
-        <h3 className="text-gray-800 pb-8">Scenario Comparison Dashboard</h3>
-        <div className="grid grid-cols-2 gap-4">
-        <table className="min-w-full bg-white border book-info-md table-fixed">
-            <thead>
-              <tr>
-                <th
-                  width="20%"
-                  className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                >
-                  Scenario
+          <h3 className="text-gray-800 pb-8">Scenario Comparison Dashboard</h3>
+          <div className="grid grid-cols-2 gap-4">
+            <table className="min-w-full bg-white border book-info-md table-fixed">
+              <thead>
+                <tr>
+                  <th
+                    width="20%"
+                    className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                  >
+                    Scenario
                   </th>
                   <th
-                  width="30%"
-                  className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                >
-                  Description
+                    width="30%"
+                    className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                  >
+                    Description
                   </th>
                   <th
-                  width="25%"
-                  className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                >
-                  Number of Trees
+                    width="25%"
+                    className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                  >
+                    Number of Trees
                   </th>
                   <th
-                  width="25%"
-                  className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                >
-                  Canaopy Cover(Ha)
+                    width="25%"
+                    className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                  >
+                    Canaopy Cover(Ha)
                   </th>
-                  
-              </tr>
-            </thead>
-            <tbody>
-              {data.map(scenario => 
-              <tr key={scenario.id}>
-                <td className="px-6 py-4 border-b text-sm text-gray-600">
-               {scenario.title}
-                        </td>
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        {scenario.description}
-                        </td>
-    
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {scenario.trees}
-                        </td>
-    
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        {scenario.canopy_cover}
-                        </td>
-                        </tr>
-              )}
-            
+                </tr>
+              </thead>
+              <tbody>
+                {data.map((scenario) => (
+                  <tr key={scenario.id}>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">
+                      {scenario.title}
+                    </td>
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">
+                      {scenario.description}
+                    </td>
 
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">
+                      {scenario.trees}
+                    </td>
 
-
-            </tbody>
-          </table>
-          <Map
+                    <td className="px-6 py-4 border-b text-sm text-gray-600">
+                      {scenario.canopy_cover}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <Map
               initialViewState={{
                 latitude: 52.526,
                 longitude: 13.3,
@@ -1592,33 +1619,196 @@ function App() {
             </Map>
 
             <div className="w-full h-[60vh]">
-            <ResponsiveBar
-              data={total_valuation_chart }
-              keys={["value"]}
-              indexBy="scenario"
-              margin={{
-                top: 20,
-                right: 0,
-                bottom: 40,
-                left: 100,
-              }}
-              padding={0.6}
-              colors="#2a7ef0"
-              axisTop={null}
-              axisRight={null}
-              enableGridX
-              enableGridY
-              enableLabel={false}
-              axisBottom={{
-                tickSize: 0,
-                tickPadding: 10,
-                tickRotation: 0,
-                truncateTickAt: 20,
-              }}
-            />
+              <ResponsiveBar
+                data={total_valuation_chart}
+                keys={["value"]}
+                indexBy="scenario"
+                margin={{
+                  top: 20,
+                  right: 0,
+                  bottom: 40,
+                  left: 100,
+                }}
+                padding={0.6}
+                colors="#2a7ef0"
+                axisTop={null}
+                axisRight={null}
+                enableGridX
+                enableGridY
+                enableLabel={false}
+                axisBottom={{
+                  tickSize: 0,
+                  tickPadding: 10,
+                  tickRotation: 0,
+                  truncateTickAt: 20,
+                }}
+              />
+            </div>
+            <table className="min-w-full bg-white border book-info-md">
+              <thead>
+                <tr>
+                  <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"></th>
+                  <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
+                    Scenario A: Baseline
+                  </th>
+                  <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
+                    Scenario B: &quot;Optimistic&quot;
+                  </th>
+                  <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
+                    Scenario C: &quot;Realistic&quot;
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    Total
+                  </td>
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    €86.8M
+                  </td>
+
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    -€2.7M
+                  </td>
+
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    -€11.4M
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    Climate Regulation
+                  </td>
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    €20.8M
+                  </td>
+
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    -€2.6M
+                  </td>
+
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    -€11M
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    Water Management
+                  </td>
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    €20.8M
+                  </td>
+
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    -€2.6M
+                  </td>
+
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    -€11M
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    Health Well-being
+                  </td>
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    €65M
+                  </td>
+
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    -€0.027M
+                  </td>
+
+                  <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    -€0.12M
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
-        </div>
+          <div className="w-full h-[60vh]">
+          <ResponsiveBar
+        data={tempData}
+        keys={[
+            'Interception, storage and infiltration of rainwater',
+            'Shelter from wind',
+            'Reduced Urban heat island effect',
+            'Carbon Storage and Sequestration',
+            'Provision of opportunities for exercise',
+            'Stress and metnal illness alleviation',
+            'Air Pollution Removal'
+        ]}
+        indexBy="scenario"
+        margin={{ top: 50, right: 130, bottom: 50, left: 120 }}
+        padding={0.3}
+        layout="horizontal"
+        valueScale={{ type: 'linear' }}
+        indexScale={{ type: 'band', round: true }}
+        colors={{ scheme: 'nivo' }}
+        borderColor={{
+            from: 'color',
+            modifiers: [
+                [
+                    'darker',
+                    1.6
+                ]
+            ]
+        }}
+        axisTop={null}
+        axisRight={null}
+        axisBottom={{
+            tickSize: 5,
+            tickPadding: 5,
+            tickRotation: 0,
+            legend: '€ per year',
+            legendPosition: 'middle',
+            legendOffset: 32,
+            truncateTickAt: 0
+        }}
+        labelSkipWidth={12}
+        labelSkipHeight={12}
+        labelTextColor={{
+            from: 'color',
+            modifiers: [
+                [
+                    'darker',
+                    1.6
+                ]
+            ]
+        }}
+        legends={[
+            {
+                dataFrom: 'keys',
+                anchor: 'bottom-right',
+                direction: 'column',
+                justify: false,
+                translateX: 120,
+                translateY: 0,
+                itemsSpacing: 2,
+                itemWidth: 100,
+                itemHeight: 20,
+                itemDirection: 'left-to-right',
+                itemOpacity: 0.85,
+                symbolSize: 20,
+                effects: [
+                    {
+                        on: 'hover',
+                        style: {
+                            itemOpacity: 1
+                        }
+                    }
+                ]
+            }
+        ]}
+        role="application"
+        barAriaLabel={e=>e.id+": "+e.formattedValue+" in country: "+e.indexValue}
+    />
+          </div>
         </div>
       </div>
     </div>
