@@ -1,0 +1,25 @@
+{
+  "translation": {
+    "title": "Indicative Valuation Dashboard",
+    "scenario": "Scenario",
+    "description": "Description",
+    "location": "Site Location",
+    "berlin": "Berlin, Germany",
+    "area": "Site Area",
+    "tree_number": "Number of Trees",
+    "canopy_cover": "Canopy Cover",
+    "total_es_sv": "Total Ecosystem Service Valuation",
+    "avg_val_per_tree": "Average Value Generated per Tree",
+    "benefit_group": "Benefit Group",
+    "total": "Total",
+    "tree_function": "Tree Function",
+    "tool": "Tool",
+    "benefit_quant": "Benefit Quantification",
+    "value_per_year": "Value per year",
+    "timeframe": "Timeframe",
+    "years": "years",
+    "visualisation_of_benefits": "Visualisation of Benefits",
+    "benefit_per_function": "Benefit per function",
+    "scenario_comp_title": "Scenario Comparison Dashboard"
+  }
+}

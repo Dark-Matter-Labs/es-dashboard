@@ -1,0 +1,26 @@
+{
+  "translation": {
+     "title": "Indikatives Bewertungs-Dashboard",
+     "scenario": "Szenario",
+     "description": "Beschreibung",
+     "location": "Standort",
+     "berlin": "Berlin, Deutschland",
+     "area": "Standortbereich",
+    "tree_number": "Anzahl der Bäume",
+    "canopy_cover": "Kronendeckung",
+    "total_es_sv": "Bewertung der gesamten Ökosystemleistungen",
+    "avg_val_per_tree": "Durchschnittlicher Wert pro Baum",
+    "benefit_group": "Leistungsgruppe",
+    "total": "Gesamt",
+    "tree_function": "Baumfunktion",
+    "tool": "Werkzeug",
+    "benefit_quant": "Nutzenquantifizierung",
+    "value_per_year": "Wert pro Jahr",
+    "timeframe": "Zeitrahmen",
+    "years": "Jahre",
+    "visualisation_of_benefits": "Visualisierung der Vorteile",
+    "benefit_per_function": "Nutzen pro Funktion",
+     "scenario_comp_title": "Szenariovergleichs-Dashboard"
+
+  }
+}
