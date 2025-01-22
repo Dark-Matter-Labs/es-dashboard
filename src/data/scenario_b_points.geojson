@@ -1,42 +1,780 @@
 {
-"type": "FeatureCollection",
-"name": "scenario_b_points",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3665", "standortnr": "68", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": null, "stammumfg": "220", "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.306601976761057, 52.525800488809224 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3666", "standortnr": "67", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 12.0, "stammumfg": "180", "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.306779711163138, 52.525804770132886 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c366c", "standortnr": "61", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 16.0, "stammumfg": "200", "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.30813938695289, 52.525816049403353 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c366d", "standortnr": "60", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 19.0, "stammumfg": "260", "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308382632384765, 52.525817656785641 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3677", "standortnr": "49", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "art_gruppe": "Laubbäume", "pflanzjahr": "1964", "standalter": 60.0, "kronedurch": 18.0, "stammumfg": "240", "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.310913277989073, 52.525841555878003 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3678", "standortnr": "48", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "art_gruppe": "Laubbäume", "pflanzjahr": "1964", "standalter": 60.0, "kronedurch": 16.0, "stammumfg": "220", "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.311133169986904, 52.52583928443169 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c367c", "standortnr": "44", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 10.0, "stammumfg": "115", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.3122433670828, 52.525847002409385 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3687", "standortnr": "32", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 13.0, "stammumfg": "170", "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.314502374305388, 52.525697003645526 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3694", "standortnr": "18", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Berg-Ahorn, Weiss-Ahorn", "art_bot": "Acer pseudoplatanus", "gattung_de": "AHORN", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 11.0, "stammumfg": "115", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.310715033114279, 52.525654618363433 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3695", "standortnr": "17", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "art_gruppe": "Laubbäume", "pflanzjahr": "1977", "standalter": 47.0, "kronedurch": 15.0, "stammumfg": "140", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.310487395605163, 52.525650200502973 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c369d", "standortnr": "9", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 13.0, "stammumfg": "110", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308435417306361, 52.52563328680089 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c36a0", "standortnr": "6", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "art_gruppe": "Laubbäume", "pflanzjahr": "1977", "standalter": 47.0, "kronedurch": 13.0, "stammumfg": "135", "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307705679340806, 52.525628473327032 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c36a1", "standortnr": "5", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 17.0, "stammumfg": "235", "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307428119412327, 52.525628678170143 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c36e1", "standortnr": "2", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 11.0, "stammumfg": "130", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.306820036833336, 52.525620377197221 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:00292109", "standortnr": "4", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Säulenförmiger Spitz-Ahorn", "art_bot": "Acer platanoides 'Columnare'", "gattung_de": "AHORN", "art_gruppe": "Laubbäume", "pflanzjahr": "2020", "standalter": 4.0, "kronedurch": 1.0, "stammumfg": "20", "baumhoehe": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307205141240155, 52.525628076246996 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:0029210a", "standortnr": "8", "kennzeich": "02289", "namenr": "Kaiserin-Augusta-Allee", "art_dtsch": "Säulenförmiger Spitz-Ahorn", "art_bot": "Acer platanoides 'Columnare'", "gattung_de": "AHORN", "art_gruppe": "Laubbäume", "pflanzjahr": "2020", "standalter": 4.0, "kronedurch": 1.0, "stammumfg": "20", "baumhoehe": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308206205520277, 52.525632670483759 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:002a8ef2", "standortnr": "10", "kennzeich": "03344", "namenr": "Osnabrücker Straße", "art_dtsch": "Gleditschie 'Skyline'", "art_bot": "Gleditsia triacanthos 'Skyline'", "gattung_de": "GLEDITSCHIE", "art_gruppe": "Laubbäume", "pflanzjahr": "2021", "standalter": 3.0, "kronedurch": 1.0, "stammumfg": "18", "baumhoehe": 5.0 }, "geometry": { "type": "Point", "coordinates": [ 13.29997256780028, 52.526222003101743 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb192", "standortnr": "221", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 7.0, "stammumfg": "85", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296407114850243, 52.529076637959882 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb193", "standortnr": "220", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 8.0, "stammumfg": "90", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296479065791795, 52.529025759598383 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb194", "standortnr": "219", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 8.0, "stammumfg": "90", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296502364265002, 52.528964527002117 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb195", "standortnr": "218", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 9.0, "stammumfg": "95", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296554727479945, 52.528886652031531 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb196", "standortnr": "217", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 8.0, "stammumfg": "80", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296573626242884, 52.528804972187018 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb197", "standortnr": "216", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 9.0, "stammumfg": "100", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296625912168462, 52.528737314546284 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb199", "standortnr": "214", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 7.0, "stammumfg": "75", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296681846923372, 52.528587934637606 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb19a", "standortnr": "213", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 6.0, "stammumfg": "55", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296745321512191, 52.52824632663097 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb19d", "standortnr": "211", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 6.0, "stammumfg": "60", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296817164869964, 52.528008751883704 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb19f", "standortnr": "209", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 6.0, "stammumfg": "55", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296895218038852, 52.527752628646788 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a1", "standortnr": "207", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 5.0, "stammumfg": "55", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296949940099269, 52.527564234604625 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a3", "standortnr": "205", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 6.0, "stammumfg": "75", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297024788746814, 52.527330388455553 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a4", "standortnr": "204", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1990", "standalter": 34.0, "kronedurch": 6.0, "stammumfg": "60", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297113988342728, 52.52721267924791 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a5", "standortnr": "203", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1990", "standalter": 34.0, "kronedurch": 5.0, "stammumfg": "65", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.29708420041568, 52.52712344110121 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb402", "standortnr": "64", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1994", "standalter": 30.0, "kronedurch": 6.0, "stammumfg": "70", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296431254629386, 52.52951230952857 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d7ec7", "standortnr": "212", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Holländische Linde", "art_bot": "Tilia intermedia", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "2005", "standalter": 19.0, "kronedurch": 5.0, "stammumfg": "35", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296830039477667, 52.528119312897857 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8eea", "standortnr": "95", "kennzeich": "02956", "namenr": "Max-Dohrn-Straße", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "art_gruppe": "Laubbäume", "pflanzjahr": "1980", "standalter": 44.0, "kronedurch": 17.0, "stammumfg": "150", "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296568495105531, 52.53039751540436 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a2", "standortnr": "206", "kennzeich": "04424", "namenr": "Tegeler Weg", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 7.0, "stammumfg": "60", "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297045483238417, 52.527414039003553 ] } }
-]
+  "type": "FeatureCollection",
+  "name": "scenario_b_points",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3665",
+        "standortnr": "68",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": null,
+        "stammumfg": "220",
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.306601976761057, 52.525800488809224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3666",
+        "standortnr": "67",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 12.0,
+        "stammumfg": "180",
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.306779711163138, 52.525804770132886]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c366c",
+        "standortnr": "61",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 16.0,
+        "stammumfg": "200",
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.30813938695289, 52.525816049403353]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c366d",
+        "standortnr": "60",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 19.0,
+        "stammumfg": "260",
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308382632384765, 52.525817656785641]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3677",
+        "standortnr": "49",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1964",
+        "standalter": 60.0,
+        "kronedurch": 18.0,
+        "stammumfg": "240",
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.310913277989073, 52.525841555878003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3678",
+        "standortnr": "48",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1964",
+        "standalter": 60.0,
+        "kronedurch": 16.0,
+        "stammumfg": "220",
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.311133169986904, 52.52583928443169]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c367c",
+        "standortnr": "44",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 10.0,
+        "stammumfg": "115",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3122433670828, 52.525847002409385]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3687",
+        "standortnr": "32",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 13.0,
+        "stammumfg": "170",
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.314502374305388, 52.525697003645526]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3694",
+        "standortnr": "18",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Berg-Ahorn, Weiss-Ahorn",
+        "art_bot": "Acer pseudoplatanus",
+        "gattung_de": "AHORN",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 11.0,
+        "stammumfg": "115",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.310715033114279, 52.525654618363433]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3695",
+        "standortnr": "17",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1977",
+        "standalter": 47.0,
+        "kronedurch": 15.0,
+        "stammumfg": "140",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.310487395605163, 52.525650200502973]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c369d",
+        "standortnr": "9",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 13.0,
+        "stammumfg": "110",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308435417306361, 52.52563328680089]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c36a0",
+        "standortnr": "6",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1977",
+        "standalter": 47.0,
+        "kronedurch": 13.0,
+        "stammumfg": "135",
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307705679340806, 52.525628473327032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c36a1",
+        "standortnr": "5",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 17.0,
+        "stammumfg": "235",
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307428119412327, 52.525628678170143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c36e1",
+        "standortnr": "2",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 11.0,
+        "stammumfg": "130",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.306820036833336, 52.525620377197221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:00292109",
+        "standortnr": "4",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Säulenförmiger Spitz-Ahorn",
+        "art_bot": "Acer platanoides 'Columnare'",
+        "gattung_de": "AHORN",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2020",
+        "standalter": 4.0,
+        "kronedurch": 1.0,
+        "stammumfg": "20",
+        "baumhoehe": 3.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307205141240155, 52.525628076246996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:0029210a",
+        "standortnr": "8",
+        "kennzeich": "02289",
+        "namenr": "Kaiserin-Augusta-Allee",
+        "art_dtsch": "Säulenförmiger Spitz-Ahorn",
+        "art_bot": "Acer platanoides 'Columnare'",
+        "gattung_de": "AHORN",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2020",
+        "standalter": 4.0,
+        "kronedurch": 1.0,
+        "stammumfg": "20",
+        "baumhoehe": 3.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308206205520277, 52.525632670483759]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:002a8ef2",
+        "standortnr": "10",
+        "kennzeich": "03344",
+        "namenr": "Osnabrücker Straße",
+        "art_dtsch": "Gleditschie 'Skyline'",
+        "art_bot": "Gleditsia triacanthos 'Skyline'",
+        "gattung_de": "GLEDITSCHIE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2021",
+        "standalter": 3.0,
+        "kronedurch": 1.0,
+        "stammumfg": "18",
+        "baumhoehe": 5.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.29997256780028, 52.526222003101743]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb192",
+        "standortnr": "221",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 7.0,
+        "stammumfg": "85",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296407114850243, 52.529076637959882]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb193",
+        "standortnr": "220",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 8.0,
+        "stammumfg": "90",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296479065791795, 52.529025759598383]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb194",
+        "standortnr": "219",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 8.0,
+        "stammumfg": "90",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296502364265002, 52.528964527002117]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb195",
+        "standortnr": "218",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 9.0,
+        "stammumfg": "95",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296554727479945, 52.528886652031531]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb196",
+        "standortnr": "217",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 8.0,
+        "stammumfg": "80",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296573626242884, 52.528804972187018]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb197",
+        "standortnr": "216",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 9.0,
+        "stammumfg": "100",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296625912168462, 52.528737314546284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb199",
+        "standortnr": "214",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 7.0,
+        "stammumfg": "75",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296681846923372, 52.528587934637606]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb19a",
+        "standortnr": "213",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 6.0,
+        "stammumfg": "55",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296745321512191, 52.52824632663097]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb19d",
+        "standortnr": "211",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 6.0,
+        "stammumfg": "60",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296817164869964, 52.528008751883704]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb19f",
+        "standortnr": "209",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 6.0,
+        "stammumfg": "55",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296895218038852, 52.527752628646788]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a1",
+        "standortnr": "207",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 5.0,
+        "stammumfg": "55",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296949940099269, 52.527564234604625]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a3",
+        "standortnr": "205",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 6.0,
+        "stammumfg": "75",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297024788746814, 52.527330388455553]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a4",
+        "standortnr": "204",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1990",
+        "standalter": 34.0,
+        "kronedurch": 6.0,
+        "stammumfg": "60",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297113988342728, 52.52721267924791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a5",
+        "standortnr": "203",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1990",
+        "standalter": 34.0,
+        "kronedurch": 5.0,
+        "stammumfg": "65",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.29708420041568, 52.52712344110121]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb402",
+        "standortnr": "64",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1994",
+        "standalter": 30.0,
+        "kronedurch": 6.0,
+        "stammumfg": "70",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296431254629386, 52.52951230952857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d7ec7",
+        "standortnr": "212",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Holländische Linde",
+        "art_bot": "Tilia intermedia",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2005",
+        "standalter": 19.0,
+        "kronedurch": 5.0,
+        "stammumfg": "35",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296830039477667, 52.528119312897857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8eea",
+        "standortnr": "95",
+        "kennzeich": "02956",
+        "namenr": "Max-Dohrn-Straße",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1980",
+        "standalter": 44.0,
+        "kronedurch": 17.0,
+        "stammumfg": "150",
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296568495105531, 52.53039751540436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a2",
+        "standortnr": "206",
+        "kennzeich": "04424",
+        "namenr": "Tegeler Weg",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 7.0,
+        "stammumfg": "60",
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297045483238417, 52.527414039003553]
+      }
+    }
+  ]
 }

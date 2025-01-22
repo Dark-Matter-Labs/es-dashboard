@@ -1,138 +1,2892 @@
 {
-"type": "FeatureCollection",
-"name": "scenario_c_points",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3665", "standortnr": "68", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": null, "stammumfg": 220, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.306601976761057, 52.525800488809224 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3666", "standortnr": "67", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 12.0, "stammumfg": 180, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.306779711163138, 52.525804770132886 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3667", "standortnr": "66", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1992", "standalter": 32.0, "kronedurch": 13.0, "stammumfg": 130, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.306944993922437, 52.525807122456328 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3668", "standortnr": "65", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 18.0, "stammumfg": 255, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307228787001787, 52.525806935977357 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3669", "standortnr": "64", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 12.0, "stammumfg": 160, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307448651738852, 52.52580848234679 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c366a", "standortnr": "63", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 16.0, "stammumfg": 250, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.30768876803511, 52.525811034528708 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c366b", "standortnr": "62", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 19.0, "stammumfg": 195, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307944493745238, 52.525812676537782 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c366c", "standortnr": "61", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 16.0, "stammumfg": 200, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.30813938695289, 52.525816049403353 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c366d", "standortnr": "60", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 19.0, "stammumfg": 260, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308382632384765, 52.525817656785641 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c366e", "standortnr": "59", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 12.0, "stammumfg": 110, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308652386275041, 52.525819334162591 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c366f", "standortnr": "58", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1972", "standalter": 52.0, "kronedurch": 15.0, "stammumfg": 180, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308772450850983, 52.525819657469185 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3670", "standortnr": "57", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 11.0, "stammumfg": 150, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308928385513626, 52.525821028246135 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3671", "standortnr": "56", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 14.0, "stammumfg": 250, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.309043758970665, 52.525822282256911 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3672", "standortnr": "55", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 8.0, "stammumfg": 150, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.309184091353533, 52.525823611363343 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3673", "standortnr": "54", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 15.0, "stammumfg": 250, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.309333805812367, 52.52582116409036 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3674", "standortnr": "53", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1990", "standalter": 34.0, "kronedurch": 7.0, "stammumfg": 110, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.309449158589777, 52.525827179132158 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3675", "standortnr": "52", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1948", "standalter": 76.0, "kronedurch": 25.0, "stammumfg": 340, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.309580149714916, 52.525826577880181 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3676", "standortnr": "50", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 18.0, "stammumfg": 240, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.310674729275497, 52.525838060677465 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3677", "standortnr": "49", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1964", "standalter": 60.0, "kronedurch": 18.0, "stammumfg": 240, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.310913277989073, 52.525841555878003 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3678", "standortnr": "48", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1964", "standalter": 60.0, "kronedurch": 16.0, "stammumfg": 220, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.311133169986904, 52.52583928443169 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3679", "standortnr": "47", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 13.0, "stammumfg": 200, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.311354588487854, 52.525839874669266 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c367a", "standortnr": "46", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1948", "standalter": 76.0, "kronedurch": 20.0, "stammumfg": 315, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.311568198405578, 52.525842348215349 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c367b", "standortnr": "45", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1992", "standalter": 32.0, "kronedurch": 14.0, "stammumfg": 150, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.312012598587559, 52.525845436190764 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c367c", "standortnr": "44", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 10.0, "stammumfg": 115, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.3122433670828, 52.525847002409385 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c367d", "standortnr": "43", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1966", "standalter": 58.0, "kronedurch": 20.0, "stammumfg": 220, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.312475723254867, 52.525844761482901 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c367e", "standortnr": "42", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1966", "standalter": 58.0, "kronedurch": 16.0, "stammumfg": 220, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.31272202597529, 52.525855875729484 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c367f", "standortnr": "41", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1989", "standalter": 35.0, "kronedurch": 10.0, "stammumfg": 130, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.312899775103832, 52.525858251826527 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3680", "standortnr": "40", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 15.0, "stammumfg": 250, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.31302143012018, 52.525854773149923 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3681", "standortnr": "39", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 14.0, "stammumfg": 250, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.313281819519434, 52.525857359330175 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3682", "standortnr": "38", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 14.0, "stammumfg": 240, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.313417474123867, 52.525859623746051 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3683", "standortnr": "37", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 12.0, "stammumfg": 260, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.313548463916986, 52.525859018080489 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3684", "standortnr": "36", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1992", "standalter": 32.0, "kronedurch": 10.0, "stammumfg": 110, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.313673192898234, 52.525860300205686 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3685", "standortnr": "35", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 13.0, "stammumfg": 180, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.313903976336938, 52.525861863396841 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3686", "standortnr": "34", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 16.0, "stammumfg": 200, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.314075498292588, 52.525861363535526 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3687", "standortnr": "32", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 13.0, "stammumfg": 170, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.314502374305388, 52.525697003645526 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3688", "standortnr": "31", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 16.0, "stammumfg": 200, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.314368254930882, 52.525698545820802 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3689", "standortnr": "30", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 13.0, "stammumfg": 220, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.31409694698125, 52.525695933244918 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c368a", "standortnr": "29", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1981", "standalter": 43.0, "kronedurch": 8.0, "stammumfg": 120, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.313978450521484, 52.52569466753728 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c368b", "standortnr": "28", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 14.0, "stammumfg": 215, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.313828743294165, 52.525696176715826 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c368c", "standortnr": "27", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 13.0, "stammumfg": 130, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.31320206074108, 52.525671693200941 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c368d", "standortnr": "26", "kennzeich": "02289", "art_dtsch": "Berg-Ahorn, Weiss-Ahorn", "art_bot": "Acer pseudoplatanus", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1990", "standalter": 34.0, "kronedurch": 9.0, "stammumfg": 90, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.312957253286688, 52.525670091438229 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c368e", "standortnr": "25", "kennzeich": "02289", "art_dtsch": "Berg-Ahorn, Weiss-Ahorn", "art_bot": "Acer pseudoplatanus", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 15.0, "stammumfg": 140, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.312745205060679, 52.525667623782006 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c368f", "standortnr": "24", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1985", "standalter": 39.0, "kronedurch": 20.0, "stammumfg": 210, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.312480115800804, 52.525666920472517 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3690", "standortnr": "23", "kennzeich": "02289", "art_dtsch": "Berg-Ahorn, Weiss-Ahorn", "art_bot": "Acer pseudoplatanus", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 12.0, "stammumfg": 120, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.312211940168766, 52.525663359212714 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3692", "standortnr": "20", "kennzeich": "02289", "art_dtsch": "Berg-Ahorn, Weiss-Ahorn", "art_bot": "Acer pseudoplatanus", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1950", "standalter": 74.0, "kronedurch": 14.0, "stammumfg": 150, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.311187483203458, 52.525657775408114 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3694", "standortnr": "18", "kennzeich": "02289", "art_dtsch": "Berg-Ahorn, Weiss-Ahorn", "art_bot": "Acer pseudoplatanus", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 11.0, "stammumfg": 115, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.310715033114279, 52.525654618363433 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3695", "standortnr": "17", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1977", "standalter": 47.0, "kronedurch": 15.0, "stammumfg": 140, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.310487395605163, 52.525650200502973 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3696", "standortnr": "16", "kennzeich": "02289", "art_dtsch": "Berg-Ahorn, Weiss-Ahorn", "art_bot": "Acer pseudoplatanus", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1977", "standalter": 47.0, "kronedurch": 13.0, "stammumfg": 140, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.310286230177804, 52.525652520561948 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3697", "standortnr": "22", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 20.0, "stammumfg": 180, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.312015479538207, 52.525660931851355 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3698", "standortnr": "14", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1990", "standalter": 34.0, "kronedurch": 13.0, "stammumfg": 105, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.309558060428548, 52.525644864637393 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c3699", "standortnr": "13", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1950", "standalter": 74.0, "kronedurch": 18.0, "stammumfg": 145, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.309338203962596, 52.525644275366155 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c369a", "standortnr": "12", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1942", "standalter": 82.0, "kronedurch": 14.0, "stammumfg": 165, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.309116800766285, 52.525641776338638 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c369b", "standortnr": "11", "kennzeich": "02289", "art_dtsch": "Berg-Ahorn, Weiss-Ahorn", "art_bot": "Acer pseudoplatanus", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1942", "standalter": 82.0, "kronedurch": 15.0, "stammumfg": 155, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308878239719801, 52.52563828722198 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c369c", "standortnr": "10", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1985", "standalter": 39.0, "kronedurch": 15.0, "stammumfg": 140, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308684902890491, 52.525635863005668 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c369d", "standortnr": "9", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 13.0, "stammumfg": 110, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308435417306361, 52.52563328680089 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c36a0", "standortnr": "6", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1977", "standalter": 47.0, "kronedurch": 13.0, "stammumfg": 135, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307705679340806, 52.525628473327032 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c36a1", "standortnr": "5", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 17.0, "stammumfg": 235, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307428119412327, 52.525628678170143 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c36a4", "standortnr": "21", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1971", "standalter": 53.0, "kronedurch": 26.0, "stammumfg": 255, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.311508706481362, 52.525658630745404 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c36a6", "standortnr": "1", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1942", "standalter": 82.0, "kronedurch": 16.0, "stammumfg": 160, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.306614180330484, 52.525623621908686 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c36e1", "standortnr": "2", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 11.0, "stammumfg": 130, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.306820036833336, 52.525620377197221 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000ccedd", "standortnr": "131", "kennzeich": "07080", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 9.0, "stammumfg": 90, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.304098774956529, 52.525550696226603 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000ccede", "standortnr": "130", "kennzeich": "07080", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 7.0, "stammumfg": 90, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.304180556713991, 52.525561621893097 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000ccedf", "standortnr": "129", "kennzeich": "07080", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 7.0, "stammumfg": 75, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.304260367813676, 52.525576100447005 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000ccee0", "standortnr": "128", "kennzeich": "07080", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 7.0, "stammumfg": 55, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.304346061595727, 52.525585851167314 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000ccf05", "standortnr": "51", "kennzeich": "02289", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1956", "standalter": 68.0, "kronedurch": 19.0, "stammumfg": 220, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.310398736485366, 52.525835427588369 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cee62", "standortnr": "33", "kennzeich": "02289", "art_dtsch": "Spitz-Ahorn", "art_bot": "Acer platanoides", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "1978", "standalter": 46.0, "kronedurch": 10.0, "stammumfg": 120, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.314406052615697, 52.52586603750634 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:00292109", "standortnr": "4", "kennzeich": "02289", "art_dtsch": "Säulenförmiger Spitz-Ahorn", "art_bot": "Acer platanoides 'Columnare'", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "2020", "standalter": 4.0, "kronedurch": 1.0, "stammumfg": 20, "baumhoehe": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307205141240155, 52.525628076246996 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:0029210a", "standortnr": "8", "kennzeich": "02289", "art_dtsch": "Säulenförmiger Spitz-Ahorn", "art_bot": "Acer platanoides 'Columnare'", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "2020", "standalter": 4.0, "kronedurch": 1.0, "stammumfg": 20, "baumhoehe": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 13.308206205520277, 52.525632670483759 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:0029210b", "standortnr": "3", "kennzeich": "02289", "art_dtsch": "Säulenförmiger Spitz-Ahorn", "art_bot": "Acer platanoides 'Columnare'", "gattung_de": "AHORN", "gattung": "ACER", "art_gruppe": "Laubbäume", "pflanzjahr": "2020", "standalter": 4.0, "kronedurch": 1.0, "stammumfg": 20, "baumhoehe": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 13.307013359469142, 52.525624700497211 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a46", "standortnr": "34", "kennzeich": "03344", "art_dtsch": "Scheinakazie 'Bessoniana'", "art_bot": "Robinia pseudoacacia 'Bessoniana'", "gattung_de": "ROBINIE", "gattung": "ROBINIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1977", "standalter": 47.0, "kronedurch": 12.0, "stammumfg": 170, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.303234340706986, 52.525562005010308 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a66", "standortnr": "1", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1991", "standalter": 33.0, "kronedurch": 7.0, "stammumfg": 110, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.303424151942004, 52.52568722051894 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d6772", "standortnr": "2", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2005", "standalter": 19.0, "kronedurch": 5.0, "stammumfg": 65, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.303119223395365, 52.525736541750661 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d6774", "standortnr": "3", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2005", "standalter": 19.0, "kronedurch": 5.0, "stammumfg": 60, "baumhoehe": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 13.302869201531021, 52.525774859559242 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d824d", "standortnr": "33", "kennzeich": "03344", "art_dtsch": "Winter-Linde 'Greenspire'", "art_bot": "Tilia cordata 'Greenspire'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2008", "standalter": 16.0, "kronedurch": 4.0, "stammumfg": 88, "baumhoehe": 11.0 }, "geometry": { "type": "Point", "coordinates": [ 13.302953810442883, 52.525607679978549 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a48", "standortnr": "32", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1987", "standalter": 37.0, "kronedurch": 8.0, "stammumfg": 110, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.302368378003191, 52.525700813688708 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a49", "standortnr": "31", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1987", "standalter": 37.0, "kronedurch": 9.0, "stammumfg": 110, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.30121169825113, 52.525870628936332 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a4a", "standortnr": "30", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1987", "standalter": 37.0, "kronedurch": 12.0, "stammumfg": 163, "baumhoehe": 21.0 }, "geometry": { "type": "Point", "coordinates": [ 13.300909789021345, 52.525923663431826 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a4b", "standortnr": "29", "kennzeich": "03344", "art_dtsch": "Winter-Linde 'Greenspire'", "art_bot": "Tilia cordata 'Greenspire'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1970", "standalter": 54.0, "kronedurch": 7.0, "stammumfg": 95, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.300589637113079, 52.525972935807424 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a4e", "standortnr": "26", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1996", "standalter": 28.0, "kronedurch": 10.0, "stammumfg": 170, "baumhoehe": 21.0 }, "geometry": { "type": "Point", "coordinates": [ 13.299626137083493, 52.526118887795555 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a50", "standortnr": "23", "kennzeich": "03344", "art_dtsch": "Birken-Pappel", "art_bot": "Populus simonii", "gattung_de": "PAPPEL", "gattung": "POPULUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1981", "standalter": 43.0, "kronedurch": 12.0, "stammumfg": 170, "baumhoehe": 21.0 }, "geometry": { "type": "Point", "coordinates": [ 13.298909611404225, 52.526226496291493 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a52", "standortnr": "20", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 8.0, "stammumfg": 125, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.298226629192637, 52.526328630706068 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a53", "standortnr": "19", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 8.0, "stammumfg": 85, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297938767190514, 52.526537729863399 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a57", "standortnr": "16", "kennzeich": "03344", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 9.0, "stammumfg": 90, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.298371793314345, 52.52646463108141 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a59", "standortnr": "14", "kennzeich": "03344", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1987", "standalter": 37.0, "kronedurch": 11.0, "stammumfg": 120, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.299170677746423, 52.526340530252966 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a5a", "standortnr": "13", "kennzeich": "03344", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1987", "standalter": 37.0, "kronedurch": 12.0, "stammumfg": 185, "baumhoehe": 21.0 }, "geometry": { "type": "Point", "coordinates": [ 13.299374949560372, 52.526313236884079 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a5c", "standortnr": "11", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1987", "standalter": 37.0, "kronedurch": 12.0, "stammumfg": 195, "baumhoehe": 21.0 }, "geometry": { "type": "Point", "coordinates": [ 13.299792680588075, 52.52624751335302 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a5e", "standortnr": "8", "kennzeich": "03344", "art_dtsch": "Robinie", "art_bot": "Robinia pseudoacacia", "gattung_de": "ROBINIE", "gattung": "ROBINIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1961", "standalter": 63.0, "kronedurch": 9.0, "stammumfg": 190, "baumhoehe": 15.0 }, "geometry": { "type": "Point", "coordinates": [ 13.300777569362772, 52.52609233648802 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a5f", "standortnr": "7", "kennzeich": "03344", "art_dtsch": "Robinie", "art_bot": "Robinia pseudoacacia", "gattung_de": "ROBINIE", "gattung": "ROBINIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1956", "standalter": 68.0, "kronedurch": 11.0, "stammumfg": 210, "baumhoehe": 21.0 }, "geometry": { "type": "Point", "coordinates": [ 13.301036744935194, 52.526052188135282 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8a63", "standortnr": "17", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1989", "standalter": 35.0, "kronedurch": 8.0, "stammumfg": 90, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.298240671112728, 52.526486563108449 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cda3e", "standortnr": "9", "kennzeich": "03344", "art_dtsch": "Winter-Linde 'Greenspire'", "art_bot": "Tilia cordata 'Greenspire'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1991", "standalter": 33.0, "kronedurch": 8.0, "stammumfg": 85, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.300570210095255, 52.526127064092286 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d03b5", "standortnr": "18", "kennzeich": "03344", "art_dtsch": "Winter-Linde 'Greenspire'", "art_bot": "Tilia cordata 'Greenspire'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2004", "standalter": 20.0, "kronedurch": 7.0, "stammumfg": 119, "baumhoehe": 11.0 }, "geometry": { "type": "Point", "coordinates": [ 13.298054697108226, 52.52651205422351 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d03b7", "standortnr": "25", "kennzeich": "03344", "art_dtsch": "Winter-Linde 'Greenspire'", "art_bot": "Tilia cordata 'Greenspire'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2003", "standalter": 21.0, "kronedurch": 7.0, "stammumfg": 101, "baumhoehe": 11.0 }, "geometry": { "type": "Point", "coordinates": [ 13.299321187514227, 52.526170049358626 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d6770", "standortnr": "22", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2005", "standalter": 19.0, "kronedurch": 7.0, "stammumfg": 101, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.29856199276032, 52.526281258474668 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d6771", "standortnr": "21", "kennzeich": "03344", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2005", "standalter": 19.0, "kronedurch": 5.0, "stammumfg": 55, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.298412575328987, 52.526306850483273 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000e004e", "standortnr": "27", "kennzeich": "03344", "art_dtsch": "Winter-Linde 'Greenspire'", "art_bot": "Tilia cordata 'Greenspire'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2014", "standalter": 10.0, "kronedurch": 6.0, "stammumfg": 107, "baumhoehe": 11.0 }, "geometry": { "type": "Point", "coordinates": [ 13.299894448562252, 52.526078758128925 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:002a8d5f", "standortnr": "5", "kennzeich": "03344", "art_dtsch": "Gleditschie 'Skyline'", "art_bot": "Gleditsia triacanthos 'Skyline'", "gattung_de": "GLEDITSCHIE", "gattung": "GLEDITSIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2021", "standalter": 3.0, "kronedurch": 1.0, "stammumfg": 20, "baumhoehe": 3.0 }, "geometry": { "type": "Point", "coordinates": [ 13.301469634734621, 52.525986524399194 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:002a8ef2", "standortnr": "10", "kennzeich": "03344", "art_dtsch": "Gleditschie 'Skyline'", "art_bot": "Gleditsia triacanthos 'Skyline'", "gattung_de": "GLEDITSCHIE", "gattung": "GLEDITSIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2021", "standalter": 3.0, "kronedurch": 1.0, "stammumfg": 18, "baumhoehe": 5.0 }, "geometry": { "type": "Point", "coordinates": [ 13.29997256780028, 52.526222003101743 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:002a8ef3", "standortnr": "12", "kennzeich": "03344", "art_dtsch": "Gleditschie 'Skyline'", "art_bot": "Gleditsia triacanthos 'Skyline'", "gattung_de": "GLEDITSCHIE", "gattung": "GLEDITSIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2021", "standalter": 3.0, "kronedurch": 1.0, "stammumfg": 18, "baumhoehe": 5.0 }, "geometry": { "type": "Point", "coordinates": [ 13.299551800440243, 52.526285858424039 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:002a8ef4", "standortnr": "15", "kennzeich": "03344", "art_dtsch": "Gleditschie 'Skyline'", "art_bot": "Gleditsia triacanthos 'Skyline'", "gattung_de": "GLEDITSCHIE", "gattung": "GLEDITSIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2021", "standalter": 3.0, "kronedurch": 1.0, "stammumfg": 18, "baumhoehe": 5.0 }, "geometry": { "type": "Point", "coordinates": [ 13.298929810961981, 52.526377013980266 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:002c6de0", "standortnr": "6", "kennzeich": "03344", "art_dtsch": "Gleditschie 'Skyline'", "art_bot": "Gleditsia triacanthos 'Skyline'", "gattung_de": "GLEDITSCHIE", "gattung": "GLEDITSIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2021", "standalter": 3.0, "kronedurch": 1.0, "stammumfg": 18, "baumhoehe": 5.0 }, "geometry": { "type": "Point", "coordinates": [ 13.301238703264698, 52.526019952759739 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000c8eea", "standortnr": "95", "kennzeich": "02956", "art_dtsch": "Ahornblättrige Platane", "art_bot": "Platanus acerifolia", "gattung_de": "PLATANE", "gattung": "PLATANUS", "art_gruppe": "Laubbäume", "pflanzjahr": "1980", "standalter": 44.0, "kronedurch": 17.0, "stammumfg": 150, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296568495105531, 52.53039751540436 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb192", "standortnr": "221", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 7.0, "stammumfg": 85, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296407114850243, 52.529076637959882 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb193", "standortnr": "220", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 8.0, "stammumfg": 90, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296479065791795, 52.529025759598383 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb194", "standortnr": "219", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 8.0, "stammumfg": 90, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296502364265002, 52.528964527002117 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb196", "standortnr": "217", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 8.0, "stammumfg": 80, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296573626242884, 52.528804972187018 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb197", "standortnr": "216", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 9.0, "stammumfg": 100, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296625912168462, 52.528737314546284 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb199", "standortnr": "214", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 7.0, "stammumfg": 75, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296681846923372, 52.528587934637606 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb19a", "standortnr": "213", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 6.0, "stammumfg": 55, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296745321512191, 52.52824632663097 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb19d", "standortnr": "211", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 6.0, "stammumfg": 60, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296817164869964, 52.528008751883704 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb19f", "standortnr": "209", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 6.0, "stammumfg": 55, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296895218038852, 52.527752628646788 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a1", "standortnr": "207", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 5.0, "stammumfg": 55, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296949940099269, 52.527564234604625 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a2", "standortnr": "206", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 7.0, "stammumfg": 60, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297045483238417, 52.527414039003553 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a3", "standortnr": "205", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 6.0, "stammumfg": 75, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297024788746814, 52.527330388455553 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a4", "standortnr": "204", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1990", "standalter": 34.0, "kronedurch": 6.0, "stammumfg": 60, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297113988342728, 52.52721267924791 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb1a5", "standortnr": "203", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1990", "standalter": 34.0, "kronedurch": 5.0, "stammumfg": 65, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.29708420041568, 52.52712344110121 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb402", "standortnr": "64", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1994", "standalter": 30.0, "kronedurch": 6.0, "stammumfg": 70, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296431254629386, 52.52951230952857 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb404", "standortnr": "62", "kennzeich": "04424", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1978", "standalter": 46.0, "kronedurch": 9.0, "stammumfg": 120, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296690835362957, 52.529014271928652 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb405", "standortnr": "61", "kennzeich": "04424", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1946", "standalter": 78.0, "kronedurch": 12.0, "stammumfg": 185, "baumhoehe": 25.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296729473898127, 52.528939153832098 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb406", "standortnr": "60", "kennzeich": "04424", "art_dtsch": "Krim-Linde", "art_bot": "Tilia euchlora", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1977", "standalter": 47.0, "kronedurch": 9.0, "stammumfg": 120, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296802218035825, 52.528784248875695 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb407", "standortnr": "59", "kennzeich": "04424", "art_dtsch": "Krim-Linde", "art_bot": "Tilia euchlora", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1977", "standalter": 47.0, "kronedurch": 9.0, "stammumfg": 130, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296822626545213, 52.528701638557031 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb409", "standortnr": "57", "kennzeich": "04424", "art_dtsch": "Krim-Linde", "art_bot": "Tilia euchlora", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1979", "standalter": 45.0, "kronedurch": 9.0, "stammumfg": 125, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296948969808328, 52.528303545501046 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb40b", "standortnr": "55", "kennzeich": "04424", "art_dtsch": "Krim-Linde", "art_bot": "Tilia euchlora", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1980", "standalter": 44.0, "kronedurch": 9.0, "stammumfg": 110, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296998872521215, 52.528146716653218 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb40f", "standortnr": "51", "kennzeich": "04424", "art_dtsch": "Winter-Linde", "art_bot": "Tilia cordata", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1966", "standalter": 58.0, "kronedurch": 9.0, "stammumfg": 140, "baumhoehe": 17.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297117594559635, 52.527748601834872 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb410", "standortnr": "50", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1980", "standalter": 44.0, "kronedurch": 9.0, "stammumfg": 120, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297169105508877, 52.52758156858598 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb411", "standortnr": "49", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1984", "standalter": 40.0, "kronedurch": 9.0, "stammumfg": 90, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297218992101488, 52.527426599680268 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb412", "standortnr": "48", "kennzeich": "04424", "art_dtsch": "Krim-Linde", "art_bot": "Tilia euchlora", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1953", "standalter": 71.0, "kronedurch": 9.0, "stammumfg": 180, "baumhoehe": 10.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297239328629272, 52.52735328152788 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb413", "standortnr": "47", "kennzeich": "04424", "art_dtsch": "Krim-Linde", "art_bot": "Tilia euchlora", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1980", "standalter": 44.0, "kronedurch": 9.0, "stammumfg": 105, "baumhoehe": 12.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297267347414383, 52.527273477984181 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb415", "standortnr": "45", "kennzeich": "04424", "art_dtsch": "Kaiser-Linde", "art_bot": "Tilia intermedia 'Pallida'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1987", "standalter": 37.0, "kronedurch": 7.0, "stammumfg": 65, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297321871446796, 52.527109239319977 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000cb419", "standortnr": "41", "kennzeich": "04424", "art_dtsch": "Winter-Linde 'Greenspire'", "art_bot": "Tilia cordata 'Greenspire'", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "1988", "standalter": 36.0, "kronedurch": 8.0, "stammumfg": 90, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.297445176311291, 52.526708351568544 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d7ec7", "standortnr": "212", "kennzeich": "04424", "art_dtsch": "Holländische Linde", "art_bot": "Tilia intermedia", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2005", "standalter": 19.0, "kronedurch": 5.0, "stammumfg": 35, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296830039477667, 52.528119312897857 ] } },
-{ "type": "Feature", "properties": { "baumid": "00008100:000d7eca", "standortnr": "210", "kennzeich": "04424", "art_dtsch": "Holländische Linde", "art_bot": "Tilia intermedia", "gattung_de": "LINDE", "gattung": "TILIA", "art_gruppe": "Laubbäume", "pflanzjahr": "2005", "standalter": 19.0, "kronedurch": 5.0, "stammumfg": 35, "baumhoehe": 7.0 }, "geometry": { "type": "Point", "coordinates": [ 13.296898797868636, 52.527884525021143 ] } }
-]
+  "type": "FeatureCollection",
+  "name": "scenario_c_points",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3665",
+        "standortnr": "68",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": null,
+        "stammumfg": 220,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.306601976761057, 52.525800488809224]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3666",
+        "standortnr": "67",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 12.0,
+        "stammumfg": 180,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.306779711163138, 52.525804770132886]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3667",
+        "standortnr": "66",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1992",
+        "standalter": 32.0,
+        "kronedurch": 13.0,
+        "stammumfg": 130,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.306944993922437, 52.525807122456328]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3668",
+        "standortnr": "65",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 18.0,
+        "stammumfg": 255,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307228787001787, 52.525806935977357]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3669",
+        "standortnr": "64",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 12.0,
+        "stammumfg": 160,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307448651738852, 52.52580848234679]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c366a",
+        "standortnr": "63",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 16.0,
+        "stammumfg": 250,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.30768876803511, 52.525811034528708]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c366b",
+        "standortnr": "62",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 19.0,
+        "stammumfg": 195,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307944493745238, 52.525812676537782]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c366c",
+        "standortnr": "61",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 16.0,
+        "stammumfg": 200,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.30813938695289, 52.525816049403353]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c366d",
+        "standortnr": "60",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 19.0,
+        "stammumfg": 260,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308382632384765, 52.525817656785641]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c366e",
+        "standortnr": "59",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 12.0,
+        "stammumfg": 110,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308652386275041, 52.525819334162591]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c366f",
+        "standortnr": "58",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1972",
+        "standalter": 52.0,
+        "kronedurch": 15.0,
+        "stammumfg": 180,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308772450850983, 52.525819657469185]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3670",
+        "standortnr": "57",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 11.0,
+        "stammumfg": 150,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308928385513626, 52.525821028246135]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3671",
+        "standortnr": "56",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 14.0,
+        "stammumfg": 250,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.309043758970665, 52.525822282256911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3672",
+        "standortnr": "55",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 8.0,
+        "stammumfg": 150,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.309184091353533, 52.525823611363343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3673",
+        "standortnr": "54",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 15.0,
+        "stammumfg": 250,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.309333805812367, 52.52582116409036]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3674",
+        "standortnr": "53",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1990",
+        "standalter": 34.0,
+        "kronedurch": 7.0,
+        "stammumfg": 110,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.309449158589777, 52.525827179132158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3675",
+        "standortnr": "52",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1948",
+        "standalter": 76.0,
+        "kronedurch": 25.0,
+        "stammumfg": 340,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.309580149714916, 52.525826577880181]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3676",
+        "standortnr": "50",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 18.0,
+        "stammumfg": 240,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.310674729275497, 52.525838060677465]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3677",
+        "standortnr": "49",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1964",
+        "standalter": 60.0,
+        "kronedurch": 18.0,
+        "stammumfg": 240,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.310913277989073, 52.525841555878003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3678",
+        "standortnr": "48",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1964",
+        "standalter": 60.0,
+        "kronedurch": 16.0,
+        "stammumfg": 220,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.311133169986904, 52.52583928443169]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3679",
+        "standortnr": "47",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 13.0,
+        "stammumfg": 200,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.311354588487854, 52.525839874669266]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c367a",
+        "standortnr": "46",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1948",
+        "standalter": 76.0,
+        "kronedurch": 20.0,
+        "stammumfg": 315,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.311568198405578, 52.525842348215349]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c367b",
+        "standortnr": "45",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1992",
+        "standalter": 32.0,
+        "kronedurch": 14.0,
+        "stammumfg": 150,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312012598587559, 52.525845436190764]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c367c",
+        "standortnr": "44",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 10.0,
+        "stammumfg": 115,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3122433670828, 52.525847002409385]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c367d",
+        "standortnr": "43",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1966",
+        "standalter": 58.0,
+        "kronedurch": 20.0,
+        "stammumfg": 220,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312475723254867, 52.525844761482901]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c367e",
+        "standortnr": "42",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1966",
+        "standalter": 58.0,
+        "kronedurch": 16.0,
+        "stammumfg": 220,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.31272202597529, 52.525855875729484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c367f",
+        "standortnr": "41",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1989",
+        "standalter": 35.0,
+        "kronedurch": 10.0,
+        "stammumfg": 130,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312899775103832, 52.525858251826527]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3680",
+        "standortnr": "40",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 15.0,
+        "stammumfg": 250,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.31302143012018, 52.525854773149923]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3681",
+        "standortnr": "39",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 14.0,
+        "stammumfg": 250,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.313281819519434, 52.525857359330175]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3682",
+        "standortnr": "38",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 14.0,
+        "stammumfg": 240,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.313417474123867, 52.525859623746051]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3683",
+        "standortnr": "37",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 12.0,
+        "stammumfg": 260,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.313548463916986, 52.525859018080489]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3684",
+        "standortnr": "36",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1992",
+        "standalter": 32.0,
+        "kronedurch": 10.0,
+        "stammumfg": 110,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.313673192898234, 52.525860300205686]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3685",
+        "standortnr": "35",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 13.0,
+        "stammumfg": 180,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.313903976336938, 52.525861863396841]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3686",
+        "standortnr": "34",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 16.0,
+        "stammumfg": 200,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.314075498292588, 52.525861363535526]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3687",
+        "standortnr": "32",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 13.0,
+        "stammumfg": 170,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.314502374305388, 52.525697003645526]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3688",
+        "standortnr": "31",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 16.0,
+        "stammumfg": 200,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.314368254930882, 52.525698545820802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3689",
+        "standortnr": "30",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 13.0,
+        "stammumfg": 220,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.31409694698125, 52.525695933244918]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c368a",
+        "standortnr": "29",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1981",
+        "standalter": 43.0,
+        "kronedurch": 8.0,
+        "stammumfg": 120,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.313978450521484, 52.52569466753728]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c368b",
+        "standortnr": "28",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 14.0,
+        "stammumfg": 215,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.313828743294165, 52.525696176715826]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c368c",
+        "standortnr": "27",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 13.0,
+        "stammumfg": 130,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.31320206074108, 52.525671693200941]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c368d",
+        "standortnr": "26",
+        "kennzeich": "02289",
+        "art_dtsch": "Berg-Ahorn, Weiss-Ahorn",
+        "art_bot": "Acer pseudoplatanus",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1990",
+        "standalter": 34.0,
+        "kronedurch": 9.0,
+        "stammumfg": 90,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312957253286688, 52.525670091438229]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c368e",
+        "standortnr": "25",
+        "kennzeich": "02289",
+        "art_dtsch": "Berg-Ahorn, Weiss-Ahorn",
+        "art_bot": "Acer pseudoplatanus",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 15.0,
+        "stammumfg": 140,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312745205060679, 52.525667623782006]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c368f",
+        "standortnr": "24",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1985",
+        "standalter": 39.0,
+        "kronedurch": 20.0,
+        "stammumfg": 210,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312480115800804, 52.525666920472517]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3690",
+        "standortnr": "23",
+        "kennzeich": "02289",
+        "art_dtsch": "Berg-Ahorn, Weiss-Ahorn",
+        "art_bot": "Acer pseudoplatanus",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 12.0,
+        "stammumfg": 120,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312211940168766, 52.525663359212714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3692",
+        "standortnr": "20",
+        "kennzeich": "02289",
+        "art_dtsch": "Berg-Ahorn, Weiss-Ahorn",
+        "art_bot": "Acer pseudoplatanus",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1950",
+        "standalter": 74.0,
+        "kronedurch": 14.0,
+        "stammumfg": 150,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.311187483203458, 52.525657775408114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3694",
+        "standortnr": "18",
+        "kennzeich": "02289",
+        "art_dtsch": "Berg-Ahorn, Weiss-Ahorn",
+        "art_bot": "Acer pseudoplatanus",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 11.0,
+        "stammumfg": 115,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.310715033114279, 52.525654618363433]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3695",
+        "standortnr": "17",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1977",
+        "standalter": 47.0,
+        "kronedurch": 15.0,
+        "stammumfg": 140,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.310487395605163, 52.525650200502973]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3696",
+        "standortnr": "16",
+        "kennzeich": "02289",
+        "art_dtsch": "Berg-Ahorn, Weiss-Ahorn",
+        "art_bot": "Acer pseudoplatanus",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1977",
+        "standalter": 47.0,
+        "kronedurch": 13.0,
+        "stammumfg": 140,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.310286230177804, 52.525652520561948]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3697",
+        "standortnr": "22",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 20.0,
+        "stammumfg": 180,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.312015479538207, 52.525660931851355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3698",
+        "standortnr": "14",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1990",
+        "standalter": 34.0,
+        "kronedurch": 13.0,
+        "stammumfg": 105,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.309558060428548, 52.525644864637393]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c3699",
+        "standortnr": "13",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1950",
+        "standalter": 74.0,
+        "kronedurch": 18.0,
+        "stammumfg": 145,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.309338203962596, 52.525644275366155]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c369a",
+        "standortnr": "12",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1942",
+        "standalter": 82.0,
+        "kronedurch": 14.0,
+        "stammumfg": 165,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.309116800766285, 52.525641776338638]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c369b",
+        "standortnr": "11",
+        "kennzeich": "02289",
+        "art_dtsch": "Berg-Ahorn, Weiss-Ahorn",
+        "art_bot": "Acer pseudoplatanus",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1942",
+        "standalter": 82.0,
+        "kronedurch": 15.0,
+        "stammumfg": 155,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308878239719801, 52.52563828722198]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c369c",
+        "standortnr": "10",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1985",
+        "standalter": 39.0,
+        "kronedurch": 15.0,
+        "stammumfg": 140,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308684902890491, 52.525635863005668]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c369d",
+        "standortnr": "9",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 13.0,
+        "stammumfg": 110,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308435417306361, 52.52563328680089]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c36a0",
+        "standortnr": "6",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1977",
+        "standalter": 47.0,
+        "kronedurch": 13.0,
+        "stammumfg": 135,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307705679340806, 52.525628473327032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c36a1",
+        "standortnr": "5",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 17.0,
+        "stammumfg": 235,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307428119412327, 52.525628678170143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c36a4",
+        "standortnr": "21",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1971",
+        "standalter": 53.0,
+        "kronedurch": 26.0,
+        "stammumfg": 255,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.311508706481362, 52.525658630745404]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c36a6",
+        "standortnr": "1",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1942",
+        "standalter": 82.0,
+        "kronedurch": 16.0,
+        "stammumfg": 160,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.306614180330484, 52.525623621908686]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c36e1",
+        "standortnr": "2",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 11.0,
+        "stammumfg": 130,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.306820036833336, 52.525620377197221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000ccedd",
+        "standortnr": "131",
+        "kennzeich": "07080",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 9.0,
+        "stammumfg": 90,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.304098774956529, 52.525550696226603]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000ccede",
+        "standortnr": "130",
+        "kennzeich": "07080",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 7.0,
+        "stammumfg": 90,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.304180556713991, 52.525561621893097]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000ccedf",
+        "standortnr": "129",
+        "kennzeich": "07080",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 7.0,
+        "stammumfg": 75,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.304260367813676, 52.525576100447005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000ccee0",
+        "standortnr": "128",
+        "kennzeich": "07080",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 7.0,
+        "stammumfg": 55,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.304346061595727, 52.525585851167314]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000ccf05",
+        "standortnr": "51",
+        "kennzeich": "02289",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1956",
+        "standalter": 68.0,
+        "kronedurch": 19.0,
+        "stammumfg": 220,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.310398736485366, 52.525835427588369]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cee62",
+        "standortnr": "33",
+        "kennzeich": "02289",
+        "art_dtsch": "Spitz-Ahorn",
+        "art_bot": "Acer platanoides",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1978",
+        "standalter": 46.0,
+        "kronedurch": 10.0,
+        "stammumfg": 120,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.314406052615697, 52.52586603750634]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:00292109",
+        "standortnr": "4",
+        "kennzeich": "02289",
+        "art_dtsch": "Säulenförmiger Spitz-Ahorn",
+        "art_bot": "Acer platanoides 'Columnare'",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2020",
+        "standalter": 4.0,
+        "kronedurch": 1.0,
+        "stammumfg": 20,
+        "baumhoehe": 3.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307205141240155, 52.525628076246996]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:0029210a",
+        "standortnr": "8",
+        "kennzeich": "02289",
+        "art_dtsch": "Säulenförmiger Spitz-Ahorn",
+        "art_bot": "Acer platanoides 'Columnare'",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2020",
+        "standalter": 4.0,
+        "kronedurch": 1.0,
+        "stammumfg": 20,
+        "baumhoehe": 3.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.308206205520277, 52.525632670483759]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:0029210b",
+        "standortnr": "3",
+        "kennzeich": "02289",
+        "art_dtsch": "Säulenförmiger Spitz-Ahorn",
+        "art_bot": "Acer platanoides 'Columnare'",
+        "gattung_de": "AHORN",
+        "gattung": "ACER",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2020",
+        "standalter": 4.0,
+        "kronedurch": 1.0,
+        "stammumfg": 20,
+        "baumhoehe": 3.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.307013359469142, 52.525624700497211]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a46",
+        "standortnr": "34",
+        "kennzeich": "03344",
+        "art_dtsch": "Scheinakazie 'Bessoniana'",
+        "art_bot": "Robinia pseudoacacia 'Bessoniana'",
+        "gattung_de": "ROBINIE",
+        "gattung": "ROBINIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1977",
+        "standalter": 47.0,
+        "kronedurch": 12.0,
+        "stammumfg": 170,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.303234340706986, 52.525562005010308]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a66",
+        "standortnr": "1",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1991",
+        "standalter": 33.0,
+        "kronedurch": 7.0,
+        "stammumfg": 110,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.303424151942004, 52.52568722051894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d6772",
+        "standortnr": "2",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2005",
+        "standalter": 19.0,
+        "kronedurch": 5.0,
+        "stammumfg": 65,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.303119223395365, 52.525736541750661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d6774",
+        "standortnr": "3",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2005",
+        "standalter": 19.0,
+        "kronedurch": 5.0,
+        "stammumfg": 60,
+        "baumhoehe": 3.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.302869201531021, 52.525774859559242]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d824d",
+        "standortnr": "33",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde 'Greenspire'",
+        "art_bot": "Tilia cordata 'Greenspire'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2008",
+        "standalter": 16.0,
+        "kronedurch": 4.0,
+        "stammumfg": 88,
+        "baumhoehe": 11.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.302953810442883, 52.525607679978549]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a48",
+        "standortnr": "32",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1987",
+        "standalter": 37.0,
+        "kronedurch": 8.0,
+        "stammumfg": 110,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.302368378003191, 52.525700813688708]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a49",
+        "standortnr": "31",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1987",
+        "standalter": 37.0,
+        "kronedurch": 9.0,
+        "stammumfg": 110,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.30121169825113, 52.525870628936332]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a4a",
+        "standortnr": "30",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1987",
+        "standalter": 37.0,
+        "kronedurch": 12.0,
+        "stammumfg": 163,
+        "baumhoehe": 21.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.300909789021345, 52.525923663431826]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a4b",
+        "standortnr": "29",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde 'Greenspire'",
+        "art_bot": "Tilia cordata 'Greenspire'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1970",
+        "standalter": 54.0,
+        "kronedurch": 7.0,
+        "stammumfg": 95,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.300589637113079, 52.525972935807424]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a4e",
+        "standortnr": "26",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1996",
+        "standalter": 28.0,
+        "kronedurch": 10.0,
+        "stammumfg": 170,
+        "baumhoehe": 21.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.299626137083493, 52.526118887795555]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a50",
+        "standortnr": "23",
+        "kennzeich": "03344",
+        "art_dtsch": "Birken-Pappel",
+        "art_bot": "Populus simonii",
+        "gattung_de": "PAPPEL",
+        "gattung": "POPULUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1981",
+        "standalter": 43.0,
+        "kronedurch": 12.0,
+        "stammumfg": 170,
+        "baumhoehe": 21.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.298909611404225, 52.526226496291493]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a52",
+        "standortnr": "20",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 8.0,
+        "stammumfg": 125,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.298226629192637, 52.526328630706068]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a53",
+        "standortnr": "19",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 8.0,
+        "stammumfg": 85,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297938767190514, 52.526537729863399]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a57",
+        "standortnr": "16",
+        "kennzeich": "03344",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 9.0,
+        "stammumfg": 90,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.298371793314345, 52.52646463108141]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a59",
+        "standortnr": "14",
+        "kennzeich": "03344",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1987",
+        "standalter": 37.0,
+        "kronedurch": 11.0,
+        "stammumfg": 120,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.299170677746423, 52.526340530252966]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a5a",
+        "standortnr": "13",
+        "kennzeich": "03344",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1987",
+        "standalter": 37.0,
+        "kronedurch": 12.0,
+        "stammumfg": 185,
+        "baumhoehe": 21.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.299374949560372, 52.526313236884079]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a5c",
+        "standortnr": "11",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1987",
+        "standalter": 37.0,
+        "kronedurch": 12.0,
+        "stammumfg": 195,
+        "baumhoehe": 21.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.299792680588075, 52.52624751335302]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a5e",
+        "standortnr": "8",
+        "kennzeich": "03344",
+        "art_dtsch": "Robinie",
+        "art_bot": "Robinia pseudoacacia",
+        "gattung_de": "ROBINIE",
+        "gattung": "ROBINIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1961",
+        "standalter": 63.0,
+        "kronedurch": 9.0,
+        "stammumfg": 190,
+        "baumhoehe": 15.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.300777569362772, 52.52609233648802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a5f",
+        "standortnr": "7",
+        "kennzeich": "03344",
+        "art_dtsch": "Robinie",
+        "art_bot": "Robinia pseudoacacia",
+        "gattung_de": "ROBINIE",
+        "gattung": "ROBINIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1956",
+        "standalter": 68.0,
+        "kronedurch": 11.0,
+        "stammumfg": 210,
+        "baumhoehe": 21.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.301036744935194, 52.526052188135282]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8a63",
+        "standortnr": "17",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1989",
+        "standalter": 35.0,
+        "kronedurch": 8.0,
+        "stammumfg": 90,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.298240671112728, 52.526486563108449]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cda3e",
+        "standortnr": "9",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde 'Greenspire'",
+        "art_bot": "Tilia cordata 'Greenspire'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1991",
+        "standalter": 33.0,
+        "kronedurch": 8.0,
+        "stammumfg": 85,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.300570210095255, 52.526127064092286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d03b5",
+        "standortnr": "18",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde 'Greenspire'",
+        "art_bot": "Tilia cordata 'Greenspire'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2004",
+        "standalter": 20.0,
+        "kronedurch": 7.0,
+        "stammumfg": 119,
+        "baumhoehe": 11.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.298054697108226, 52.52651205422351]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d03b7",
+        "standortnr": "25",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde 'Greenspire'",
+        "art_bot": "Tilia cordata 'Greenspire'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2003",
+        "standalter": 21.0,
+        "kronedurch": 7.0,
+        "stammumfg": 101,
+        "baumhoehe": 11.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.299321187514227, 52.526170049358626]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d6770",
+        "standortnr": "22",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2005",
+        "standalter": 19.0,
+        "kronedurch": 7.0,
+        "stammumfg": 101,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.29856199276032, 52.526281258474668]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d6771",
+        "standortnr": "21",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2005",
+        "standalter": 19.0,
+        "kronedurch": 5.0,
+        "stammumfg": 55,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.298412575328987, 52.526306850483273]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000e004e",
+        "standortnr": "27",
+        "kennzeich": "03344",
+        "art_dtsch": "Winter-Linde 'Greenspire'",
+        "art_bot": "Tilia cordata 'Greenspire'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2014",
+        "standalter": 10.0,
+        "kronedurch": 6.0,
+        "stammumfg": 107,
+        "baumhoehe": 11.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.299894448562252, 52.526078758128925]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:002a8d5f",
+        "standortnr": "5",
+        "kennzeich": "03344",
+        "art_dtsch": "Gleditschie 'Skyline'",
+        "art_bot": "Gleditsia triacanthos 'Skyline'",
+        "gattung_de": "GLEDITSCHIE",
+        "gattung": "GLEDITSIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2021",
+        "standalter": 3.0,
+        "kronedurch": 1.0,
+        "stammumfg": 20,
+        "baumhoehe": 3.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.301469634734621, 52.525986524399194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:002a8ef2",
+        "standortnr": "10",
+        "kennzeich": "03344",
+        "art_dtsch": "Gleditschie 'Skyline'",
+        "art_bot": "Gleditsia triacanthos 'Skyline'",
+        "gattung_de": "GLEDITSCHIE",
+        "gattung": "GLEDITSIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2021",
+        "standalter": 3.0,
+        "kronedurch": 1.0,
+        "stammumfg": 18,
+        "baumhoehe": 5.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.29997256780028, 52.526222003101743]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:002a8ef3",
+        "standortnr": "12",
+        "kennzeich": "03344",
+        "art_dtsch": "Gleditschie 'Skyline'",
+        "art_bot": "Gleditsia triacanthos 'Skyline'",
+        "gattung_de": "GLEDITSCHIE",
+        "gattung": "GLEDITSIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2021",
+        "standalter": 3.0,
+        "kronedurch": 1.0,
+        "stammumfg": 18,
+        "baumhoehe": 5.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.299551800440243, 52.526285858424039]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:002a8ef4",
+        "standortnr": "15",
+        "kennzeich": "03344",
+        "art_dtsch": "Gleditschie 'Skyline'",
+        "art_bot": "Gleditsia triacanthos 'Skyline'",
+        "gattung_de": "GLEDITSCHIE",
+        "gattung": "GLEDITSIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2021",
+        "standalter": 3.0,
+        "kronedurch": 1.0,
+        "stammumfg": 18,
+        "baumhoehe": 5.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.298929810961981, 52.526377013980266]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:002c6de0",
+        "standortnr": "6",
+        "kennzeich": "03344",
+        "art_dtsch": "Gleditschie 'Skyline'",
+        "art_bot": "Gleditsia triacanthos 'Skyline'",
+        "gattung_de": "GLEDITSCHIE",
+        "gattung": "GLEDITSIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2021",
+        "standalter": 3.0,
+        "kronedurch": 1.0,
+        "stammumfg": 18,
+        "baumhoehe": 5.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.301238703264698, 52.526019952759739]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000c8eea",
+        "standortnr": "95",
+        "kennzeich": "02956",
+        "art_dtsch": "Ahornblättrige Platane",
+        "art_bot": "Platanus acerifolia",
+        "gattung_de": "PLATANE",
+        "gattung": "PLATANUS",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1980",
+        "standalter": 44.0,
+        "kronedurch": 17.0,
+        "stammumfg": 150,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296568495105531, 52.53039751540436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb192",
+        "standortnr": "221",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 7.0,
+        "stammumfg": 85,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296407114850243, 52.529076637959882]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb193",
+        "standortnr": "220",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 8.0,
+        "stammumfg": 90,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296479065791795, 52.529025759598383]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb194",
+        "standortnr": "219",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 8.0,
+        "stammumfg": 90,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296502364265002, 52.528964527002117]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb196",
+        "standortnr": "217",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 8.0,
+        "stammumfg": 80,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296573626242884, 52.528804972187018]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb197",
+        "standortnr": "216",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 9.0,
+        "stammumfg": 100,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296625912168462, 52.528737314546284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb199",
+        "standortnr": "214",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 7.0,
+        "stammumfg": 75,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296681846923372, 52.528587934637606]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb19a",
+        "standortnr": "213",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 6.0,
+        "stammumfg": 55,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296745321512191, 52.52824632663097]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb19d",
+        "standortnr": "211",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 6.0,
+        "stammumfg": 60,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296817164869964, 52.528008751883704]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb19f",
+        "standortnr": "209",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 6.0,
+        "stammumfg": 55,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296895218038852, 52.527752628646788]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a1",
+        "standortnr": "207",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 5.0,
+        "stammumfg": 55,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296949940099269, 52.527564234604625]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a2",
+        "standortnr": "206",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 7.0,
+        "stammumfg": 60,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297045483238417, 52.527414039003553]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a3",
+        "standortnr": "205",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 6.0,
+        "stammumfg": 75,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297024788746814, 52.527330388455553]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a4",
+        "standortnr": "204",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1990",
+        "standalter": 34.0,
+        "kronedurch": 6.0,
+        "stammumfg": 60,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297113988342728, 52.52721267924791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb1a5",
+        "standortnr": "203",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1990",
+        "standalter": 34.0,
+        "kronedurch": 5.0,
+        "stammumfg": 65,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.29708420041568, 52.52712344110121]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb402",
+        "standortnr": "64",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1994",
+        "standalter": 30.0,
+        "kronedurch": 6.0,
+        "stammumfg": 70,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296431254629386, 52.52951230952857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb404",
+        "standortnr": "62",
+        "kennzeich": "04424",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1978",
+        "standalter": 46.0,
+        "kronedurch": 9.0,
+        "stammumfg": 120,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296690835362957, 52.529014271928652]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb405",
+        "standortnr": "61",
+        "kennzeich": "04424",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1946",
+        "standalter": 78.0,
+        "kronedurch": 12.0,
+        "stammumfg": 185,
+        "baumhoehe": 25.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296729473898127, 52.528939153832098]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb406",
+        "standortnr": "60",
+        "kennzeich": "04424",
+        "art_dtsch": "Krim-Linde",
+        "art_bot": "Tilia euchlora",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1977",
+        "standalter": 47.0,
+        "kronedurch": 9.0,
+        "stammumfg": 120,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296802218035825, 52.528784248875695]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb407",
+        "standortnr": "59",
+        "kennzeich": "04424",
+        "art_dtsch": "Krim-Linde",
+        "art_bot": "Tilia euchlora",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1977",
+        "standalter": 47.0,
+        "kronedurch": 9.0,
+        "stammumfg": 130,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296822626545213, 52.528701638557031]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb409",
+        "standortnr": "57",
+        "kennzeich": "04424",
+        "art_dtsch": "Krim-Linde",
+        "art_bot": "Tilia euchlora",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1979",
+        "standalter": 45.0,
+        "kronedurch": 9.0,
+        "stammumfg": 125,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296948969808328, 52.528303545501046]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb40b",
+        "standortnr": "55",
+        "kennzeich": "04424",
+        "art_dtsch": "Krim-Linde",
+        "art_bot": "Tilia euchlora",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1980",
+        "standalter": 44.0,
+        "kronedurch": 9.0,
+        "stammumfg": 110,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296998872521215, 52.528146716653218]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb40f",
+        "standortnr": "51",
+        "kennzeich": "04424",
+        "art_dtsch": "Winter-Linde",
+        "art_bot": "Tilia cordata",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1966",
+        "standalter": 58.0,
+        "kronedurch": 9.0,
+        "stammumfg": 140,
+        "baumhoehe": 17.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297117594559635, 52.527748601834872]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb410",
+        "standortnr": "50",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1980",
+        "standalter": 44.0,
+        "kronedurch": 9.0,
+        "stammumfg": 120,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297169105508877, 52.52758156858598]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb411",
+        "standortnr": "49",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1984",
+        "standalter": 40.0,
+        "kronedurch": 9.0,
+        "stammumfg": 90,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297218992101488, 52.527426599680268]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb412",
+        "standortnr": "48",
+        "kennzeich": "04424",
+        "art_dtsch": "Krim-Linde",
+        "art_bot": "Tilia euchlora",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1953",
+        "standalter": 71.0,
+        "kronedurch": 9.0,
+        "stammumfg": 180,
+        "baumhoehe": 10.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297239328629272, 52.52735328152788]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb413",
+        "standortnr": "47",
+        "kennzeich": "04424",
+        "art_dtsch": "Krim-Linde",
+        "art_bot": "Tilia euchlora",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1980",
+        "standalter": 44.0,
+        "kronedurch": 9.0,
+        "stammumfg": 105,
+        "baumhoehe": 12.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297267347414383, 52.527273477984181]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb415",
+        "standortnr": "45",
+        "kennzeich": "04424",
+        "art_dtsch": "Kaiser-Linde",
+        "art_bot": "Tilia intermedia 'Pallida'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1987",
+        "standalter": 37.0,
+        "kronedurch": 7.0,
+        "stammumfg": 65,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297321871446796, 52.527109239319977]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000cb419",
+        "standortnr": "41",
+        "kennzeich": "04424",
+        "art_dtsch": "Winter-Linde 'Greenspire'",
+        "art_bot": "Tilia cordata 'Greenspire'",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "1988",
+        "standalter": 36.0,
+        "kronedurch": 8.0,
+        "stammumfg": 90,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.297445176311291, 52.526708351568544]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d7ec7",
+        "standortnr": "212",
+        "kennzeich": "04424",
+        "art_dtsch": "Holländische Linde",
+        "art_bot": "Tilia intermedia",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2005",
+        "standalter": 19.0,
+        "kronedurch": 5.0,
+        "stammumfg": 35,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296830039477667, 52.528119312897857]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "baumid": "00008100:000d7eca",
+        "standortnr": "210",
+        "kennzeich": "04424",
+        "art_dtsch": "Holländische Linde",
+        "art_bot": "Tilia intermedia",
+        "gattung_de": "LINDE",
+        "gattung": "TILIA",
+        "art_gruppe": "Laubbäume",
+        "pflanzjahr": "2005",
+        "standalter": 19.0,
+        "kronedurch": 5.0,
+        "stammumfg": 35,
+        "baumhoehe": 7.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.296898797868636, 52.527884525021143]
+      }
+    }
+  ]
 }
