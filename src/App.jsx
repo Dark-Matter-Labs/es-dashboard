@@ -1458,52 +1458,52 @@ const data_de = [
       name: "scenario_a",
       children: [
         {
-          name: "Climate Change Adaptation & Mitigation",
+          name: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
           color: "#06E29E",
           children: [
             {
-              name: "Shelter from wind",
+              name: "Schutz vor Wind",
               color: "hsl(139, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced building energy consumption for heating",
+                  name: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
                   color: "hsl(260, 70%, 50%)",
                   loc: 42625,
                 },
                 {
-                  name: "Avoided carbon emissions from building energy saving for heating",
+                  name: "Vermeidung von CO2-Emissionen durch Gebäudeenergieeinsparung beim Heizen",
                   color: "hsl(208, 70%, 50%)",
                   loc: 44024,
                 },
                 {
-                  name: "Reduced peak summer surface temperatures",
+                  name: "Reduzierte Spitzenoberflächentemperaturen im Sommer",
                   color: "hsl(49, 70%, 50%)",
                   loc: 0,
                 },
               ],
             },
             {
-              name: "Reduction of urban heat island effect",
+              name: "Reduzierung des städtischen Wärmeinseleffekts",
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced Heat-Related Mortality",
+                  name: "Reduzierte hitzebedingte Sterblichkeit",
                   color: "hsl(260, 70%, 50%)",
                   loc: 2078458,
                 },
                 {
-                  name: "Reduced Hospital Costs from Heat-Related Morbidity",
+                  name: "Reduzierte Krankenhauskosten durch hitzebedingte Morbidität",
                   color: "hsl(208, 70%, 50%)",
                   loc: 177491,
                 },
               ],
             },
             {
-              name: "Carbon storage and sequestration",
+              name: "Kohlenstoffspeicherung und -bindung",
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Carbon sequestered by trees",
+                  name: "Bäume binden Kohlenstoff",
                   color: "hsl(349, 70%, 50%)",
                   loc: 2764,
                 },
@@ -1512,25 +1512,25 @@ const data_de = [
           ],
         },
         {
-          name: "Water Management & Flood Alleviation",
+          name: "Wassermanagement und Hochwasserschutz",
           color: "#084887",
           children: [
             {
-              name: "Interception, storage and infiltration of rainwater",
+              name: "Auffangen, Speichern und Versickern von Regenwasser",
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+                  name: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
                   color: "hsl(349, 70%, 50%)",
                   loc: 15919,
                 },
                 {
-                  name: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+                  name: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
                   color: "hsl(349, 70%, 50%)",
                   loc: 13677,
                 },
                 {
-                  name: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+                  name: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
                   color: "hsl(349, 70%, 50%)",
                   loc: 2242,
                 },
@@ -1539,52 +1539,52 @@ const data_de = [
           ],
         },
         {
-          name: "Health & Well-being",
+          name: "Gesundheit & Wohlbefinden",
           color: "#A3BDEC",
           children: [
             {
-              name: "Provision of attractive opportunities for walking and cycling",
+              name: "Bereitstellung attraktiver Möglichkeiten für Fußgänger und Radfahrer",
               color: "hsl(173, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced mortality from increased walking and cycling",
+                  name: "Geringere Sterblichkeit durch vermehrtes Gehen und Radfahren",
                   color: "hsl(260, 70%, 50%)",
                   loc: 518030,
                 },
               ],
             },
             {
-              name: "Stress and mental illness alleviation",
+              name: "Linderung von Stress und psychischen Erkrankungen",
               color: "hsl(315, 70%, 50%)",
               children: [
                 {
-                  name: "Health cost savings from improved mental health from view to green from household",
+                  name: "Einsparungen bei den Gesundheitskosten durch verbesserte psychische Gesundheit aus Sicht der Umwelt im Haushalt",
                   color: "hsl(260, 70%, 50%)",
                   loc: 216983,
                 },
               ],
             },
             {
-              name: "Air pollution removal",
+              name: "Beseitigung der Luftverschmutzung",
               color: "hsl(137, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced air pollution - NO2",
+                  name: "Reduzierte Luftverschmutzung - NO2",
                   color: "hsl(260, 70%, 50%)",
                   loc: 8980,
                 },
                 {
-                  name: "Reduced air pollution - O3",
+                  name: "Reduzierte Luftverschmutzung - O3",
                   color: "hsl(260, 70%, 50%)",
                   loc: 8980,
                 },
                 {
-                  name: "Reduced air pollution - SO2",
+                  name: "Reduzierte Luftverschmutzung - SO2",
                   color: "hsl(260, 70%, 50%)",
                   loc: 8980,
                 },
                 {
-                  name: "Reduced air pollution - PM2.5",
+                  name: "Reduzierte Luftverschmutzung - PM2.5",
                   color: "hsl(260, 70%, 50%)",
                   loc: 8980,
                 },
@@ -1593,20 +1593,20 @@ const data_de = [
           ],
         },
         {
-          name: "Biodiversity",
+          name: "Biodiversität",
           color: "#FFFFF",
           children: [
             {
-              name: "Provision, protection and enhancement of natural habitats",
+              name: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
               color: "hsl(129, 70%, 50%)",
               children: [
                 {
-                  name: "Willingness to pay for protection or enhancement of biodiversity",
+                  name: "Zahlungsbereitschaft für den Schutz oder die Verbesserung der Biodiversität",
                   color: "hsl(260, 70%, 50%)",
                   loc: 0,
                 },
                 {
-                  name: "Contribution to biodiversity targets",
+                  name: "Beitrag zu Biodiversitätszielen",
                   color: "hsl(260, 70%, 50%)",
                   loc: 0,
                 },
@@ -1618,107 +1618,107 @@ const data_de = [
     },
     cumulatedData: [
       {
-        benefit: "Shelter from wind",
+        benefit: "Schutz vor Wind",
         value: 86649,
       },
       {
-        benefit: "Reduction of urban heat island effect",
+        benefit: "Reduzierung des städtischen Wärmeinseleffekts",
         value: 2255949,
       },
       {
-        benefit: "Carbon storage and sequestration",
+        benefit: "Kohlenstoffspeicherung und -bindung",
         value: 2764,
       },
       {
-        benefit: "Interception, storage and inflitration of rainwater",
+        benefit: "Auffangen, Speichern und Versickern von Regenwasser",
         value: 31837,
       },
       {
-        benefit: "Provision of attractive opportunities for exercise",
+        benefit: "Bereitstellung attraktiver Bewegungsmöglichkeiten",
         value: 518030,
       },
       {
-        benefit: "Stress and mental illness alleviation",
+        benefit: "Linderung von Stress und psychischen Erkrankungen",
         value: 216983,
       },
       {
-        benefit: "Air pollution removal",
+        benefit: "Beseitigung der Luftverschmutzung",
         value: 8980 * 4,
       },
       {
-        benefit: "Provision, protection and enhancement of natural habitats",
+        benefit: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
         value: 0,
       },
     ],
   },
   {
     id: 1,
-    title: "Scenario B - Optimistic",
+    title: "Szenario B - Optimistisch",
     description:
-      "Ecosystem Services value from trees that are to be cut according to a technical survey commissioned by BVG (public transport agency).",
+      "Wert der Ökosystemdienstleistungen von Bäumen, die gefällt werden sollen, laut einer technischen Untersuchung im Auftrag der BVG.",
     trees: -35,
     canopy_cover: 0.31,
     total_benefit: -2882491,
     map: "scenario_b_canopy.geojson",
     benefits: [
       {
-        group: "Climate Change Adaptation & Mitigation",
+        group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
         rows: [
           {
-            function: "Shelter from wind",
-            tool: "Reduced building energy consumption for heating",
+            function: "Schutz vor Wind",
+            tool: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
             amount: -82400,
-            unit: "kWh/yr energy saved",
+            unit: "Eingesparte Energie in kWh/Jahr",
             benefit_per_year: -7129,
             gross_value: -61364,
             indirect: 0,
             timeframe: 10,
           },
           {
-            function: "Shelter from wind",
-            tool: "Avoided carbon emissions from building energy saving for heating",
+            function: "Schutz vor Wind",
+            tool: "Vermeidung von CO2-Emissionen durch Gebäudeenergieeinsparung beim Heizen",
             amount: -17965,
-            unit: "kgCO2/yr not emitted",
+            unit: "kgCO2/Jahr nicht emittiert",
             benefit_per_year: -3539,
             gross_value: 0,
             indirect: -31407,
             timeframe: 10,
           },
           {
-            function: "Reduction of urban heat island effect",
-            tool: "Reduced peak summer surface temperatures",
+            function: "Reduzierung des städtischen Wärmeinseleffekts",
+            tool: "Reduzierte Spitzenoberflächentemperaturen im Sommer",
             amount: 0.8,
-            unit: "°C in surf. temperature",
+            unit: "°C in der Oberflächentemperatur",
             benefit_per_year: 0,
             gross_value: 0,
             indirect: 0,
             timeframe: 0,
           },
           {
-            function: "Reduction of urban heat island effect",
-            tool: "Reduced Heat-Related Mortality",
+            function: "Reduzierung des städtischen Wärmeinseleffekts",
+            tool: "Reduzierte hitzebedingte Sterblichkeit",
             amount: 0,
-            unit: "lives saved per yr",
+            unit: "Gerettete Leben pro Jahr",
             benefit_per_year: -258793,
             gross_value: 0,
             indirect: -2296519,
             timeframe: 10,
           },
           {
-            function: "Reduction of urban heat island effect",
-            tool: "Reduced Hospital Costs from Heat-Related Morbidity",
+            function: "Reduzierung des städtischen Wärmeinseleffekts",
+            tool: "Reduzierte Krankenhauskosten durch hitzebedingte Morbidität",
             amount: -6,
-            unit: "patient days per yr",
+            unit: "Patiententage pro Jahr",
             benefit_per_year: -22100,
             gross_value: 0,
             indirect: -196112,
             timeframe: 10,
           },
           {
-            function: "Carbon storage and sequestration",
-            tool: "Carbon sequestered by trees",
+            function: "Kohlenstoffspeicherung und -bindung",
+            tool: "Bäume binden Kohlenstoff",
             amount: -87,
-            unit: "kgCO2e sequestered",
+            unit: "kg CO2e gebunden",
             benefit_per_year: -344,
             gross_value: 0,
             indirect: -8634,
@@ -1727,33 +1727,33 @@ const data_de = [
         ],
       },
       {
-        group: "Water Management & Flood Alleviation",
+        group: "Wassermanagement und Hochwasserschutz",
         rows: [
           {
-            function: "Interception, storage and infiltration of rainwater",
-            tool: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+            function: "Auffangen, Speichern und Versickern von Regenwasser",
+            tool: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
             amount: -6939182,
-            unit: "L/yr water diverted from sewers",
+            unit: "L/Jahr aus der Kanalisation abgeleitetes Wasser",
             benefit_per_year: 0,
             gross_value: -0,
             indirect: 0,
             timeframe: 30,
           },
           {
-            function: "Interception, storage and infiltration of rainwater",
-            tool: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+            function: "Auffangen, Speichern und Versickern von Regenwasser",
+            tool: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
             amount: -6141.18,
-            unit: "kWh/yr energy saved",
+            unit: "Eingesparte Energie in kWh/Jahr",
             benefit_per_year: -1220,
             gross_value: -23217,
             indirect: 0,
             timeframe: 30,
           },
           {
-            function: "Interception, storage and infiltration of rainwater",
-            tool: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+            function: "Auffangen, Speichern und Versickern von Regenwasser",
+            tool: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
             amount: -2.44,
-            unit: "tCO2e/yr carbon saved",
+            unit: "Eingesparte tCO2e/Jahr",
             benefit_per_year: -480,
             gross_value: 0,
             indirect: -9143,
@@ -1762,64 +1762,64 @@ const data_de = [
         ],
       },
       {
-        group: "Health & Well-being",
+        group: "Gesundheit & Wohlbefinden",
         rows: [
           {
             function:
-              "Provision of attractive opportunities for walking and cycling",
-            tool: "Reduced mortality from increased walking and cycling",
+              "Bereitstellung attraktiver Möglichkeiten für Fußgänger und Radfahrer",
+            tool: "Geringere Sterblichkeit durch vermehrtes Gehen und Radfahren",
             amount: 0,
-            unit: "lives saved per yr",
+            unit: "Gerettete Leben pro Jahr",
             benefit_per_year: 0,
             gross_value: 0,
             indirect: 0,
             timeframe: 10,
           },
           {
-            function: "Stress and mental illness alleviation",
-            tool: "Health cost savings from mental health disorders",
+            function: "Linderung von Stress und psychischen Erkrankungen",
+            tool: "Einsparungen bei den Gesundheitskosten durch psychische Störungen",
             amount: -207,
-            unit: "number of patients",
+            unit: "Anzahl der Patienten",
             benefit_per_year: -74934,
             gross_value: 0,
             indirect: -231833,
             timeframe: 20,
           },
           {
-            function: "Air pollution removal",
-            tool: "Reduced air pollution",
+            function: "Beseitigung der Luftverschmutzung",
+            tool: "Reduzierte Luftverschmutzung",
             amount: -0.002,
-            unit: "t/yr of NO2 removed",
+            unit: "t/Jahr entferntes NO2",
             benefit_per_year: -967,
             gross_value: -24263,
             indirect: 0,
             timeframe: 50,
           },
           {
-            function: "Air pollution removal",
-            tool: "Reduced air pollution",
+            function: "Beseitigung der Luftverschmutzung",
+            tool: "Reduzierte Luftverschmutzung",
             amount: -0.004,
-            unit: "t/yr of O3 removed",
+            unit: "t/Jahr entferntesf O3",
             benefit_per_year: -967,
             gross_value: -24263,
             indirect: 0,
             timeframe: 50,
           },
           {
-            function: "Air pollution removal",
-            tool: "Reduced air pollution",
+            function: "Beseitigung der Luftverschmutzung",
+            tool: "Reduzierte Luftverschmutzung",
             amount: 0.0,
-            unit: "t/yr of SO2 removed",
+            unit: "t/Jahr entferntes SO2",
             benefit_per_year: -967,
             gross_value: -24263,
             indirect: 0,
             timeframe: 50,
           },
           {
-            function: "Air pollution removal",
-            tool: "Reduced air pollution",
+            function: "Beseitigung der Luftverschmutzung",
+            tool: "Reduzierte Luftverschmutzung",
             amount: -0.009,
-            unit: "t/yr of PM2.5 removed",
+            unit: "t/Jahr entferntes PM2.5",
             benefit_per_year: -967,
             gross_value: -24263,
             indirect: 0,
@@ -1832,52 +1832,52 @@ const data_de = [
       name: "scenario_b",
       children: [
         {
-          name: "Climate Change Adaptation & Mitigation",
+          name: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
           color: "#06E29E",
           children: [
             {
-              name: "Shelter from wind",
+              name: "Schutz vor Wind",
               color: "hsl(139, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced building energy consumption for heating",
+                  name: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
                   color: "hsl(260, 70%, 50%)",
                   loc: 7129,
                 },
                 {
-                  name: "Avoided carbon emissions from building energy saving for heating",
+                  name: "Vermeidung von CO2-Emissionen durch Gebäudeenergieeinsparung beim Heizen",
                   color: "hsl(208, 70%, 50%)",
                   loc: 3539,
                 },
               ],
             },
             {
-              name: "Reduction of urban heat island effect",
+              name: "Reduzierung des städtischen Wärmeinseleffekts",
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced peak summer surface temperatures",
+                  name: "Reduzierte Spitzenoberflächentemperaturen im Sommer",
                   color: "hsl(49, 70%, 50%)",
                   loc: 0,
                 },
                 {
-                  name: "Reduced Heat-Related Mortality",
+                  name: "Reduzierte hitzebedingte Sterblichkeit",
                   color: "hsl(260, 70%, 50%)",
                   loc: 258793,
                 },
                 {
-                  name: "Reduced Hospital Costs from Heat-Related Morbidity",
+                  name: "Reduzierte Krankenhauskosten durch hitzebedingte Morbidität",
                   color: "hsl(208, 70%, 50%)",
                   loc: 22100,
                 },
               ],
             },
             {
-              name: "Carbon storage and sequestration",
+              name: "Kohlenstoffspeicherung und -bindung",
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Carbon sequestered by trees",
+                  name: "Bäume binden Kohlenstoff",
                   color: "hsl(349, 70%, 50%)",
                   loc: 344,
                 },
@@ -1886,25 +1886,25 @@ const data_de = [
           ],
         },
         {
-          name: "Water Management & Flood Alleviation",
+          name: "Wassermanagement und Hochwasserschutz",
           color: "#084887",
           children: [
             {
-              name: "Interception, storage and infiltration of rainwater",
+              name: "Auffangen, Speichern und Versickern von Regenwasser",
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+                  name: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
                   color: "hsl(349, 70%, 50%)",
                   loc: 0,
                 },
                 {
-                  name: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+                  name: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
                   color: "hsl(349, 70%, 50%)",
                   loc: 1220,
                 },
                 {
-                  name: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+                  name: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
                   color: "hsl(349, 70%, 50%)",
                   loc: 200,
                 },
@@ -1913,52 +1913,52 @@ const data_de = [
           ],
         },
         {
-          name: "Health & Well-being",
+          name: "Gesundheit & Wohlbefinden",
           color: "#A3BDEC",
           children: [
             {
-              name: "Provision of attractive opportunities for walking and cycling",
+              name: "Bereitstellung attraktiver Möglichkeiten für Fußgänger und Radfahrer",
               color: "hsl(173, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced mortality from increased walking and cycling",
+                  name: "Geringere Sterblichkeit durch vermehrtes Gehen und Radfahren",
                   color: "hsl(260, 70%, 50%)",
                   loc: 0,
                 },
               ],
             },
             {
-              name: "Stress and mental illness alleviation",
+              name: "Linderung von Stress und psychischen Erkrankungen",
               color: "hsl(315, 70%, 50%)",
               children: [
                 {
-                  name: "Health cost savings from improved mental health from view to green from household",
+                  name: "Einsparungen bei den Gesundheitskosten durch verbesserte psychische Gesundheit aus Sicht der Umwelt im Haushalt",
                   color: "hsl(260, 70%, 50%)",
                   loc: 74934,
                 },
               ],
             },
             {
-              name: "Air pollution removal",
+              name: "Beseitigung der Luftverschmutzung",
               color: "hsl(137, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced air pollution - NO2",
+                  name: "Reduzierte Luftverschmutzungn - NO2",
                   color: "hsl(260, 70%, 50%)",
                   loc: 967,
                 },
                 {
-                  name: "Reduced air pollution - O3",
+                  name: "Reduzierte Luftverschmutzung - O3",
                   color: "hsl(260, 70%, 50%)",
                   loc: 967,
                 },
                 {
-                  name: "Reduced air pollution - SO2",
+                  name: "Reduzierte Luftverschmutzung - SO2",
                   color: "hsl(260, 70%, 50%)",
                   loc: 967,
                 },
                 {
-                  name: "Reduced air pollution - PM2.5",
+                  name: "Reduzierte Luftverschmutzung - PM2.5",
                   color: "hsl(260, 70%, 50%)",
                   loc: 967,
                 },
@@ -1967,20 +1967,20 @@ const data_de = [
           ],
         },
         {
-          name: "Biodiversity",
+          name: "Biodiversität",
           color: "#FFFFF",
           children: [
             {
-              name: "Provision, protection and enhancement of natural habitats",
+              name: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
               color: "hsl(129, 70%, 50%)",
               children: [
                 {
-                  name: "Willingness to pay for protection or enhancement of biodiversity",
+                  name: "Zahlungsbereitschaft für den Schutz oder die Verbesserung der Biodiversität",
                   color: "hsl(260, 70%, 50%)",
                   loc: 0,
                 },
                 {
-                  name: "Contribution to biodiversity targets",
+                  name: "Beitrag zu Biodiversitätszielen",
                   color: "hsl(260, 70%, 50%)",
                   loc: 0,
                 },
@@ -1992,107 +1992,107 @@ const data_de = [
     },
     cumulatedData: [
       {
-        benefit: "Shelter from wind",
+        benefit: "Schutz vor Wind",
         value: -10668,
       },
       {
-        benefit: "Reduction of urban heat island effect",
+        benefit: "Reduzierung des städtischen Wärmeinseleffekts",
         value: -280893,
       },
       {
-        benefit: "Carbon storage and sequestration",
+        benefit: "Kohlenstoffspeicherung und -bindung",
         value: -344,
       },
       {
-        benefit: "Interception, storage and inflitration of rainwater",
+        benefit: "Auffangen, Speichern und Versickern von Regenwasser",
         value: -1420,
       },
       {
-        benefit: "Provision of attractive opportunities for exercise",
+        benefit: "Bereitstellung attraktiver Bewegungsmöglichkeiten",
         value: 0,
       },
       {
-        benefit: "Stress and mental illness alleviation",
+        benefit: "Linderung von Stress und psychischen Erkrankungen",
         value: -74934,
       },
       {
-        benefit: "Air pollution removal",
+        benefit: "Beseitigung der Luftverschmutzung",
         value: -947 * 4,
       },
       {
-        benefit: "Provision, protection and enhancement of natural habitats",
+        benefit: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
         value: 0,
       },
     ],
   },
   {
     id: 2,
-    title: "Scenario C - Realistic",
+    title: "Szenario C - Realistisch",
     description:
-      "Ecosystem Services value from all trees considered at risk of being cut off if they are located within the construction area or their crown diameter area overlaps with the construction area based on the Berlin Tree Protection Ordinance.",
+      "Der Wert der Ökosystemdienstleistungen aller Bäume gilt als vom Fällen bedroht, wenn sie innerhalb der Baufläche liegen oder ihr Kronendurchmesser auf Grundlage der Berliner Baumschutzverordnung mit der Baufläche überlappt.",
     trees: -131,
     canopy_cover: 1.38,
     total_benefit: -11914807,
     map: "scenario_c_canopy.geojson",
     benefits: [
       {
-        group: "Climate Change Adaptation & Mitigation",
+        group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
         rows: [
           {
-            function: "Shelter from wind",
-            tool: "Reduced building energy consumption for heating",
+            function: "Schutz vor Wind",
+            tool: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
             amount: -184000,
-            unit: "kWh/yr energy saved",
+            unit: "Eingesparte Energie in kWh/Jahr",
             benefit_per_year: -16907,
             gross_value: -145530,
             indirect: 0,
             timeframe: 10,
           },
           {
-            function: "Shelter from wind",
-            tool: "Avoided carbon emissions from building energy saving for heating",
+            function: "Schutz vor Wind",
+            tool: "Vermeidung von CO2-Emissionen durch Gebäudeenergieeinsparung beim Heizen",
             amount: -42239,
-            unit: "kgCO2/yr not emitted",
+            unit: "kgCO2/Jahr nicht emittiert",
             benefit_per_year: -8321,
             gross_value: 0,
             indirect: -73841,
             timeframe: 10,
           },
           {
-            function: "Reduction of urban heat island effect",
-            tool: "Reduced peak summer surface temperatures",
+            function: "Reduzierung des städtischen Wärmeinseleffekts",
+            tool: "Reduzierte Spitzenoberflächentemperaturen im Sommer",
             amount: 0.8,
-            unit: "°C in surf. temperature",
+            unit: "°C bei Surftemperatur",
             benefit_per_year: 0,
             gross_value: 0,
             indirect: 0,
             timeframe: 0,
           },
           {
-            function: "Reduction of urban heat island effect",
-            tool: "Reduced Heat-Related Mortality",
+            function: "Reduzierung des städtischen Wärmeinseleffekts",
+            tool: "Reduzierte hitzebedingte Sterblichkeit",
             amount: 0,
-            unit: "lives saved per yr",
+            unit: "Gerettete Leben pro Jahr",
             benefit_per_year: -1119544,
             gross_value: 0,
             indirect: -9934785,
             timeframe: 10,
           },
           {
-            function: "Reduction of urban heat island effect",
-            tool: "Reduced Hospital Costs from Heat-Related Morbidity",
+            function: "Reduzierung des städtischen Wärmeinseleffekts",
+            tool: "Reduzierte Krankenhauskosten durch hitzebedingte Morbidität",
             amount: -27,
-            unit: "patient days per yr",
+            unit: "Patiententage pro Jahr",
             benefit_per_year: -95604,
             gross_value: 0,
             indirect: -848384,
             timeframe: 10,
           },
           {
-            function: "Carbon storage and sequestration",
-            tool: "Carbon sequestered by trees",
+            function: "Kohlenstoffspeicherung und -bindung",
+            tool: "Bäume binden Kohlenstoff",
             amount: -378,
-            unit: "kgCO2e sequestered",
+            unit: "kg CO2e gebunden",
             benefit_per_year: -1489,
             gross_value: 0,
             indirect: -37351,
@@ -2104,30 +2104,30 @@ const data_de = [
         group: "Water Management & Flood Alleviation",
         rows: [
           {
-            function: "Interception, storage and infiltration of rainwater",
-            tool: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+            function: "Abfangen, Speichern und Versickern von Regenwasser",
+            tool: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
             amount: -35419864,
-            unit: "L/yr water diverted from sewers",
+            unit: "L/Jahr aus der Kanalisation abgeleitetes Wasser",
             benefit_per_year: 0,
             gross_value: 0,
             indirect: 0,
             timeframe: 30,
           },
           {
-            function: "Interception, storage and infiltration of rainwater",
-            tool: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+            function: "Abfangen, Speichern und Versickern von Regenwasser",
+            tool: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
             amount: -31346.58,
-            unit: "kWh/yr energy saved",
+            unit: "Eingesparte Energie in kWh/Jahr",
             benefit_per_year: -6225,
             gross_value: -118506,
             indirect: 0,
             timeframe: 30,
           },
           {
-            function: "Interception, storage and infiltration of rainwater",
-            tool: "Reduced carbon emissions",
+            function: "Abfangen, Speichern und Versickern von Regenwasser",
+            tool: "Reduzierte CO2-Emissionen",
             amount: -12.44,
-            unit: "tCO2e/yr carbon saved",
+            unit: "Eingesparte tCO2e/Jahr",
             benefit_per_year: -2452,
             gross_value: 0,
             indirect: -46558,
@@ -2136,32 +2136,32 @@ const data_de = [
         ],
       },
       {
-        group: "Health & Well-being",
+        group: "Gesundheit & Wohlbefinden",
         rows: [
           {
             function:
-              "Provision of attractive opportunities for walking and cycling",
-            tool: "Reduced mortality from increased walking and cycling",
+              "Bereitstellung attraktiver Möglichkeiten für Fußgänger und Radfahrer",
+            tool: "Geringere Sterblichkeit durch vermehrtes Gehen und Radfahren",
             amount: 0,
-            unit: "lives saved per yr",
+            unit: "Gerettete Leben pro Jahr",
             benefit_per_year: 0,
             gross_value: 0,
             indirect: 0,
             timeframe: 10,
           },
           {
-            function: "Stress and mental illness alleviation",
-            tool: "Health cost savings from mental health disorders",
+            function: "Linderung von Stress und psychischen Erkrankungen",
+            tool: "Einsparungen bei den Gesundheitskosten durch psychische Störungen",
             amount: -540,
-            unit: "number of patients",
+            unit: "Anzahl der Patienten",
             benefit_per_year: -195480,
             gross_value: 0,
             indirect: -604781,
             timeframe: 20,
           },
           {
-            function: "Air pollution removal",
-            tool: "Reduced air pollution",
+            function: "Beseitigung der Luftverschmutzung",
+            tool: "Reduzierte Luftverschmutzung",
             amount: -0.007,
             unit: "t/yr of NO2 removed",
             benefit_per_year: -4183,
@@ -2170,30 +2170,30 @@ const data_de = [
             timeframe: 50,
           },
           {
-            function: "Air pollution removal",
-            tool: "Reduced air pollution",
+            function: "Beseitigung der Luftverschmutzung",
+            tool: "Reduzierte Luftverschmutzung",
             amount: -0.017,
-            unit: "t/yr of O3 removed",
+            unit: "t/Jahr O3 entfernt",
             benefit_per_year: -4183,
             gross_value: -104961,
             indirect: 0,
             timeframe: 50,
           },
           {
-            function: "Air pollution removal",
-            tool: "Reduced air pollution",
+            function: "Beseitigung der Luftverschmutzung",
+            tool: "Reduzierte Luftverschmutzung",
             amount: -0.001,
-            unit: "t/yr of SO2 removed",
+            unit: "t/Jahr of SO2 entfernt",
             benefit_per_year: -4183,
             gross_value: -104961,
             indirect: 0,
             timeframe: 50,
           },
           {
-            function: "Air pollution removal",
-            tool: "Reduced air pollution",
+            function: "Beseitigung der Luftverschmutzung",
+            tool: "Reduzierte Luftverschmutzung",
             amount: -0.039,
-            unit: "t/yr of SO2 removed",
+            unit: "t/Jahr of SO2 entfernt",
             benefit_per_year: -4183,
             gross_value: -104961,
             indirect: 0,
@@ -2206,52 +2206,52 @@ const data_de = [
       name: "scenario_c",
       children: [
         {
-          name: "Climate Change Adaptation & Mitigation",
+          name: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
           color: "#06E29E",
           children: [
             {
-              name: "Shelter from wind",
+              name: "Schutz vor Wind",
               color: "hsl(139, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced building energy consumption for heating",
+                  name: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
                   color: "hsl(260, 70%, 50%)",
                   loc: 16907,
                 },
                 {
-                  name: "Avoided carbon emissions from building energy saving for heating",
+                  name: "Vermeidung von CO2-Emissionen durch Gebäudeenergieeinsparungen beim Heizen",
                   color: "hsl(208, 70%, 50%)",
                   loc: 8321,
                 },
               ],
             },
             {
-              name: "Reduction of urban heat island effect",
+              name: "Reduzierung des städtischen Wärmeinseleffekts",
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced peak summer surface temperatures",
+                  name: "Reduzierte Spitzenoberflächentemperaturen im Sommer",
                   color: "hsl(49, 70%, 50%)",
                   loc: 0,
                 },
                 {
-                  name: "Reduced Heat-Related Mortality",
+                  name: "Reduzierte hitzebedingte Sterblichkeit",
                   color: "hsl(260, 70%, 50%)",
                   loc: 119544,
                 },
                 {
-                  name: "Reduced Hospital Costs from Heat-Related Morbidity",
+                  name: "Reduzierte Krankenhauskosten durch hitzebedingte Morbidität",
                   color: "hsl(208, 70%, 50%)",
                   loc: 95604,
                 },
               ],
             },
             {
-              name: "Carbon storage and sequestration",
+              name: "Kohlenstoffspeicherung und -bindung",
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Carbon sequestered by trees",
+                  name: "Bäume binden Kohlenstoff",
                   color: "hsl(349, 70%, 50%)",
                   loc: 1489,
                 },
@@ -2260,25 +2260,25 @@ const data_de = [
           ],
         },
         {
-          name: "Water Management & Flood Alleviation",
+          name: "Wassermanagement und Hochwasserschutz",
           color: "#084887",
           children: [
             {
-              name: "Interception, storage and infiltration of rainwater",
+              name: "Auffangen, Speichern und Versickern von Regenwasser",
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+                  name: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
                   color: "hsl(349, 70%, 50%)",
                   loc: 0,
                 },
                 {
-                  name: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+                  name: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
                   color: "hsl(349, 70%, 50%)",
                   loc: 6225,
                 },
                 {
-                  name: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
+                  name: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
                   color: "hsl(349, 70%, 50%)",
                   loc: 1020,
                 },
@@ -2287,52 +2287,52 @@ const data_de = [
           ],
         },
         {
-          name: "Health & Well-being",
+          name: "Gesundheit & Wohlbefinden",
           color: "#A3BDEC",
           children: [
             {
-              name: "Provision of attractive opportunities for walking and cycling",
+              name: "Bereitstellung attraktiver Möglichkeiten für Fußgänger und Radfahrer",
               color: "hsl(173, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced mortality from increased walking and cycling",
+                  name: "Geringere Sterblichkeit durch vermehrtes Gehen und Radfahren",
                   color: "hsl(260, 70%, 50%)",
                   loc: 0,
                 },
               ],
             },
             {
-              name: "Stress and mental illness alleviation",
+              name: "Linderung von Stress und psychischen Erkrankungen",
               color: "hsl(315, 70%, 50%)",
               children: [
                 {
-                  name: "Health cost savings from improved mental health from view to green from household",
+                  name: "Einsparungen bei den Gesundheitskosten durch verbesserte psychische Gesundheit aus Sicht der Umwelt im Haushalt",
                   color: "hsl(260, 70%, 50%)",
                   loc: 195480,
                 },
               ],
             },
             {
-              name: "Air pollution removal",
+              name: "Beseitigung der Luftverschmutzung",
               color: "hsl(137, 70%, 50%)",
               children: [
                 {
-                  name: "Reduced air pollution - NO2",
+                  name: "Reduzierte Luftverschmutzung - NO2",
                   color: "hsl(260, 70%, 50%)",
                   loc: 4183,
                 },
                 {
-                  name: "Reduced air pollution - O3",
+                  name: "Reduzierte Luftverschmutzung - O3",
                   color: "hsl(260, 70%, 50%)",
                   loc: 4183,
                 },
                 {
-                  name: "Reduced air pollution - SO2",
+                  name: "Reduzierte Luftverschmutzung - SO2",
                   color: "hsl(260, 70%, 50%)",
                   loc: 4183,
                 },
                 {
-                  name: "Reduced air pollution - PM2.5",
+                  name: "Reduzierte Luftverschmutzung - PM2.5",
                   color: "hsl(260, 70%, 50%)",
                   loc: 4183,
                 },
@@ -2341,20 +2341,20 @@ const data_de = [
           ],
         },
         {
-          name: "Biodiversity",
+          name: "Biodiversität",
           color: "#FFFFF",
           children: [
             {
-              name: "Provision, protection and enhancement of natural habitats",
+              name: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
               color: "hsl(129, 70%, 50%)",
               children: [
                 {
-                  name: "Willingness to pay for protection or enhancement of biodiversity",
+                  name: "Zahlungsbereitschaft für den Schutz oder die Verbesserung der Biodiversität",
                   color: "hsl(260, 70%, 50%)",
                   loc: 0,
                 },
                 {
-                  name: "Contribution to biodiversity targets",
+                  name: "Beitrag zu Biodiversitätszielen",
                   color: "hsl(260, 70%, 50%)",
                   loc: 0,
                 },
@@ -2366,40 +2366,41 @@ const data_de = [
     },
     cumulatedData: [
       {
-        benefit: "Shelter from wind",
+        benefit: "Schutz vor Wind",
         value: -25228,
       },
       {
-        benefit: "Reduction of urban heat island effect",
+        benefit: "Reduzierung des städtischen Wärmeinseleffekts",
         value: -1215148,
       },
       {
-        benefit: "Carbon storage and sequestration",
+        benefit: "Kohlenstoffspeicherung und -bindung",
         value: -1489,
       },
       {
-        benefit: "Interception, storage and inflitration of rainwater",
+        benefit: "Auffangen, Speichern und Versickern von Regenwasser",
         value: -7246,
       },
       {
-        benefit: "Provision of attractive opportunities for exercise",
+        benefit: "Bereitstellung attraktiver Bewegungsmöglichkeiten",
         value: 0,
       },
       {
-        benefit: "Stress and mental illness alleviation",
+        benefit: "Linderung von Stress und psychischen Erkrankungen",
         value: -195480,
       },
       {
-        benefit: "Air pollution removal",
+        benefit: "Beseitigung der Luftverschmutzung",
         value: -4183 * 4,
       },
       {
-        benefit: "Provision, protection and enhancement of natural habitats",
+        benefit: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
         value: 0,
       },
     ],
   },
 ];
+
 
 const tempData = [
   {
@@ -2811,7 +2812,7 @@ function App() {
                 </tr>
               </thead>
               <tbody>
-                {data.map((scenario) => (
+                {dataLang.map((scenario) => (
                   <tr key={scenario.id}>
                     <td className="px-6 py-4 border-b text-sm text-gray-600">
                       {scenario.title}
