@@ -2435,13 +2435,25 @@ const tempData = [
   },
 ];
 
-const dataLayer = {
+const dataLayerGreen = {
   id: "data",
   type: "fill",
   paint: {
     "fill-color": {
       property: "area (ha)",
       stops: [[2, "#4F7942"]],
+    },
+    "fill-opacity": 1,
+  },
+};
+
+const dataLayerRed = {
+  id: "data",
+  type: "fill",
+  paint: {
+    "fill-color": {
+      property: "area (ha)",
+      stops: [[2, "#e81728"]],
     },
     "fill-opacity": 1,
   },
@@ -2463,11 +2475,7 @@ const total_valuation_chart = [
   },
 ];
 
-let euro = new Intl.NumberFormat("en-DE", {
-  style: "currency",
-  currency: "EUR",
-  minimumFractionDigits: 0,
-});
+let euro = new Intl.NumberFormat();
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -2481,9 +2489,22 @@ function App() {
     if (i18n.language === "de") {
       setDataLang(data_de);
       setSelectedScenario(data_de[0]);
+
+      euro = new Intl.NumberFormat("de", {
+        style: "currency",
+        currency: "EUR",
+        minimumFractionDigits: 0,
+      });
+
     } else {
       setDataLang(data);
       setSelectedScenario(data[0]);
+
+      euro = new Intl.NumberFormat("en", {
+        style: "currency",
+        currency: "EUR",
+        minimumFractionDigits: 0,
+      });
     }
   }, [i18n.language]);
 
@@ -2624,7 +2645,10 @@ function App() {
               mapboxAccessToken={MAPBOX_TOKEN}
             >
               <Source type="geojson" data={mapData}>
-                <Layer {...dataLayer} />
+                {selectedScenario.id === 0 ?
+                  <Layer {...dataLayerGreen} /> :
+                  <Layer {...dataLayerRed} />
+                }
               </Source>
             </Map>
           </div>
@@ -2647,7 +2671,7 @@ function App() {
                   {t("total")}
                 </th>
                 <th
-                  width="8%"
+                  width="11%"
                   className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
                 >
                   {t("tree_function")}
@@ -2665,13 +2689,13 @@ function App() {
                   {t("benefit_quant")}
                 </th>
                 <th
-                  width="8%"
+                  width="7%"
                   className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
                 >
                   {t("value_per_year")}
                 </th>
                 <th
-                  width="8%"
+                  width="7%"
                   className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
                 >
                   {t("timeframe")}
@@ -2842,7 +2866,7 @@ function App() {
               mapboxAccessToken={MAPBOX_TOKEN}
             >
               <Source type="geojson" data={mapDataAll}>
-                <Layer {...dataLayer} />
+                <Layer {...dataLayerGreen} />
               </Source>
             </Map>
 
