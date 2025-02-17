@@ -20,6 +20,12 @@
     "years": "years",
     "visualisation_of_benefits": "Visualisation of Benefits",
     "benefit_per_function": "Benefit per function",
-    "scenario_comp_title": "Scenario Comparison Dashboard"
+    "scenario_comp_title": "Scenario Comparison Dashboard",
+    "scenario_a": "Scenario A: Baseline",
+    "scenario_b": "Scenario B: Optimistic",
+    "scenario_c": "Scenario C: Realistic",
+    "climate_reg": "Climate Regulation",
+    "water_mgmt": "Water Management",
+    "health": "Health Well-being"
   }
 }

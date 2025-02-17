@@ -1646,7 +1646,8 @@ const data_de = [
         value: 8980 * 4,
       },
       {
-        benefit: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
+        benefit:
+          "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
         value: 0,
       },
     ],
@@ -2020,7 +2021,8 @@ const data_de = [
         value: -947 * 4,
       },
       {
-        benefit: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
+        benefit:
+          "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
         value: 0,
       },
     ],
@@ -2394,13 +2396,13 @@ const data_de = [
         value: -4183 * 4,
       },
       {
-        benefit: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
+        benefit:
+          "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
         value: 0,
       },
     ],
   },
 ];
-
 
 const tempData = [
   {
@@ -2495,7 +2497,6 @@ function App() {
         currency: "EUR",
         minimumFractionDigits: 0,
       });
-
     } else {
       setDataLang(data);
       setSelectedScenario(data[0]);
@@ -2645,10 +2646,11 @@ function App() {
               mapboxAccessToken={MAPBOX_TOKEN}
             >
               <Source type="geojson" data={mapData}>
-                {selectedScenario.id === 0 ?
-                  <Layer {...dataLayerGreen} /> :
+                {selectedScenario.id === 0 ? (
+                  <Layer {...dataLayerGreen} />
+                ) : (
                   <Layer {...dataLayerRed} />
-                }
+                )}
               </Source>
             </Map>
           </div>
@@ -2901,20 +2903,20 @@ function App() {
                 <tr>
                   <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"></th>
                   <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
-                    Scenario A: Baseline
+                    {t("scenario_a")}
                   </th>
                   <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
-                    Scenario B: &quot;Optimistic&quot;
+                    {t("scenario_b")}
                   </th>
                   <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
-                    Scenario C: &quot;Realistic&quot;
+                    {t("scenario_c")}
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td className="px-6 py-4 border-b text-sm text-gray-600">
-                    Total
+                    {t("total")}
                   </td>
                   <td className="px-6 py-4 border-b text-sm text-gray-600">
                     €86.8M
@@ -2931,7 +2933,7 @@ function App() {
 
                 <tr>
                   <td className="px-6 py-4 border-b text-sm text-gray-600">
-                    Climate Regulation
+                    {t("climate_reg")}
                   </td>
                   <td className="px-6 py-4 border-b text-sm text-gray-600">
                     €20.8M
@@ -2948,7 +2950,7 @@ function App() {
 
                 <tr>
                   <td className="px-6 py-4 border-b text-sm text-gray-600">
-                    Water Management
+                    {t("water_mgmt")}
                   </td>
                   <td className="px-6 py-4 border-b text-sm text-gray-600">
                     €20.8M
@@ -2965,7 +2967,7 @@ function App() {
 
                 <tr>
                   <td className="px-6 py-4 border-b text-sm text-gray-600">
-                    Health Well-being
+                    {t("health")}
                   </td>
                   <td className="px-6 py-4 border-b text-sm text-gray-600">
                     €65M
