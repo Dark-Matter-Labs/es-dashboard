@@ -2501,8 +2501,8 @@ const tramLayer = {
   source: "Bus Route",
   paint: {
     "line-color": "#FF0000",
-    "line-width": 7,
-    "line-opacity": 0.6,
+    "line-width": 4,
+    "line-opacity": 0.3,
   },
   layout: {
     "line-join": "round",
