@@ -26,6 +26,8 @@
     "scenario_c": "Scenario C: Realistic",
     "climate_reg": "Climate Regulation",
     "water_mgmt": "Water Management",
-    "health": "Health Well-being"
+    "health": "Health Well-being",
+    "scenario_analysis": "Scenario Analysis",
+    "scenario_comp": "Scenario Comparison"
   }
 }

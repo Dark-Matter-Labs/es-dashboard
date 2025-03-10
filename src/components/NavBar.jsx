@@ -4,8 +4,10 @@ import {
   DisclosureButton,
   DisclosurePanel,
 } from "@headlessui/react";
-import LangSwitcher from "./LangSwitcher";
+import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import LangSwitcher from "./LangSwitcher";
 import logo from "../assets/logo.svg";
 
 function classNames(...classes) {
@@ -13,6 +15,7 @@ function classNames(...classes) {
 }
 
 export default function NavBar(props) {
+  const { t } = useTranslation();
   return (
     <>
       <Disclosure as="nav" className="bg-white border sticky top-0 z-50 ">
@@ -53,10 +56,12 @@ export default function NavBar(props) {
                         props.current === "home"
                           ? "border-green-600 text-green-600"
                           : "border-transparent text-gray-500",
-                        "medium-intro-sm inline-flex items-center border-b-2 px-1 pt-1",
+                        "medium-intro-sm inline-flex items-center border-b-2 px-1 pt-1 cursor-pointer",
                       )}
                     >
-                      Scenario Analysis
+                      <Link to="analysis" smooth={true} duration={500}>
+                        {t("scenario_analysis")}
+                      </Link>
                     </span>
 
                     <span
@@ -64,11 +69,14 @@ export default function NavBar(props) {
                         props.current === "wirkung"
                           ? "border-green-600 text-green-600"
                           : "border-transparent text-gray-500",
-                        "medium-intro-sm inline-flex items-center border-b-2 px-1 pt-1",
+                        "medium-intro-sm inline-flex items-center border-b-2 px-1 pt-1 cursor-pointer",
                       )}
                     >
-                      Scenario Comparison
+                      <Link to="comp" smooth={true} duration={500}>
+                        {t("scenario_comp")}
+                      </Link>
                     </span>
+
                     <span className="inline-flex items-center border-b-2 px-1 pt-1">
                       <LangSwitcher />
                     </span>
