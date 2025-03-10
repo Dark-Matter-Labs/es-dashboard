@@ -47,7 +47,7 @@ export default function NavBar(props) {
                         src={logo}
                         alt="TreesAI logo"
                       />
-                      <h3>.Ecosystem Services Valuation</h3>
+                      <h3>.{t("nav_title")}</h3>
                     </div>
                   </div>
                   <div className="hidden sm:flex sm:space-x-8">
