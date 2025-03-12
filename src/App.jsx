@@ -2492,11 +2492,11 @@ const allFillLayer = {
       "match",
       ["get", "scenario"],
       "A",
-      "#f28cb1", // Color for scenario A
+      "#06E29E", // Color for scenario A
       "B",
-      "#3bb2d0", // Color for scenario B
+      "#084887", // Color for scenario B
       "C",
-      "#72b026", // Color for scenario C
+      "#A3BDEC", // Color for scenario C
       "#ccc", // Default fallback color
     ],
     "fill-opacity": 0.6,
