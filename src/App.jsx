@@ -5,6 +5,7 @@ import Map, { Source, Layer } from "react-map-gl";
 import { useTranslation } from "react-i18next";
 import { Element } from "react-scroll";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -2609,10 +2610,12 @@ function App() {
   };
 
   return (
+    <>
+    <NavBar />
     <div className="global-margin bg-gray-100">
-      <NavBar />
       <div className=" bg-white shadow-lg rounded-lg p-6 space-y-6">
         <h1 className=" text-gray-800">{t("title")}</h1>
+        <p className="text-gray-800 book-intro-sm max-w-4xl">{t("intro_text")}</p>
         <Element name="analysis">
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 py-4">
             <div className="w-full md:w-1/3">
@@ -3249,6 +3252,8 @@ function App() {
         </Element>
       </div>
     </div>
+    <Footer />
+    </>
   );
 }
 
