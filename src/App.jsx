@@ -13,7 +13,7 @@ const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const data = [
   {
     id: 0,
-    title: "Scenario A - Baseline",
+    title: "Baseline",
     description:
       "Ecosystem Services value from all existing trees in a 50m buffer from road.",
     trees: 357,
@@ -399,7 +399,7 @@ const data = [
   },
   {
     id: 1,
-    title: "Scenario B - Optimistic",
+    title: "Scenario A - Optimistic",
     description:
       "Ecosystem Services value from trees that are to be cut according to a technical survey commissioned by BVG (public transport agency).",
     trees: -35,
@@ -748,7 +748,7 @@ const data = [
   },
   {
     id: 2,
-    title: "Scenario C - Realistic",
+    title: "Scenario B - Realistic",
     description:
       "Ecosystem Services value from all trees considered at risk of being cut off if they are located within the construction area or their crown diameter area overlaps with the construction area based on the Berlin Tree Protection Ordinance.",
     trees: -131,
@@ -1097,11 +1097,11 @@ const data = [
   },
   {
     id: 3,
-    title: "Scenario D - Alternative",
+    title: "Scenario C - Alternative",
     description:
       "Ecosystem Services value from all trees considered at risk of being cut off if they are located within the construction area or their crown diameter area overlaps with the construction area based on the Berlin Tree Protection Ordinance.",
     trees: -45,
-    canopy_cover: 1.38,
+    canopy_cover: 0.242,
     total_benefit: -249555,
     map: "alternative_canopy_loss.geojson",
     tram: "alternative_tram_route.geojson",
@@ -1449,7 +1449,7 @@ const data = [
 const data_de = [
   {
     id: 0,
-    title: "Szenario A - Ausgangslage",
+    title: "Ausgangslage",
     description:
       "Wert der Ökosystemdienstleistungen durch alle vorhandenen Bäume in einem Puffer von 50m von der Straße.",
     trees: 357,
@@ -1835,7 +1835,7 @@ const data_de = [
   },
   {
     id: 1,
-    title: "Szenario B - Optimistisch",
+    title: "Szenario A - Optimistisch",
     description:
       "Wert der Ökosystemdienstleistungen von Bäumen, die gefällt werden sollen, laut einer technischen Untersuchung im Auftrag der BVG.",
     trees: -35,
@@ -2184,7 +2184,7 @@ const data_de = [
   },
   {
     id: 2,
-    title: "Szenario C - Realistisch",
+    title: "Szenario B - Realistisch",
     description:
       "Der Wert der Ökosystemdienstleistungen aller Bäume gilt als vom Fällen bedroht, wenn sie innerhalb der Baufläche liegen oder ihr Kronendurchmesser auf Grundlage der Berliner Baumschutzverordnung mit der Baufläche überlappt.",
     trees: -131,
@@ -2560,11 +2560,11 @@ const data_de = [
   },
   {
     id: 3,
-    title: "Szenario D - Alternative",
+    title: "Szenario C - Alternative",
     description:
       "Der Wert der Ökosystemdienstleistungen aller Bäume gilt als vom Fällen bedroht, wenn sie innerhalb der Baufläche liegen oder ihr Kronendurchmesser auf Grundlage der Berliner Baumschutzverordnung mit der Baufläche überlappt.",
     trees: -45,
-    canopy_cover: 1.38,
+    canopy_cover: 0.242,
     total_benefit: -249555,
     map: "alternative_canopy_loss.geojson",
     tram: "alternative_tram_route.geojson",
@@ -2911,7 +2911,7 @@ const data_de = [
 
 const tempData = [
   {
-    scenario: "Scenario D:  Alternative",
+    scenario: "Scenario C:  Alternative",
     "Interception, storage and infiltration of rainwater": -2007,
     "Shelter from wind": -1536,
     "Reduced Urban heat island effect": -23171,
@@ -2921,7 +2921,7 @@ const tempData = [
     "Air Pollution Removal": -734,
   },
   {
-    scenario: "Scenario C: Realistic",
+    scenario: "Scenario B: Realistic",
     "Interception, storage and infiltration of rainwater": -8867,
     "Shelter from wind": -28501,
     "Reduced Urban heat island effect": -405049,
@@ -2931,7 +2931,7 @@ const tempData = [
     "Air Pollution Removal": -4183,
   },
   {
-    scenario: "Scenario B: Optimistic",
+    scenario: "Scenario A: Optimistic",
     "Interception, storage and infiltration of rainwater": -1700,
     "Shelter from wind": -12060,
     "Reduced Urban heat island effect": -93631,
@@ -2941,7 +2941,7 @@ const tempData = [
     "Air Pollution Removal": -967,
   },
   {
-    scenario: "Scenaio A: Baseline",
+    scenario: "Baseline",
     "Interception, storage and infiltration of rainwater": 38125,
     "Shelter from wind": 103965,
     "Reduced Urban heat island effect": 751983,
@@ -2954,7 +2954,7 @@ const tempData = [
 
 const tempData_de = [
   {
-    scenario: "Szenario D: Alternative",
+    scenario: "Szenario C: Alternative",
     "Auffangen, Speichern und Versickern von Regenwasser": -2007,
     "Schutz vor Wind": -1536,
     "Reduzierter städtischer Wärmeinseleffekt": -23171,
@@ -2964,7 +2964,7 @@ const tempData_de = [
     "Beseitigung der Luftverschmutzung": -734,
   },
   {
-    scenario: "Szenario C: Realistisch",
+    scenario: "Szenario B: Realistisch",
     "Auffangen, Speichern und Versickern von Regenwasser": -8867,
     "Schutz vor Wind": -28501,
     "Reduzierter städtischer Wärmeinseleffekt": -405049,
@@ -2974,7 +2974,7 @@ const tempData_de = [
     "Beseitigung der Luftverschmutzung": -4183,
   },
   {
-    scenario: "Szenario B: Optimistisch",
+    scenario: "Szenario A: Optimistisch",
     "Auffangen, Speichern und Versickern von Regenwasser": -1700,
     "Schutz vor Wind": -12060,
     "Reduzierter städtischer Wärmeinseleffekt": -93631,
@@ -2984,7 +2984,7 @@ const tempData_de = [
     "Beseitigung der Luftverschmutzung": -967,
   },
   {
-    scenario: "Szenario A: Ausgangslage",
+    scenario: "Ausgangslage",
     "Auffangen, Speichern und Versickern von Regenwasser": 38125,
     "Schutz vor Wind": 103965,
     "Reduzierter städtischer Wärmeinseleffekt": 751983,
