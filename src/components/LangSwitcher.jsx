@@ -19,7 +19,7 @@ export default function LangSelector() {
         id="lang"
         onChange={(e) => setLang(e.target.value)}
         name="lang"
-        className="bold-intro-sm rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 uppercase"
+        className="bold-intro-sm rounded-md border-0 py-1.5 pl-3 pr-2 text-gray-900 uppercase"
         defaultValue={selectedLang}
       >
         {options.map((o) => (

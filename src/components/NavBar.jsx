@@ -17,7 +17,7 @@ export default function NavBar(props) {
       <Disclosure as="nav" className="bg-white border sticky top-0 z-50 ">
         {({ open }) => (
           <>
-            <div className="global-margin px-2 sm:px-6 lg:px-8 border-b-2 border-b-dark-wood-800">
+            <div className="global-margin px-2 border-b-2 border-b-dark-wood-800">
               <div className="relative flex h-16 justify-between">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button */}
