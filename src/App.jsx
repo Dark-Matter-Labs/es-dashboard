@@ -1212,7 +1212,7 @@ const data = [
     trees: -45,
     canopy_cover: 1.38,
     total_benefit: -249555,
-    map: "scenario_c_canopy.geojson",
+    map: "alternative_canopy_loss.geojson",
     benefits: [
       {
         group: "Climate Change Adaptation & Mitigation",
@@ -2786,7 +2786,7 @@ const data_de = [
     trees: -45,
     canopy_cover: 1.38,
     total_benefit: -249555,
-    map: "scenario_c_canopy.geojson",
+    map: "alternative_canopy_loss.geojson",
     benefits: [
       {
         group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",

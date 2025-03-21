@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import {
   Disclosure,
   DisclosureButton,
-  DisclosurePanel,
 } from "@headlessui/react";
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
@@ -77,6 +76,19 @@ export default function NavBar(props) {
                       </Link>
                     </span>
 
+                    <span
+                      className={classNames(
+                        props.current === "wirkung"
+                          ? "border-green-600 text-green-600"
+                          : "border-transparent text-gray-500",
+                        "medium-intro-sm inline-flex items-center border-b-2 px-1 pt-1 cursor-pointer",
+                      )}
+                    >
+                      <a href="mailto:treesai@darkmatterlabs.org">
+                        {t("contact")}
+                      </a>
+                    </span>
+
                     <span className="inline-flex items-center border-b-2 px-1 pt-1">
                       <LangSwitcher />
                     </span>
@@ -85,7 +97,7 @@ export default function NavBar(props) {
               </div>
             </div>
 
-            <DisclosurePanel className="sm:hidden">
+            {/* <DisclosurePanel className="sm:hidden">
               <div className="space-y-1 pt-2 pb-4">
                 <DisclosureButton
                   as="a"
@@ -130,7 +142,7 @@ export default function NavBar(props) {
                   KONTAKT
                 </DisclosureButton>
               </div>
-            </DisclosurePanel>
+            </DisclosurePanel> */}
           </>
         )}
       </Disclosure>
