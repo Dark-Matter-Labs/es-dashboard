@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { Element } from "react-scroll";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import TNClogo from "./assets/TNC.svg";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -223,41 +224,6 @@ const data = [
           },
         ],
       },
-      {
-        group: "Biodiversity",
-        colour: "#FFFFFF",
-        cumulatedData: [
-          {
-            benefit:
-              "Provision, protection and enhancement of natural habitats",
-            value: 0,
-          },
-        ],
-        rows: [
-          {
-            function:
-              "Provision, protection and enhancement of natural habitats",
-            tool: "Willingness to pay for protection or enhancement of biodiversity",
-            amount: 0,
-            unit: "Ha of land w/ biodiversity value",
-            benefit_per_year: 0,
-            gross_value: 0,
-            indirect: 0,
-            timeframe: 10,
-          },
-          {
-            function:
-              "Provision, protection and enhancement of natural habitats",
-            tool: "Contribution to biodiversity targets",
-            amount: 0,
-            unit: "Ha of grassland habitat",
-            benefit_per_year: 0,
-            gross_value: 0,
-            indirect: 0,
-            timeframe: 40,
-          },
-        ],
-      },
     ],
     chartData: {
       name: "scenario_a",
@@ -397,28 +363,6 @@ const data = [
             },
           ],
         },
-        {
-          name: "Biodiversity",
-          color: "#FFFFF",
-          children: [
-            {
-              name: "Provision, protection and enhancement of natural habitats",
-              color: "hsl(129, 70%, 50%)",
-              children: [
-                {
-                  name: "Willingness to pay for protection or enhancement of biodiversity",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-                {
-                  name: "Contribution to biodiversity targets",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-              ],
-            },
-          ],
-        },
       ],
     },
     cumulatedData: [
@@ -449,10 +393,6 @@ const data = [
       {
         benefit: "Air pollution removal",
         value: 8980 * 4,
-      },
-      {
-        benefit: "Provision, protection and enhancement of natural habitats",
-        value: 0,
       },
     ],
   },
@@ -771,28 +711,6 @@ const data = [
             },
           ],
         },
-        {
-          name: "Biodiversity",
-          color: "#FFFFF",
-          children: [
-            {
-              name: "Provision, protection and enhancement of natural habitats",
-              color: "hsl(129, 70%, 50%)",
-              children: [
-                {
-                  name: "Willingness to pay for protection or enhancement of biodiversity",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-                {
-                  name: "Contribution to biodiversity targets",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-              ],
-            },
-          ],
-        },
       ],
     },
     cumulatedData: [
@@ -823,10 +741,6 @@ const data = [
       {
         benefit: "Air pollution removal",
         value: -947 * 4,
-      },
-      {
-        benefit: "Provision, protection and enhancement of natural habitats",
-        value: 0,
       },
     ],
   },
@@ -1145,28 +1059,6 @@ const data = [
             },
           ],
         },
-        {
-          name: "Biodiversity",
-          color: "#FFFFF",
-          children: [
-            {
-              name: "Provision, protection and enhancement of natural habitats",
-              color: "hsl(129, 70%, 50%)",
-              children: [
-                {
-                  name: "Willingness to pay for protection or enhancement of biodiversity",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-                {
-                  name: "Contribution to biodiversity targets",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-              ],
-            },
-          ],
-        },
       ],
     },
     cumulatedData: [
@@ -1197,10 +1089,6 @@ const data = [
       {
         benefit: "Air pollution removal",
         value: -4183 * 4,
-      },
-      {
-        benefit: "Provision, protection and enhancement of natural habitats",
-        value: 0,
       },
     ],
   },
@@ -1519,28 +1407,6 @@ const data = [
             },
           ],
         },
-        {
-          name: "Biodiversity",
-          color: "#FFFFF",
-          children: [
-            {
-              name: "Provision, protection and enhancement of natural habitats",
-              color: "hsl(129, 70%, 50%)",
-              children: [
-                {
-                  name: "Willingness to pay for protection or enhancement of biodiversity",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-                {
-                  name: "Contribution to biodiversity targets",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-              ],
-            },
-          ],
-        },
       ],
     },
     cumulatedData: [
@@ -1571,10 +1437,6 @@ const data = [
       {
         benefit: "Air pollution removal",
         value: -734 * 4,
-      },
-      {
-        benefit: "Provision, protection and enhancement of natural habitats",
-        value: 0,
       },
     ],
   },
@@ -1794,41 +1656,6 @@ const data_de = [
           },
         ],
       },
-      {
-        group: "Biodiversität",
-        colour: "#FFFFFF",
-        cumulatedData: [
-          {
-            benefit:
-              "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
-            value: 0,
-          },
-        ],
-        rows: [
-          {
-            function:
-              "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
-            tool: "Zahlungsbereitschaft für den Schutz oder die Verbesserung der Biodiversität",
-            amount: 0,
-            unit: "Hektar Land mit Biodiversitätswert",
-            benefit_per_year: 0,
-            gross_value: 0,
-            indirect: 0,
-            timeframe: 10,
-          },
-          {
-            function:
-              "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
-            tool: "Beitrag zu Biodiversitätszielen",
-            amount: 0,
-            unit: "Hektar Grünlandlebensraum",
-            benefit_per_year: 0,
-            gross_value: 0,
-            indirect: 0,
-            timeframe: 40,
-          },
-        ],
-      },
     ],
     chartData: {
       name: "scenario_a",
@@ -1968,28 +1795,6 @@ const data_de = [
             },
           ],
         },
-        {
-          name: "Biodiversität",
-          color: "#FFFFF",
-          children: [
-            {
-              name: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
-              color: "hsl(129, 70%, 50%)",
-              children: [
-                {
-                  name: "Zahlungsbereitschaft für den Schutz oder die Verbesserung der Biodiversität",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-                {
-                  name: "Beitrag zu Biodiversitätszielen",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-              ],
-            },
-          ],
-        },
       ],
     },
     cumulatedData: [
@@ -2020,11 +1825,6 @@ const data_de = [
       {
         benefit: "Beseitigung der Luftverschmutzung",
         value: 8980 * 4,
-      },
-      {
-        benefit:
-          "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
-        value: 0,
       },
     ],
   },
@@ -2343,28 +2143,6 @@ const data_de = [
             },
           ],
         },
-        {
-          name: "Biodiversität",
-          color: "#FFFFF",
-          children: [
-            {
-              name: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
-              color: "hsl(129, 70%, 50%)",
-              children: [
-                {
-                  name: "Zahlungsbereitschaft für den Schutz oder die Verbesserung der Biodiversität",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-                {
-                  name: "Beitrag zu Biodiversitätszielen",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-              ],
-            },
-          ],
-        },
       ],
     },
     cumulatedData: [
@@ -2395,11 +2173,6 @@ const data_de = [
       {
         benefit: "Beseitigung der Luftverschmutzung",
         value: -947 * 4,
-      },
-      {
-        benefit:
-          "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
-        value: 0,
       },
     ],
   },
@@ -2956,7 +2729,7 @@ const data_de = [
       },
     ],
     chartData: {
-      name: "scenario_c",
+      name: "scenario_d",
       children: [
         {
           name: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
@@ -3093,28 +2866,6 @@ const data_de = [
             },
           ],
         },
-        {
-          name: "Biodiversität",
-          color: "#FFFFF",
-          children: [
-            {
-              name: "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
-              color: "hsl(129, 70%, 50%)",
-              children: [
-                {
-                  name: "Zahlungsbereitschaft für den Schutz oder die Verbesserung der Biodiversität",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-                {
-                  name: "Beitrag zu Biodiversitätszielen",
-                  color: "hsl(260, 70%, 50%)",
-                  loc: 0,
-                },
-              ],
-            },
-          ],
-        },
       ],
     },
     cumulatedData: [
@@ -3145,11 +2896,6 @@ const data_de = [
       {
         benefit: "Beseitigung der Luftverschmutzung",
         value: -734 * 4,
-      },
-      {
-        benefit:
-          "Bereitstellung, Schutz und Verbesserung natürlicher Lebensräume",
-        value: 0,
       },
     ],
   },
@@ -4070,6 +3816,10 @@ function App() {
             </div>
           </Element>
         </div>
+        <div className="py-10 px-4">
+          <p className="medium-intro-sm">Supported by:</p>
+        <img src={TNClogo} alt="TNC logo" />
+      </div>
       </div>
       <Footer />
     </>
