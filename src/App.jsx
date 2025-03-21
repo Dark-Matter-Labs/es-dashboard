@@ -20,7 +20,7 @@ const data = [
     canopy_cover: 2.56,
     total_benefit: 10510563,
     map: "scenario_a_canopy.geojson",
-    tram : "tram_route.geojson",
+    tram: "tram_route.geojson",
     benefits: [
       {
         group: "Climate Change Adaptation & Mitigation",
@@ -406,7 +406,7 @@ const data = [
     canopy_cover: 0.31,
     total_benefit: -1035145,
     map: "scenario_b_canopy.geojson",
-    tram : "tram_route.geojson",
+    tram: "tram_route.geojson",
     benefits: [
       {
         group: "Climate Change Adaptation & Mitigation",
@@ -755,7 +755,7 @@ const data = [
     canopy_cover: 1.38,
     total_benefit: -4159576,
     map: "scenario_c_canopy.geojson",
-    tram : "tram_route.geojson",
+    tram: "tram_route.geojson",
     benefits: [
       {
         group: "Climate Change Adaptation & Mitigation",
@@ -1104,7 +1104,7 @@ const data = [
     canopy_cover: 1.38,
     total_benefit: -249555,
     map: "alternative_canopy_loss.geojson",
-    tram : "alternative_tram_route.geojson",
+    tram: "alternative_tram_route.geojson",
     benefits: [
       {
         group: "Climate Change Adaptation & Mitigation",
@@ -1842,7 +1842,7 @@ const data_de = [
     canopy_cover: 0.31,
     total_benefit: -2882491,
     map: "scenario_b_canopy.geojson",
-    tram : "tram_route.geojson",
+    tram: "tram_route.geojson",
     benefits: [
       {
         group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
@@ -2191,7 +2191,7 @@ const data_de = [
     canopy_cover: 1.38,
     total_benefit: -4159576,
     map: "scenario_c_canopy.geojson",
-    tram : "tram_route.geojson",
+    tram: "tram_route.geojson",
     benefits: [
       {
         group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
@@ -2567,7 +2567,7 @@ const data_de = [
     canopy_cover: 1.38,
     total_benefit: -249555,
     map: "alternative_canopy_loss.geojson",
-    tram : "alternative_tram_route.geojson",
+    tram: "alternative_tram_route.geojson",
     benefits: [
       {
         group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
@@ -3146,7 +3146,8 @@ function App() {
 
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/" + selectedScenario.tram,
+      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/" +
+        selectedScenario.tram,
     )
       .then((resp) => resp.json())
       .then((json) => setTramData(json))
@@ -3826,8 +3827,8 @@ function App() {
         </div>
         <div className="py-10 px-4">
           <p className="medium-intro-sm">Supported by:</p>
-        <img src={TNClogo} alt="TNC logo" />
-      </div>
+          <img src={TNClogo} alt="TNC logo" />
+        </div>
       </div>
       <Footer />
     </>

@@ -64,11 +64,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-4 sm:place-content-around">
           <div className="md:grid md:grid-cols-2 md:gap-8">
             <div className="mt-12 md:mt-0 flex">
-              <img
-                className="h-8 w-auto pr-4"
-                src={logo}
-                alt="TreesAI Impact Planner logo"
-              />
+              <a href="https://treesasinfrastructure.com/">
+                <img
+                  className="h-8 w-auto pr-4"
+                  src={logo}
+                  alt="TreesAI Impact Planner logo"
+                />
+              </a>
             </div>
           </div>
           <div className="sm:grid sm:grid-cols-2 ">

@@ -1,8 +1,5 @@
 import PropTypes from "prop-types";
-import {
-  Disclosure,
-  DisclosureButton,
-} from "@headlessui/react";
+import { Disclosure, DisclosureButton } from "@headlessui/react";
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
