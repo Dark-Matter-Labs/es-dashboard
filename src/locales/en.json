@@ -24,6 +24,7 @@
     "scenario_a": "Scenario A: Baseline",
     "scenario_b": "Scenario B: Optimistic",
     "scenario_c": "Scenario C: Realistic",
+    "scenario_d": "Scenario D: Altervative",
     "climate_reg": "Climate Regulation",
     "water_mgmt": "Water Management",
     "health": "Health Well-being",
