@@ -1099,7 +1099,7 @@ const data = [
     id: 3,
     title: "Scenario C - Alternative",
     description:
-      "Ecosystem Services value from all trees considered at risk of being cut off if they are located within the construction area or their crown diameter area overlaps with the construction area based on the Berlin Tree Protection Ordinance.",
+      "A new route is considered based on other extension route options shown in pre-planning application documents. All trees are considered at risk of being cut if a 1.5m buffer from their crown overlaps within the construction area.",
     trees: -45,
     canopy_cover: 0.242,
     total_benefit: -249555,
@@ -2562,7 +2562,7 @@ const data_de = [
     id: 3,
     title: "Szenario C - Alternative",
     description:
-      "Der Wert der Ökosystemdienstleistungen aller Bäume gilt als vom Fällen bedroht, wenn sie innerhalb der Baufläche liegen oder ihr Kronendurchmesser auf Grundlage der Berliner Baumschutzverordnung mit der Baufläche überlappt.",
+      "Eine neue Trasse wird auf Grundlage anderer, in den Bauantragsunterlagen aufgeführter Verlängerungsoptionen geprüft. Alle Bäume gelten als gefährdet, gefällt zu werden, wenn ein 1,5 m breiter Puffer von ihrer Krone in den Baubereich hineinragt.",
     trees: -45,
     canopy_cover: 0.242,
     total_benefit: -249555,
@@ -3225,7 +3225,7 @@ function App() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <h3 className="text-gray-800 pb-8">{selectedScenario.title}</h3>
                 <div
@@ -3297,8 +3297,8 @@ function App() {
               </div>
             </div>
 
-            <div className="overflow-x-auto pt-4">
-              <table className="min-w-full bg-white border book-info-md table-fixed">
+            <div className="overflow-x-scroll sm:overflow-x-auto pt-4">
+              <table className="sm:min-w-full bg-white border book-info-md sm:table-fixed">
                 <thead>
                   <tr>
                     <th
@@ -3449,8 +3449,8 @@ function App() {
           <Element name="comp">
             <div className="py-10">
               <h3 className="text-gray-800 pb-8">{t("scenario_comp_title")}</h3>
-              <div className="grid grid-cols-2 gap-4">
-                <table className="min-w-full bg-white border book-info-md table-fixed">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <table className="min-w-full bg-white border book-info-md sm:table-fixed">
                   <thead>
                     <tr>
                       <th
