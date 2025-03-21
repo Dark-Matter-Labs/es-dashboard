@@ -1534,7 +1534,7 @@ const data_de = [
             benefit_per_year: 2764,
             gross_value: 0,
             indirect: 24524,
-            timeframe: 50,
+            timeframe: 10,
           },
         ],
       },
