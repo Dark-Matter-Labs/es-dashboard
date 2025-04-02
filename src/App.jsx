@@ -25,6 +25,7 @@ const data = [
       {
         group: "Climate Change Adaptation & Mitigation",
         colour: "#06E29E",
+        total: 7608822,
         cumulatedData: [
           {
             benefit: "Shelter from wind",
@@ -105,6 +106,7 @@ const data = [
       {
         group: "Water Management & Flood Alleviation",
         colour: "#084887",
+        total: 164085,
         cumulatedData: [
           {
             benefit: "Interception, storage and inflitration of rainwater",
@@ -147,6 +149,7 @@ const data = [
       {
         group: "Health & Well-being",
         colour: "#A3BDEC",
+        total: 2737656,
         cumulatedData: [
           {
             benefit: "Provision of attractive opportunities for exercise",
@@ -410,6 +413,8 @@ const data = [
     benefits: [
       {
         group: "Climate Change Adaptation & Mitigation",
+        colour: "#06E29E",
+        total: -939055,
         rows: [
           {
             function: "Shelter from wind",
@@ -475,6 +480,8 @@ const data = [
       },
       {
         group: "Water Management & Flood Alleviation",
+        colour: "#084887",
+        total: -14632,
         rows: [
           {
             function: "Interception, storage and infiltration of rainwater",
@@ -510,6 +517,8 @@ const data = [
       },
       {
         group: "Health & Well-being",
+        colour: "#A3BDEC",
+        total: -81458,
         rows: [
           {
             function:
@@ -759,6 +768,8 @@ const data = [
     benefits: [
       {
         group: "Climate Change Adaptation & Mitigation",
+        colour: "#06E29E",
+        total: -3856015,
         rows: [
           {
             function: "Shelter from wind",
@@ -824,6 +835,8 @@ const data = [
       },
       {
         group: "Water Management & Flood Alleviation",
+        colour: "#084887",
+        total: -76326,
         rows: [
           {
             function: "Interception, storage and infiltration of rainwater",
@@ -859,6 +872,8 @@ const data = [
       },
       {
         group: "Health & Well-being",
+        colour: "#A3BDEC",
+        total: -227235,
         rows: [
           {
             function:
@@ -1108,6 +1123,8 @@ const data = [
     benefits: [
       {
         group: "Climate Change Adaptation & Mitigation",
+        colour: "#06E29E",
+        total: -221325,
         rows: [
           {
             function: "Shelter from wind",
@@ -1173,6 +1190,8 @@ const data = [
       },
       {
         group: "Water Management & Flood Alleviation",
+        colour: "#084887",
+        total: -17277,
         rows: [
           {
             function: "Interception, storage and infiltration of rainwater",
@@ -1208,6 +1227,8 @@ const data = [
       },
       {
         group: "Health & Well-being",
+        colour: "#A3BDEC",
+        total: -35027,
         rows: [
           {
             function:
@@ -1461,6 +1482,7 @@ const data_de = [
       {
         group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
         colour: "#06E29E",
+        total: 7608822,
         cumulatedData: [
           {
             benefit: "Schutz vor Wind",
@@ -1541,6 +1563,7 @@ const data_de = [
       {
         group: "Wassermanagement und Hochwasserschutz",
         colour: "#084887",
+        total: 164085,
         cumulatedData: [
           {
             benefit: "Auffangen, Speichern und Versickern von Regenwasser",
@@ -1583,6 +1606,7 @@ const data_de = [
       {
         group: "Gesundheit & Wohlbefinden",
         colour: "#A3BDEC",
+        total: 2737656,
         cumulatedData: [
           {
             benefit: "Bereitstellung attraktiver Bewegungsmöglichkeiten",
@@ -1846,6 +1870,8 @@ const data_de = [
     benefits: [
       {
         group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
+        colour: "#06E29E",
+        total: -939055,
         rows: [
           {
             function: "Schutz vor Wind",
@@ -1911,6 +1937,8 @@ const data_de = [
       },
       {
         group: "Wassermanagement und Hochwasserschutz",
+        colour: "#084887",
+        total: -14632,
         rows: [
           {
             function: "Auffangen, Speichern und Versickern von Regenwasser",
@@ -1946,6 +1974,8 @@ const data_de = [
       },
       {
         group: "Gesundheit & Wohlbefinden",
+        colour: "#A3BDEC",
+        total: -81458,
         rows: [
           {
             function:
@@ -2195,6 +2225,8 @@ const data_de = [
     benefits: [
       {
         group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
+        colour: "#06E29E",
+        total: -3856015,
         rows: [
           {
             function: "Schutz vor Wind",
@@ -2260,6 +2292,8 @@ const data_de = [
       },
       {
         group: "Water Management & Flood Alleviation",
+        colour: "#084887",
+        total: -76326,
         rows: [
           {
             function: "Abfangen, Speichern und Versickern von Regenwasser",
@@ -2295,6 +2329,8 @@ const data_de = [
       },
       {
         group: "Gesundheit & Wohlbefinden",
+        colour: "#A3BDEC",
+        total: -227235,
         rows: [
           {
             function:
@@ -2571,6 +2607,8 @@ const data_de = [
     benefits: [
       {
         group: "Anpassung an den Klimawandel und Abschwächung seiner Folgen",
+        colour: "#06E29E",
+        total: -221325,
         rows: [
           {
             function: "Schutz vor Wind",
@@ -2635,7 +2673,9 @@ const data_de = [
         ],
       },
       {
-        group: "Water Management & Flood Alleviation",
+        group: "Wassermanagement und Hochwasserschutz",
+        colour: "#084887",
+        total: -17277,
         rows: [
           {
             function: "Abfangen, Speichern und Versickern von Regenwasser",
@@ -2671,6 +2711,8 @@ const data_de = [
       },
       {
         group: "Gesundheit & Wohlbefinden",
+        colour: "#A3BDEC",
+        total: -35027,
         rows: [
           {
             function:
@@ -3169,283 +3211,6 @@ function App() {
           <p className="text-gray-800 book-intro-sm max-w-4xl">
             {t("intro_text")}
           </p>
-          <Element name="analysis">
-            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 py-4">
-              <div className="w-full md:w-1/3">
-                <label className="block medium-info-sm text-gray-700">
-                  {t("scenario")}
-                </label>
-                <select
-                  value={selectedScenario.id}
-                  onChange={handleSelectChange}
-                  className="book-info-md mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary"
-                >
-                  {dataLang.map((scenario) => (
-                    <option key={scenario.id} value={scenario.id}>
-                      {scenario.title}
-                    </option>
-                  ))}
-                </select>
-
-                <div className="w-full mt-4 p-4 bg-gray-50 border rounded-lg ">
-                  <h2 className="medium-info-sm text-gray-600">
-                    {t("description")}
-                  </h2>
-                  <p className="book-intro-sm">
-                    {selectedScenario.description}
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex flex-col w-full md:w-2/3 space-y-4 md:space-y-0 md:flex-row md:space-x-4">
-                <div className="w-full md:w-1/2 p-4 bg-gray-50 border rounded-lg">
-                  <h2 className="medium-info-sm text-gray-600">
-                    {t("location")}
-                  </h2>
-                  <p className="text-gray-800 book-intro-sm">{t("berlin")}</p>
-                  <h2 className="medium-info-sm text-gray-600 pt-6">
-                    {t("area")}
-                  </h2>
-                  <p className="text-gray-800 book-intro-sm">16.83 Ha</p>
-                </div>
-                <div className="w-full md:w-1/2 p-4 bg-gray-50 border rounded-lg">
-                  <h2 className="medium-info-sm text-gray-600">
-                    {t("tree_number")}
-                  </h2>
-                  <p className="text-gray-800 book-intro-sm">
-                    {selectedScenario.trees}
-                  </p>
-                  <h2 className="medium-info-sm text-gray-600 pt-6">
-                    {t("canopy_cover")}
-                  </h2>
-                  <p className="text-gray-800 book-intro-sm">
-                    {selectedScenario.canopy_cover} Ha
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <h3 className="text-gray-800 pb-8">{selectedScenario.title}</h3>
-                <div
-                  className={
-                    selectedScenario.total_benefit > 0
-                      ? " bg-green-100 p-6 rounded-lg"
-                      : "bg-red-100 p-6 rounded-lg"
-                  }
-                >
-                  <h3 className="medium-intro-md text-gray-800">
-                    {t("total_es_sv")}
-                  </h3>
-                  <p
-                    className={
-                      selectedScenario.total_benefit > 0
-                        ? "text-green-600 text-2xl font-semibold"
-                        : "text-red-600 text-2xl font-semibold"
-                    }
-                  >
-                    {euro.format(selectedScenario.total_benefit)}
-                  </p>
-                </div>
-                <div
-                  className={
-                    selectedScenario.trees > 0
-                      ? " bg-green-100 p-6 rounded-lg mt-4"
-                      : "bg-red-100 p-6 rounded-lg mt-4"
-                  }
-                >
-                  <h3 className="medium-intro-md text-gray-800">
-                    {t("avg_val_per_tree")}
-                  </h3>
-                  <p
-                    className={
-                      selectedScenario.trees > 0
-                        ? "text-green-600 text-2xl font-semibold"
-                        : "text-red-600 text-2xl font-semibold"
-                    }
-                  >
-                    {euro.format(
-                      selectedScenario.total_benefit / selectedScenario.trees,
-                    )}
-                  </p>
-                </div>
-              </div>
-
-              <div className="h-96">
-                <Map
-                  initialViewState={{
-                    latitude: 52.526,
-                    longitude: 13.3,
-                    zoom: 14,
-                  }}
-                  mapStyle="mapbox://styles/mapbox/light-v9"
-                  mapboxAccessToken={MAPBOX_TOKEN}
-                >
-                  <Source type="geojson" data={mapData}>
-                    {selectedScenario.id === 0 ? (
-                      <Layer {...dataLayerGreen} />
-                    ) : (
-                      <Layer {...dataLayerRed} />
-                    )}
-                  </Source>
-
-                  <Source type="geojson" data={tramData}>
-                    <Layer {...tramLayer} />
-                  </Source>
-                </Map>
-              </div>
-            </div>
-
-            <div className="overflow-x-scroll sm:overflow-x-auto pt-4">
-              <table className="sm:min-w-full bg-white border book-info-md sm:table-fixed">
-                <thead>
-                  <tr>
-                    <th
-                      width="10%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("benefit_group")}
-                    </th>
-                    <th
-                      width="8%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("total")}
-                    </th>
-                    <th
-                      width="11%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("tree_function")}
-                    </th>
-                    <th
-                      width="30%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("tool")}
-                    </th>
-                    <th
-                      width="15%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("benefit_quant")}
-                    </th>
-                    <th
-                      width="7%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("value_per_year")}
-                    </th>
-                    <th
-                      width="7%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("timeframe")}
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {selectedScenario.benefits.map((benefit, benefitIndex) =>
-                    benefit.rows.map((row, rowIndex) => (
-                      <tr key={`${benefitIndex}-${rowIndex}`}>
-                        {rowIndex === 0 && (
-                          <td
-                            // style={{background: benefit.colour}}
-                            rowSpan={benefit.rows.length}
-                          >
-                            {benefit.group}
-                          </td>
-                        )}
-
-                        {rowIndex === 0 && (
-                          <td rowSpan={benefit.rows.length}>
-                            {euro.format(row.gross_value + row.indirect)}
-                          </td>
-                        )}
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {row.function}
-                        </td>
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {row.tool}
-                        </td>
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {row.amount.toLocaleString() + " " + row.unit}
-                        </td>
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {euro.format(row.benefit_per_year)}
-                        </td>
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {row.timeframe} {t("years")}
-                        </td>
-                      </tr>
-                    )),
-                  )}
-                </tbody>
-              </table>
-            </div>
-
-            <div className="bg-gray-50 p-6 rounded-lg my-6">
-              <h3 className="text-lg font-semibold text-gray-800">
-                {t("visualisation_of_benefits")}
-              </h3>
-              <div className="w-full h-[60vh]">
-                <ResponsiveSunburst
-                  data={selectedScenario.chartData}
-                  margin={{ top: 10, right: 10, bottom: 10, left: 10 }}
-                  id="name"
-                  value="loc"
-                  cornerRadius={6}
-                  borderColor={{ theme: "background" }}
-                  colors={(parent) => {
-                    return parent.data.color;
-                  }}
-                  childColor={{
-                    from: "color",
-                    modifiers: [["brighter", 0.1]],
-                  }}
-                  enableArcLabels={true}
-                  arcLabelsSkipAngle={10}
-                  arcLabelsTextColor={{
-                    from: "color",
-                    modifiers: [["darker", 1.4]],
-                  }}
-                />
-              </div>
-            </div>
-
-            <div className="bg-gray-50 p-6 rounded-lg my-6">
-              <h3 className="text-lg font-semibold text-gray-800">
-                {t("benefit_per_function")}
-              </h3>
-              <div className="w-full h-[60vh]">
-                <ResponsiveBar
-                  data={selectedScenario.cumulatedData}
-                  keys={["value"]}
-                  indexBy="benefit"
-                  margin={{
-                    top: 20,
-                    right: 0,
-                    bottom: 40,
-                    left: 100,
-                  }}
-                  padding={0.6}
-                  colors="#2a7ef0"
-                  axisTop={null}
-                  axisRight={null}
-                  enableGridX
-                  enableGridY
-                  enableLabel={false}
-                  axisBottom={{
-                    tickSize: 0,
-                    tickPadding: 10,
-                    tickRotation: 0,
-                    truncateTickAt: 20,
-                  }}
-                />
-              </div>
-            </div>
-          </Element>
           <Element name="comp">
             <div className="py-10">
               <h3 className="text-gray-800 pb-8">{t("scenario_comp_title")}</h3>
@@ -3821,6 +3586,282 @@ function App() {
                     }
                   />
                 )}
+              </div>
+            </div>
+          </Element>
+          <Element name="analysis">
+            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 py-4">
+              <div className=" w-full md:w-1/3">
+              <div className="sticky top-0">
+                <label className="block medium-info-sm text-gray-700">
+                  {t("scenario")}
+                </label>
+                <select
+                  value={selectedScenario.id}
+                  onChange={handleSelectChange}
+                  className="book-info-md mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary"
+                >
+                  {dataLang.map((scenario) => (
+                    <option key={scenario.id} value={scenario.id}>
+                      {scenario.title}
+                    </option>
+                  ))}
+                </select>
+                </div>
+                <div className="w-full mt-4 p-4 bg-gray-50 border rounded-lg ">
+                  <h2 className="medium-info-sm text-gray-600">
+                    {t("description")}
+                  </h2>
+                  <p className="book-intro-sm">
+                    {selectedScenario.description}
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col w-full md:w-2/3 space-y-4 md:space-y-0 md:flex-row md:space-x-4">
+                <div className="w-full md:w-1/2 p-4 bg-gray-50 border rounded-lg">
+                  <h2 className="medium-info-sm text-gray-600">
+                    {t("location")}
+                  </h2>
+                  <p className="text-gray-800 book-intro-sm">{t("berlin")}</p>
+                  <h2 className="medium-info-sm text-gray-600 pt-6">
+                    {t("area")}
+                  </h2>
+                  <p className="text-gray-800 book-intro-sm">16.83 Ha</p>
+
+                  <h2 className="medium-info-sm text-gray-600 pt-6">
+                    {t("timeframe")}
+                  </h2>
+                  <p className="text-gray-800 book-intro-sm">10  {t("years")}</p>
+                </div>
+                <div className="w-full md:w-1/2 p-4 bg-gray-50 border rounded-lg">
+                  <h2 className="medium-info-sm text-gray-600">
+                    {t("tree_number")}
+                  </h2>
+                  <p className="text-gray-800 book-intro-sm">
+                    {selectedScenario.trees}
+                  </p>
+                  <h2 className="medium-info-sm text-gray-600 pt-6">
+                    {t("canopy_cover")}
+                  </h2>
+                  <p className="text-gray-800 book-intro-sm">
+                    {selectedScenario.canopy_cover} Ha
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <h3 className="text-gray-800 pb-8">{selectedScenario.title}</h3>
+                <div
+                  className={
+                    selectedScenario.total_benefit > 0
+                      ? " bg-green-100 p-6 rounded-lg"
+                      : "bg-red-100 p-6 rounded-lg"
+                  }
+                >
+                  <h3 className="medium-intro-md text-gray-800">
+                    {t("total_es_sv")}
+                  </h3>
+                  <p
+                    className={
+                      selectedScenario.total_benefit > 0
+                        ? "text-green-600 text-2xl font-semibold"
+                        : "text-red-600 text-2xl font-semibold"
+                    }
+                  >
+                    {euro.format(selectedScenario.total_benefit)}
+                  </p>
+                </div>
+                {selectedScenario.id === 0 && (
+                <div
+                  className={
+                    selectedScenario.trees > 0
+                      ? " bg-green-100 p-6 rounded-lg mt-4"
+                      : "bg-red-100 p-6 rounded-lg mt-4"
+                  }
+                >
+                  <h3 className="medium-intro-md text-gray-800">
+                    {t("avg_val_per_tree")}
+                  </h3>
+                  <p
+                    className={
+                      selectedScenario.trees > 0
+                        ? "text-green-600 text-2xl font-semibold"
+                        : "text-red-600 text-2xl font-semibold"
+                    }
+                  >
+                    {euro.format(
+                      selectedScenario.total_benefit / selectedScenario.trees,
+                    )}
+                  </p>
+                </div>
+                )}
+              </div>
+
+              <div className="h-96">
+                <Map
+                  initialViewState={{
+                    latitude: 52.526,
+                    longitude: 13.3,
+                    zoom: 14,
+                  }}
+                  mapStyle="mapbox://styles/mapbox/light-v9"
+                  mapboxAccessToken={MAPBOX_TOKEN}
+                >
+                  <Source type="geojson" data={mapData}>
+                    {selectedScenario.id === 0 ? (
+                      <Layer {...dataLayerGreen} />
+                    ) : (
+                      <Layer {...dataLayerRed} />
+                    )}
+                  </Source>
+
+                  <Source type="geojson" data={tramData}>
+                    <Layer {...tramLayer} />
+                  </Source>
+                </Map>
+              </div>
+            </div>
+
+            <div className="overflow-x-scroll sm:overflow-x-auto pt-4">
+              <table className="sm:min-w-full bg-white border book-info-md sm:table-fixed">
+                <thead>
+                  <tr>
+                    <th
+                      width="10%"
+                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                    >
+                      {t("benefit_group")}
+                    </th>
+                    <th
+                      width="8%"
+                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                    >
+                      {t("total")}
+                    </th>
+                    <th
+                      width="11%"
+                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                    >
+                      {t("tree_function")}
+                    </th>
+                    <th
+                      width="30%"
+                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                    >
+                      {t("tool")}
+                    </th>
+                    <th
+                      width="15%"
+                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                    >
+                      {t("benefit_quant")}
+                    </th>
+                    <th
+                      width="7%"
+                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
+                    >
+                      {t("value_per_year")}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {selectedScenario.benefits.map((benefit, benefitIndex) =>
+                    benefit.rows.map((row, rowIndex) => (
+                      <tr key={`${benefitIndex}-${rowIndex}`}>
+                        {rowIndex === 0 && (
+                          <td
+                            style={{background: benefit.colour, color: "white"}}
+                            rowSpan={benefit.rows.length}
+                          >
+                            {benefit.group}
+                          </td>
+                        )}
+
+                        {rowIndex === 0 && (
+                          <td rowSpan={benefit.rows.length}>
+                            {euro.format(benefit.total)}
+                          </td>
+                        )}
+                        <td className="px-6 py-4 border-b text-sm text-gray-600">
+                          {row.function}
+                        </td>
+                        <td className="px-6 py-4 border-b text-sm text-gray-600">
+                          {row.tool}
+                        </td>
+                        <td className="px-6 py-4 border-b text-sm text-gray-600">
+                          {row.amount.toLocaleString() + " " + row.unit}
+                        </td>
+                        <td className="px-6 py-4 border-b text-sm text-gray-600">
+                          {euro.format(row.benefit_per_year)}
+                        </td>
+                      </tr>
+                    )),
+                  )}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="bg-gray-50 p-6 rounded-lg my-6">
+              <h3 className="text-lg font-semibold text-gray-800">
+                {t("visualisation_of_benefits")}
+              </h3>
+              <div className="w-full h-[60vh]">
+                <ResponsiveSunburst
+                  data={selectedScenario.chartData}
+                  margin={{ top: 10, right: 10, bottom: 10, left: 10 }}
+                  id="name"
+                  value="loc"
+                  cornerRadius={6}
+                  borderColor={{ theme: "background" }}
+                  colors={(parent) => {
+                    return parent.data.color;
+                  }}
+                  childColor={{
+                    from: "color",
+                    modifiers: [["brighter", 0.1]],
+                  }}
+                  enableArcLabels={true}
+                  arcLabelsSkipAngle={10}
+                  arcLabelsTextColor={{
+                    from: "color",
+                    modifiers: [["darker", 1.4]],
+                  }}
+                />
+              </div>
+            </div>
+
+            <div className="bg-gray-50 p-6 rounded-lg my-6">
+              <h3 className="text-lg font-semibold text-gray-800">
+                {t("benefit_per_function")}
+              </h3>
+              <div className="w-full h-[60vh]">
+                <ResponsiveBar
+                  data={selectedScenario.cumulatedData}
+                  keys={["value"]}
+                  indexBy="benefit"
+                  margin={{
+                    top: 20,
+                    right: 0,
+                    bottom: 40,
+                    left: 100,
+                  }}
+                  padding={0.6}
+                  colors="#2a7ef0"
+                  axisTop={null}
+                  axisRight={null}
+                  enableGridX
+                  enableGridY
+                  enableLabel={false}
+                  axisBottom={{
+                    tickSize: 0,
+                    tickPadding: 10,
+                    tickRotation: 0,
+                    truncateTickAt: 20,
+                  }}
+                />
               </div>
             </div>
           </Element>

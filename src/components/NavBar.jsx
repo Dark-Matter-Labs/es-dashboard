@@ -49,19 +49,6 @@ export default function NavBar(props) {
                   <div className="hidden sm:flex sm:space-x-8">
                     <span
                       className={classNames(
-                        props.current === "home"
-                          ? "border-green-600 text-green-600"
-                          : "border-transparent text-gray-500",
-                        "medium-intro-sm inline-flex items-center border-b-2 px-1 pt-1 cursor-pointer",
-                      )}
-                    >
-                      <Link to="analysis" smooth={true} duration={500}>
-                        {t("scenario_analysis")}
-                      </Link>
-                    </span>
-
-                    <span
-                      className={classNames(
                         props.current === "wirkung"
                           ? "border-green-600 text-green-600"
                           : "border-transparent text-gray-500",
@@ -70,6 +57,18 @@ export default function NavBar(props) {
                     >
                       <Link to="comp" smooth={true} duration={500}>
                         {t("scenario_comp")}
+                      </Link>
+                    </span>
+                    <span
+                      className={classNames(
+                        props.current === "home"
+                          ? "border-green-600 text-green-600"
+                          : "border-transparent text-gray-500",
+                        "medium-intro-sm inline-flex items-center border-b-2 px-1 pt-1 cursor-pointer",
+                      )}
+                    >
+                      <Link to="analysis" smooth={true} duration={500}>
+                        {t("scenario_analysis")}
                       </Link>
                     </span>
 
