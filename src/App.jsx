@@ -3304,6 +3304,15 @@ function App() {
                         tickRotation: 0,
                         truncateTickAt: 20,
                       }}
+                      axisLeft={{
+                        tickSize: 0,
+                        tickPadding: 0,
+                        tickRotation: 0,
+                        legend: '€ Total Valuation',
+                        legendPosition: 'middle',
+                        legendOffset: -60,
+                        truncateTickAt: 0
+                    }}
                     />
                   ) : (
                     <ResponsiveBar
@@ -3329,6 +3338,15 @@ function App() {
                         tickRotation: 0,
                         truncateTickAt: 20,
                       }}
+                      axisLeft={{
+                        tickSize: 0,
+                        tickPadding: 0,
+                        tickRotation: 0,
+                        legend: '€ Gesamtbewertung',
+                        legendPosition: 'middle',
+                        legendOffset: -60,
+                        truncateTickAt: 0
+                    }}
                     />
                   )}
                 </div>
@@ -3541,7 +3559,7 @@ function App() {
                       tickSize: 5,
                       tickPadding: 5,
                       tickRotation: 0,
-                      legend: "€ per year",
+                      legend: "€ pro Jahr",
                       legendPosition: "middle",
                       legendOffset: 32,
                       truncateTickAt: 0,
@@ -3590,9 +3608,8 @@ function App() {
             </div>
           </Element>
           <Element name="analysis">
-            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 py-4">
+            <div className="sticky top-20 flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 py-4 z-50">
               <div className=" w-full md:w-1/3">
-              <div className="sticky top-0">
                 <label className="block medium-info-sm text-gray-700">
                   {t("scenario")}
                 </label>
@@ -3607,7 +3624,6 @@ function App() {
                     </option>
                   ))}
                 </select>
-                </div>
                 <div className="w-full mt-4 p-4 bg-gray-50 border rounded-lg ">
                   <h2 className="medium-info-sm text-gray-600">
                     {t("description")}
@@ -3861,6 +3877,15 @@ function App() {
                     tickRotation: 0,
                     truncateTickAt: 20,
                   }}
+                  axisLeft={{
+                    tickSize: 0,
+                    tickPadding: 0,
+                    tickRotation: 0,
+                    legend: '€',
+                    legendPosition: 'middle',
+                    legendOffset: -60,
+                    truncateTickAt: 0
+                }}
                 />
               </div>
             </div>
