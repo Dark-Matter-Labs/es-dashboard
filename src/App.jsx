@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { ResponsiveSunburst } from "@nivo/sunburst";
 import { ResponsiveBar } from "@nivo/bar";
 import Map, { Source, Layer } from "react-map-gl";
+import "mapboxgl-legend/dist/style.css";
 import { useTranslation } from "react-i18next";
 import { Element } from "react-scroll";
 import NavBar from "./components/NavBar";
@@ -3057,14 +3058,33 @@ const allFillLayer = {
       "match",
       ["get", "scenario"],
       "A",
+      "#413075", // Color for scenario A
+      "B",
+      "#000", // Color for scenario B
+      "C",
+      "#FFAAAA", // Color for scenario C
+      "#000", // Default fallback color
+    ],
+    "fill-opacity": 0.6,
+  },
+};
+
+const altFillLayer = {
+  id: "alt-layer",
+  type: "fill",
+  paint: {
+    "fill-color": [
+      "match",
+      ["get", "scenario"],
+      "A",
       "#06E29E", // Color for scenario A
       "B",
       "#084887", // Color for scenario B
       "C",
       "#A3BDEC", // Color for scenario C
-      "#ccc", // Default fallback color
+      "#AA9739", // Default fallback color
     ],
-    "fill-opacity": 0.6,
+    "fill-opacity": 1,
   },
 };
 
@@ -3143,6 +3163,7 @@ function App() {
   const [selectedScenario, setSelectedScenario] = useState(data_de[0]);
   const [mapData, setMapData] = useState(null);
   const [mapDataAll, setMapDataAll] = useState(null);
+  const [altAllMap, setAltAllMap] = useState(null);
   const [tramData, setTramData] = useState(null);
 
   useEffect(() => {
@@ -3183,6 +3204,13 @@ function App() {
     )
       .then((resp) => resp.json())
       .then((json) => setMapDataAll(json))
+      .catch((err) => console.error("Could not load data", err));
+
+    fetch(
+      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/alternative_baseline_canopy.geojson",
+    )
+      .then((resp) => resp.json())
+      .then((json) => setAltAllMap(json))
       .catch((err) => console.error("Could not load data", err));
   }, []);
 
@@ -3277,6 +3305,9 @@ function App() {
                   <Source type="geojson" data={mapDataAll}>
                     <Layer {...allFillLayer} />
                   </Source>
+                  <Source type="geojson" data={altAllMap}>
+                    <Layer {...altFillLayer} />
+                  </Source>
                 </Map>
 
                 <div className="w-full h-[60vh]">
@@ -3308,11 +3339,15 @@ function App() {
                         tickSize: 0,
                         tickPadding: 0,
                         tickRotation: 0,
-                        legend: '€ Total Valuation',
-                        legendPosition: 'middle',
-                        legendOffset: -60,
-                        truncateTickAt: 0
-                    }}
+                        legend: "Total Valuation",
+                        legendPosition: "middle",
+                        legendOffset: -80,
+                        truncateTickAt: 0,
+                        format: (value) =>
+                          `${Number(value).toLocaleString("de", {
+                            minimumFractionDigits: 0,
+                          })} €`,
+                      }}
                     />
                   ) : (
                     <ResponsiveBar
@@ -3342,11 +3377,15 @@ function App() {
                         tickSize: 0,
                         tickPadding: 0,
                         tickRotation: 0,
-                        legend: '€ Gesamtbewertung',
-                        legendPosition: 'middle',
-                        legendOffset: -60,
-                        truncateTickAt: 0
-                    }}
+                        legend: "Gesamtbewertung",
+                        legendPosition: "middle",
+                        legendOffset: -80,
+                        truncateTickAt: 0,
+                        format: (value) =>
+                          `${Number(value).toLocaleString("de", {
+                            minimumFractionDigits: 0,
+                          })} €`,
+                      }}
                     />
                   )}
                 </div>
@@ -3490,6 +3529,10 @@ function App() {
                       legendPosition: "middle",
                       legendOffset: 32,
                       truncateTickAt: 0,
+                      format: (value) =>
+                        `${Number(value).toLocaleString("de", {
+                          minimumFractionDigits: 0,
+                        })} €`,
                     }}
                     labelSkipWidth={12}
                     labelSkipHeight={12}
@@ -3563,6 +3606,10 @@ function App() {
                       legendPosition: "middle",
                       legendOffset: 32,
                       truncateTickAt: 0,
+                      format: (value) =>
+                        `${Number(value).toLocaleString("de", {
+                          minimumFractionDigits: 0,
+                        })} €`,
                     }}
                     labelSkipWidth={12}
                     labelSkipHeight={12}
@@ -3608,22 +3655,24 @@ function App() {
             </div>
           </Element>
           <Element name="analysis">
-            <div className="sticky top-20 flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 py-4 z-50">
+            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 py-4">
               <div className=" w-full md:w-1/3">
-                <label className="block medium-info-sm text-gray-700">
-                  {t("scenario")}
-                </label>
-                <select
-                  value={selectedScenario.id}
-                  onChange={handleSelectChange}
-                  className="book-info-md mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary"
-                >
-                  {dataLang.map((scenario) => (
-                    <option key={scenario.id} value={scenario.id}>
-                      {scenario.title}
-                    </option>
-                  ))}
-                </select>
+                <div className="">
+                  <label className="block medium-info-sm text-gray-700">
+                    {t("scenario")}
+                  </label>
+                  <select
+                    value={selectedScenario.id}
+                    onChange={handleSelectChange}
+                    className="book-info-md mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary"
+                  >
+                    {dataLang.map((scenario) => (
+                      <option key={scenario.id} value={scenario.id}>
+                        {scenario.title}
+                      </option>
+                    ))}
+                  </select>
+                </div>
                 <div className="w-full mt-4 p-4 bg-gray-50 border rounded-lg ">
                   <h2 className="medium-info-sm text-gray-600">
                     {t("description")}
@@ -3648,7 +3697,7 @@ function App() {
                   <h2 className="medium-info-sm text-gray-600 pt-6">
                     {t("timeframe")}
                   </h2>
-                  <p className="text-gray-800 book-intro-sm">10  {t("years")}</p>
+                  <p className="text-gray-800 book-intro-sm">10 {t("years")}</p>
                 </div>
                 <div className="w-full md:w-1/2 p-4 bg-gray-50 border rounded-lg">
                   <h2 className="medium-info-sm text-gray-600">
@@ -3691,28 +3740,28 @@ function App() {
                   </p>
                 </div>
                 {selectedScenario.id === 0 && (
-                <div
-                  className={
-                    selectedScenario.trees > 0
-                      ? " bg-green-100 p-6 rounded-lg mt-4"
-                      : "bg-red-100 p-6 rounded-lg mt-4"
-                  }
-                >
-                  <h3 className="medium-intro-md text-gray-800">
-                    {t("avg_val_per_tree")}
-                  </h3>
-                  <p
+                  <div
                     className={
                       selectedScenario.trees > 0
-                        ? "text-green-600 text-2xl font-semibold"
-                        : "text-red-600 text-2xl font-semibold"
+                        ? " bg-green-100 p-6 rounded-lg mt-4"
+                        : "bg-red-100 p-6 rounded-lg mt-4"
                     }
                   >
-                    {euro.format(
-                      selectedScenario.total_benefit / selectedScenario.trees,
-                    )}
-                  </p>
-                </div>
+                    <h3 className="medium-intro-md text-gray-800">
+                      {t("avg_val_per_tree")}
+                    </h3>
+                    <p
+                      className={
+                        selectedScenario.trees > 0
+                          ? "text-green-600 text-2xl font-semibold"
+                          : "text-red-600 text-2xl font-semibold"
+                      }
+                    >
+                      {euro.format(
+                        selectedScenario.total_benefit / selectedScenario.trees,
+                      )}
+                    </p>
+                  </div>
                 )}
               </div>
 
@@ -3741,6 +3790,22 @@ function App() {
               </div>
             </div>
 
+            <div className="sticky top-20 z-50">
+              <label className="block medium-info-sm text-gray-700">
+                {t("scenario")}
+              </label>
+              <select
+                value={selectedScenario.id}
+                onChange={handleSelectChange}
+                className="book-info-md mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary"
+              >
+                {dataLang.map((scenario) => (
+                  <option key={scenario.id} value={scenario.id}>
+                    {scenario.title}
+                  </option>
+                ))}
+              </select>
+            </div>
             <div className="overflow-x-scroll sm:overflow-x-auto pt-4">
               <table className="sm:min-w-full bg-white border book-info-md sm:table-fixed">
                 <thead>
@@ -3789,7 +3854,10 @@ function App() {
                       <tr key={`${benefitIndex}-${rowIndex}`}>
                         {rowIndex === 0 && (
                           <td
-                            style={{background: benefit.colour, color: "white"}}
+                            style={{
+                              background: benefit.colour,
+                              color: "white",
+                            }}
                             rowSpan={benefit.rows.length}
                           >
                             {benefit.group}
@@ -3804,6 +3872,7 @@ function App() {
                         <td className="px-6 py-4 border-b text-sm text-gray-600">
                           {row.function}
                         </td>
+
                         <td className="px-6 py-4 border-b text-sm text-gray-600">
                           {row.tool}
                         </td>
@@ -3843,7 +3912,7 @@ function App() {
                   arcLabelsSkipAngle={10}
                   arcLabelsTextColor={{
                     from: "color",
-                    modifiers: [["darker", 1.4]],
+                    modifiers: [["brighter", 30]],
                   }}
                 />
               </div>
@@ -3881,11 +3950,15 @@ function App() {
                     tickSize: 0,
                     tickPadding: 0,
                     tickRotation: 0,
-                    legend: '€',
-                    legendPosition: 'middle',
-                    legendOffset: -60,
-                    truncateTickAt: 0
-                }}
+                    legend: "Total",
+                    legendPosition: "middle",
+                    legendOffset: -70,
+                    truncateTickAt: 0,
+                    format: (value) =>
+                      `${Number(value).toLocaleString("de", {
+                        minimumFractionDigits: 0,
+                      })} €`,
+                  }}
                 />
               </div>
             </div>
