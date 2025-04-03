@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { ResponsiveSunburst } from "@nivo/sunburst";
 import { ResponsiveBar } from "@nivo/bar";
 import Map, { Source, Layer } from "react-map-gl";
-import "mapboxgl-legend/dist/style.css";
 import { useTranslation } from "react-i18next";
 import { Element } from "react-scroll";
 import NavBar from "./components/NavBar";
