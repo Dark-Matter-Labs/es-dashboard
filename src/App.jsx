@@ -3347,6 +3347,17 @@ function App() {
                             minimumFractionDigits: 0,
                           })} €`,
                       }}
+                      tooltip={({ value, color }) => (
+                        <div
+                          style={{
+                            padding: 4,
+                            color,
+                            background: "#222222",
+                          }}
+                        >
+                          <strong>{euro.format(value)}</strong>
+                        </div>
+                      )}
                     />
                   ) : (
                     <ResponsiveBar
@@ -3385,6 +3396,17 @@ function App() {
                             minimumFractionDigits: 0,
                           })} €`,
                       }}
+                      tooltip={({ value, color }) => (
+                        <div
+                          style={{
+                            padding: 4,
+                            color,
+                            background: "#222222",
+                          }}
+                        >
+                          <strong>{euro.format(value)}</strong>
+                        </div>
+                      )}
                     />
                   )}
                 </div>
@@ -3564,13 +3586,19 @@ function App() {
                       },
                     ]}
                     role="application"
-                    barAriaLabel={(e) =>
-                      e.id +
-                      ": " +
-                      e.formattedValue +
-                      " in country: " +
-                      e.indexValue
-                    }
+                    tooltip={({ id, value, color }) => (
+                      <div
+                        style={{
+                          padding: 4,
+                          color,
+                          background: "#222222",
+                        }}
+                      >
+                        <strong>
+                          {id}: {euro.format(value)}
+                        </strong>
+                      </div>
+                    )}
                   />
                 ) : (
                   <ResponsiveBar
@@ -3641,13 +3669,17 @@ function App() {
                       },
                     ]}
                     role="application"
-                    barAriaLabel={(e) =>
-                      e.id +
-                      ": " +
-                      e.formattedValue +
-                      " in country: " +
-                      e.indexValue
-                    }
+                    tooltip={({ value, color }) => (
+                      <div
+                        style={{
+                          padding: 4,
+                          color,
+                          background: "#222222",
+                        }}
+                      >
+                        <strong>{euro.format(value)}</strong>
+                      </div>
+                    )}
                   />
                 )}
               </div>
@@ -3958,6 +3990,19 @@ function App() {
                         minimumFractionDigits: 0,
                       })} €`,
                   }}
+                  tooltip={({ indexValue, value, color }) => (
+                    <div
+                      style={{
+                        padding: 4,
+                        color,
+                        background: "#222222",
+                      }}
+                    >
+                      <strong>
+                        {indexValue}: {euro.format(value)}
+                      </strong>
+                    </div>
+                  )}
                 />
               </div>
             </div>
