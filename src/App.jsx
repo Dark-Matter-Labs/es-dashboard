@@ -3585,21 +3585,22 @@ function App() {
                   mapStyle="mapbox://styles/mapbox/light-v9"
                   mapboxAccessToken={MAPBOX_TOKEN}
                 >
-                  <Source type="geojson" data={mapDataAll}>
-                    <Layer {...allFillLayer} />
-                  </Source>
                   <Source type="geojson" data={altAllMap}>
                     <Layer {...altFillLayer} />
+                  </Source>
+                  <Source type="geojson" data={mapDataAll}>
+                    <Layer {...allFillLayer} />
                   </Source>
                   <Source type="geojson" data={aPoints}>
                     <Layer {...pointFill} />
                   </Source>
-                  <Source type="geojson" data={bPoints}>
-                    <Layer {...pointBFill} />
-                  </Source>
                   <Source type="geojson" data={cPoints}>
                     <Layer {...pointCFill} />
                   </Source>
+                  <Source type="geojson" data={bPoints}>
+                    <Layer {...pointBFill} />
+                  </Source>
+
                   <div className="control-panel">
                     <h3>Legend</h3>
                     <div className="flex items-center gap-2 justify-start">
