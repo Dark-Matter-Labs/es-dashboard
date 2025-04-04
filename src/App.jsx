@@ -3108,7 +3108,7 @@ const pointFill = {
   id: "a-points-layer",
   type: "circle",
   paint: {
-    "circle-radius": 4,
+    "circle-radius": 3,
     "circle-color": "#2B986F",
     "circle-opacity": 0.9,
   },
@@ -3118,7 +3118,7 @@ const pointBFill = {
   id: "b-points-layer",
   type: "circle",
   paint: {
-    "circle-radius": 4,
+    "circle-radius": 3,
     "circle-color": "#DF7AAF",
     "circle-opacity": 0.9,
   },
@@ -3128,7 +3128,7 @@ const pointCFill = {
   id: "c-points-layer",
   type: "circle",
   paint: {
-    "circle-radius": 4,
+    "circle-radius": 3,
     "circle-color": "#9B185D",
     "circle-opacity": 0.9,
   },
@@ -3278,7 +3278,7 @@ function App() {
       .catch((err) => console.error("Could not load data", err));
 
     fetch(
-      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/alternative_baseline_canopy.geojson",
+      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/alternative_canopy_loss.geojson",
     )
       .then((resp) => resp.json())
       .then((json) => setAltAllMap(json))
