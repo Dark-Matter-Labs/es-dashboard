@@ -3098,7 +3098,7 @@ const altFillLayer = {
       "#084887", // Color for scenario B
       "C",
       "#A3BDEC", // Color for scenario C
-      "#BE4F1D", // Default fallback color
+      "#E05813", // Default fallback color
     ],
     "fill-opacity": 1,
   },
@@ -3186,11 +3186,11 @@ const getColor = (d) => {
     Baseline: "#2B986F",
     "Scenario A Optimistic": "#DF7AAF",
     "Scenario B Realistic": "#9B185D",
-    "Scenario C Alternative": "#BE4F1D",
+    "Scenario C Alternative": "#E05813",
     Ausgangslage: "#2B986F",
     "Szenario A: Optimistisch": "#DF7AAF",
     "Szenario B: Realistisch": "#9B185D",
-    "Szenario C: Alternative": "#BE4F1D",
+    "Szenario C: Alternative": "#E05813",
   };
   return idColors[d.indexValue] || "#cccccc"; // Return a default color if no match
 };
@@ -3338,7 +3338,7 @@ function App() {
                       <th className="px-6 py-3 border-b text-center text-sm font-semibold text-gray-800 bg-[#9B185D99] border-t-4 border-t-[#9B185D]">
                         {t("scenario_c")}
                       </th>
-                      <th className="px-6 py-3 border-b text-center text-sm font-semibold text-gray-800 bg-[#BE4F1D99] border-t-4 border-t-[#BE4F1D]">
+                      <th className="px-6 py-3 border-b text-center text-sm font-semibold text-gray-800 bg-[#E0581399] border-t-4 border-t-[#E05813]">
                         {t("scenario_d")}
                       </th>
                     </tr>
