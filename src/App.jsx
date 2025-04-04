@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { Element } from "react-scroll";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import GroupedTable from "./components/GroupedTable";
 import TNClogo from "./assets/TNC.svg";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
@@ -16,6 +17,8 @@ const data = [
     title: "Baseline",
     description:
       "Ecosystem Services value from all existing trees in a 50m buffer from road.",
+    detail:
+      "Current tree canopy based on all existing trees within a 50-meter buffer from the tram line.",
     trees: 357,
     canopy_cover: 2.56,
     total_benefit: 10510563,
@@ -405,6 +408,8 @@ const data = [
     title: "Scenario A - Optimistic",
     description:
       "Ecosystem Services value from trees that are to be cut according to a technical survey commissioned by BVG (public transport agency).",
+    detail:
+      "Trees that are planned to be cut down according to a technical survey conducted by the BVG (public transport agency).",
     trees: -35,
     canopy_cover: 0.31,
     total_benefit: -1035145,
@@ -760,6 +765,8 @@ const data = [
     title: "Scenario B - Realistic",
     description:
       "Ecosystem Services value from all trees considered at risk of being cut off if they are located within the construction area or their crown diameter area overlaps with the construction area based on the Berlin Tree Protection Ordinance.",
+    detail:
+      "Trees at risk of removal due to their proximity to the construction area, in compliance with the Berlin Tree Protection Ordinance.",
     trees: -131,
     canopy_cover: 1.38,
     total_benefit: -4159576,
@@ -1115,6 +1122,8 @@ const data = [
     title: "Scenario C - Alternative",
     description:
       "A new route is considered based on other extension route options shown in pre-planning application documents. All trees are considered at risk of being cut if a 1.5m buffer from their crown overlaps within the construction area.",
+    detail:
+      "Trees at risk of removal if tramline extension is constructed in an alternative route.",
     trees: -45,
     canopy_cover: 0.242,
     total_benefit: -249555,
@@ -1473,6 +1482,8 @@ const data_de = [
     title: "Ausgangslage",
     description:
       "Wert der Ökosystemdienstleistungen durch alle vorhandenen Bäume in einem Puffer von 50m von der Straße.",
+    detail:
+      "Aktueller Baumbestand basierend auf allen vorhandenen Bäumen innerhalb eines 50-Meter-Pufferbereichs von der Straßenbahnlinie.",
     trees: 357,
     canopy_cover: 2.56,
     total_benefit: 10510563,
@@ -1862,6 +1873,8 @@ const data_de = [
     title: "Szenario A - Optimistisch",
     description:
       "Wert der Ökosystemdienstleistungen von Bäumen, die gefällt werden sollen, laut einer technischen Untersuchung im Auftrag der BVG.",
+    detail:
+      "Bäume, deren Fällung laut einer technischen Untersuchung der BVG geplant ist.",
     trees: -35,
     canopy_cover: 0.31,
     total_benefit: -2882491,
@@ -2217,6 +2230,8 @@ const data_de = [
     title: "Szenario B - Realistisch",
     description:
       "Der Wert der Ökosystemdienstleistungen aller Bäume gilt als vom Fällen bedroht, wenn sie innerhalb der Baufläche liegen oder ihr Kronendurchmesser auf Grundlage der Berliner Baumschutzverordnung mit der Baufläche überlappt.",
+    detail:
+      "Bäume, die aufgrund ihrer Nähe zum Baugebiet von der Fällung bedroht sind, gemäß der Berliner Baumschutzverordnung.",
     trees: -131,
     canopy_cover: 1.38,
     total_benefit: -4159576,
@@ -2599,6 +2614,8 @@ const data_de = [
     title: "Szenario C - Alternative",
     description:
       "Eine neue Trasse wird auf Grundlage anderer, in den Bauantragsunterlagen aufgeführter Verlängerungsoptionen geprüft. Alle Bäume gelten als gefährdet, gefällt zu werden, wenn ein 1,5 m breiter Puffer von ihrer Krone in den Baubereich hineinragt.",
+    detail:
+      "Bei der Verlängerung der Straßenbahnlinie auf einer alternativen Route besteht die Gefahr der Baumfällung.",
     trees: -45,
     canopy_cover: 0.242,
     total_benefit: -249555,
@@ -3057,11 +3074,11 @@ const allFillLayer = {
       "match",
       ["get", "scenario"],
       "A",
-      "#413075", // Color for scenario A
+      "#2B986F", // Color for scenario A
       "B",
-      "#000", // Color for scenario B
+      "#DF7AAF", // Color for scenario B
       "C",
-      "#FFAAAA", // Color for scenario C
+      "#9B185D", // Color for scenario C
       "#000", // Default fallback color
     ],
     "fill-opacity": 0.6,
@@ -3081,9 +3098,39 @@ const altFillLayer = {
       "#084887", // Color for scenario B
       "C",
       "#A3BDEC", // Color for scenario C
-      "#AA9739", // Default fallback color
+      "#BE4F1D", // Default fallback color
     ],
     "fill-opacity": 1,
+  },
+};
+
+const pointFill = {
+  id: "a-points-layer",
+  type: "circle",
+  paint: {
+    "circle-radius": 4,
+    "circle-color": "#2B986F",
+    "circle-opacity": 0.9,
+  },
+};
+
+const pointBFill = {
+  id: "b-points-layer",
+  type: "circle",
+  paint: {
+    "circle-radius": 4,
+    "circle-color": "#DF7AAF",
+    "circle-opacity": 0.9,
+  },
+};
+
+const pointCFill = {
+  id: "c-points-layer",
+  type: "circle",
+  paint: {
+    "circle-radius": 4,
+    "circle-color": "#9B185D",
+    "circle-opacity": 0.9,
   },
 };
 
@@ -3117,38 +3164,52 @@ const tramLayer = {
 // TODO: calculate dynamically
 const total_valuation_chart = [
   {
-    scenario: "Scenario A Baseline",
+    scenario: "Baseline",
     value: 10510563,
   },
   {
-    scenario: "Scenario B Optimistic",
+    scenario: "Scenario A Optimistic",
     value: -1035145,
   },
   {
-    scenario: "Scenario C Realistic",
+    scenario: "Scenario B Realistic",
     value: -4159576,
   },
   {
-    scenario: "Scenario D Alternative",
+    scenario: "Scenario C Alternative",
     value: -249555,
   },
 ];
 
+const getColor = (d) => {
+  const idColors = {
+    Baseline: "#2B986F",
+    "Scenario A Optimistic": "#DF7AAF",
+    "Scenario B Realistic": "#9B185D",
+    "Scenario C Alternative": "#BE4F1D",
+    Ausgangslage: "#2B986F",
+    "Szenario A: Optimistisch": "#DF7AAF",
+    "Szenario B: Realistisch": "#9B185D",
+    "Szenario C: Alternative": "#BE4F1D",
+  };
+  return idColors[d.indexValue] || "#cccccc"; // Return a default color if no match
+};
+
 const total_valuation_chart_de = [
   {
-    scenario: "Szenario A: Ausgangslage",
+    scenario: "Ausgangslage",
     value: 10510563,
   },
   {
-    scenario: "Szenario B: Optimistisch",
+    scenario: "Szenario A: Optimistisch",
     value: -1035145,
   },
   {
-    scenario: "Szenario C: Realistisch",
+    scenario: "Szenario B: Realistisch",
     value: -4159576,
   },
   {
-    scenario: "Szenario D: Alternative",
+    scenario: "Szenario C: Alternative",
     value: -249555,
   },
 ];
@@ -3164,6 +3225,9 @@ function App() {
   const [mapDataAll, setMapDataAll] = useState(null);
   const [altAllMap, setAltAllMap] = useState(null);
   const [tramData, setTramData] = useState(null);
+  const [aPoints, setAPoints] = useState(null);
+  const [bPoints, setBPoints] = useState(null);
+  const [cPoints, setCPoints] = useState(null);
 
   useEffect(() => {
     if (i18n.language === "de") {
@@ -3195,6 +3259,14 @@ function App() {
       .then((resp) => resp.json())
       .then((json) => setMapData(json))
       .catch((err) => console.error("Could not load data", err));
+
+    fetch(
+      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/" +
+        selectedScenario.tram,
+    )
+      .then((resp) => resp.json())
+      .then((json) => setTramData(json))
+      .catch((err) => console.error("Could not load data", err));
   }, [selectedScenario]);
 
   useEffect(() => {
@@ -3211,17 +3283,28 @@ function App() {
       .then((resp) => resp.json())
       .then((json) => setAltAllMap(json))
       .catch((err) => console.error("Could not load data", err));
-  }, []);
 
-  useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/" +
-        selectedScenario.tram,
+      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/scenario_a_points.geojson",
     )
       .then((resp) => resp.json())
-      .then((json) => setTramData(json))
+      .then((json) => setAPoints(json))
       .catch((err) => console.error("Could not load data", err));
-  }, [selectedScenario]);
+
+    fetch(
+      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/scenario_b_points.geojson",
+    )
+      .then((resp) => resp.json())
+      .then((json) => setBPoints(json))
+      .catch((err) => console.error("Could not load data", err));
+
+    fetch(
+      "https://raw.githubusercontent.com/Dark-Matter-Labs/ev-dashboard/refs/heads/main/src/data/scenario_c_points.geojson",
+    )
+      .then((resp) => resp.json())
+      .then((json) => setCPoints(json))
+      .catch((err) => console.error("Could not load data", err));
+  }, []);
 
   const handleSelectChange = (event) => {
     const selectedId = Number(event.target.value);
@@ -3232,8 +3315,8 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="global-margin bg-gray-100">
-        <div className=" bg-white shadow-lg rounded-lg p-6 space-y-6">
+      <div className="global-margin ">
+        <div className=" bg-white  rounded-lg p-6 space-y-6">
           <h1 className=" text-gray-800">{t("title")}</h1>
           <p className="text-gray-800 book-intro-sm max-w-4xl">
             {t("intro_text")}
@@ -3241,74 +3324,153 @@ function App() {
           <Element name="comp">
             <div className="py-10">
               <h3 className="text-gray-800 pb-8">{t("scenario_comp_title")}</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <table className="min-w-full bg-white border book-info-md sm:table-fixed">
+              <div className="pb-10">
+                <table className="min-w-full bg-white border book-info-md">
                   <thead>
                     <tr>
-                      <th
-                        width="20%"
-                        className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                      >
-                        {t("scenario")}
+                      <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"></th>
+                      <th className="px-6 py-3 border-b text-sm font-semibold text-gray-800 text-center bg-[#2B986F99] border-t-4 border-t-[#2B986F]">
+                        {t("scenario_a")}
                       </th>
-                      <th
-                        width="30%"
-                        className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                      >
-                        {t("description")}
+                      <th className="px-6 py-3 border-b text-center text-sm font-semibold text-gray-800 bg-[#DF7AAF99] border-t-4 border-t-[#DF7AAF]">
+                        {t("scenario_b")}
                       </th>
-                      <th
-                        width="25%"
-                        className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                      >
-                        {t("tree_number")}
+                      <th className="px-6 py-3 border-b text-center text-sm font-semibold text-gray-800 bg-[#9B185D99] border-t-4 border-t-[#9B185D]">
+                        {t("scenario_c")}
                       </th>
-                      <th
-                        width="25%"
-                        className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                      >
-                        {t("canopy_cover")}(Ha)
+                      <th className="px-6 py-3 border-b text-center text-sm font-semibold text-gray-800 bg-[#BE4F1D99] border-t-4 border-t-[#BE4F1D]">
+                        {t("scenario_d")}
                       </th>
                     </tr>
                   </thead>
                   <tbody>
-                    {dataLang.map((scenario) => (
-                      <tr key={scenario.id}>
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {scenario.title}
+                    <tr>
+                      <td className="px-6 py-4 border-b text-sm text-gray-600"></td>
+                      {dataLang.map((scenario) => (
+                        <td
+                          key={scenario.id}
+                          className="px-6 py-4 border-b text-sm text-gray-600"
+                        >
+                          {scenario.detail}
                         </td>
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {scenario.description}
-                        </td>
+                      ))}
+                    </tr>
 
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    <tr>
+                      <td className="px-6 py-4 border-b text-sm font-bold text-gray-600">
+                        {t("tree_number")}
+                      </td>
+                      {dataLang.map((scenario) => (
+                        <td
+                          key={scenario.id}
+                          className="px-6 py-4 border-b text-sm text-gray-600"
+                        >
                           {scenario.trees}
                         </td>
+                      ))}
+                    </tr>
 
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
+                    <tr>
+                      <td className="px-6 py-4 border-b text-sm font-bold text-gray-600">
+                        {t("canopy_cover")}(Ha)
+                      </td>
+                      {dataLang.map((scenario) => (
+                        <td
+                          key={scenario.id}
+                          className="px-6 py-4 border-b text-sm text-gray-600"
+                        >
                           {scenario.canopy_cover}
                         </td>
-                      </tr>
-                    ))}
+                      ))}
+                    </tr>
+
+                    <tr>
+                      <td className="px-6 py-4 border-b text-sm font-bold text-gray-600">
+                        {t("total")}
+                      </td>
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        €10.51M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€1.03M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€4.15M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€0.24M
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="px-6 py-4 border-b text-sm font-bold text-gray-600">
+                        {t("climate_reg")}
+                      </td>
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        €7.6M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€0.93M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -3.85M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€0.22M
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="px-6 py-4 border-b text-sm font-bold text-gray-600">
+                        {t("water_mgmt")}
+                      </td>
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        €0.16M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€0.14M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€0.07M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€0.01M
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="px-6 py-4 border-b text-sm font-bold text-gray-600">
+                        {t("health")}
+                      </td>
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        €2.73M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€0.08M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€0.02M
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        -€0.006M
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
-                <Map
-                  initialViewState={{
-                    latitude: 52.526,
-                    longitude: 13.3,
-                    zoom: 14,
-                  }}
-                  mapStyle="mapbox://styles/mapbox/light-v9"
-                  mapboxAccessToken={MAPBOX_TOKEN}
-                >
-                  <Source type="geojson" data={mapDataAll}>
-                    <Layer {...allFillLayer} />
-                  </Source>
-                  <Source type="geojson" data={altAllMap}>
-                    <Layer {...altFillLayer} />
-                  </Source>
-                </Map>
-
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="w-full h-[60vh]">
                   {i18n.language === "en" ? (
                     <ResponsiveBar
@@ -3322,7 +3484,7 @@ function App() {
                         left: 100,
                       }}
                       padding={0.6}
-                      colors="#2a7ef0"
+                      colors={getColor}
                       axisTop={null}
                       axisRight={null}
                       enableGridX
@@ -3371,7 +3533,7 @@ function App() {
                         left: 100,
                       }}
                       padding={0.6}
-                      colors="#2a7ef0"
+                      colors={getColor}
                       axisTop={null}
                       axisRight={null}
                       enableGridX
@@ -3409,114 +3571,55 @@ function App() {
                       )}
                     />
                   )}
+                  <p className="my-4 text-gray-800 book-intro-sm max-w-4xl">
+                    {" "}
+                    {t("total_valuation_bar")}
+                  </p>
                 </div>
-                <table className="min-w-full bg-white border book-info-md">
-                  <thead>
-                    <tr>
-                      <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"></th>
-                      <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
-                        {t("scenario_a")}
-                      </th>
-                      <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
-                        {t("scenario_b")}
-                      </th>
-                      <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
-                        {t("scenario_c")}
-                      </th>
-                      <th className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800">
-                        {t("scenario_d")}
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        {t("total")}
-                      </td>
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        €10.51M
-                      </td>
+                <Map
+                  initialViewState={{
+                    latitude: 52.526,
+                    longitude: 13.3051,
+                    zoom: 14.5,
+                  }}
+                  mapStyle="mapbox://styles/mapbox/light-v9"
+                  mapboxAccessToken={MAPBOX_TOKEN}
+                >
+                  <Source type="geojson" data={mapDataAll}>
+                    <Layer {...allFillLayer} />
+                  </Source>
+                  <Source type="geojson" data={altAllMap}>
+                    <Layer {...altFillLayer} />
+                  </Source>
+                  <Source type="geojson" data={aPoints}>
+                    <Layer {...pointFill} />
+                  </Source>
+                  <Source type="geojson" data={bPoints}>
+                    <Layer {...pointBFill} />
+                  </Source>
+                  <Source type="geojson" data={cPoints}>
+                    <Layer {...pointCFill} />
+                  </Source>
+                  <div className="control-panel">
+                    <h3>Legend</h3>
+                    <div className="flex items-center gap-2 justify-start">
+                      <div className="my-2" id="rectangle-base"></div>
+                      <p> {t("scenario_a")}</p>
+                      <div className="my-2" id="rectangle-a"></div>
+                      <p> {t("scenario_b")}</p>
+                    </div>
 
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€1.03M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€4.15M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.24M
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        {t("climate_reg")}
-                      </td>
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        €7.6M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.93M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -3.85M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.22M
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        {t("water_mgmt")}
-                      </td>
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        €0.16M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.14M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.07M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.01M
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        {t("health")}
-                      </td>
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        €2.73M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.08M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.02M
-                      </td>
-
-                      <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.006M
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+                    <div className="flex items-center gap-2 justify-start">
+                      <div className="my-2" id="rectangle-b"></div>
+                      <p> {t("scenario_c")}</p>
+                      <div className="my-2" id="rectangle-c"></div>
+                      <p> {t("scenario_d")}</p>
+                    </div>
+                  </div>
+                </Map>
               </div>
 
-              <div className="w-full h-[60vh]">
+              <div className="w-full h-[60vh] my-20">
                 {i18n.language === "en" ? (
                   <ResponsiveBar
                     data={tempData}
@@ -3535,7 +3638,7 @@ function App() {
                     layout="horizontal"
                     valueScale={{ type: "linear" }}
                     indexScale={{ type: "band", round: true }}
-                    colors={{ scheme: "nivo" }}
+                    colors={{ scheme: "blues" }}
                     borderColor={{
                       from: "color",
                       modifiers: [["darker", 1.6]],
@@ -3618,7 +3721,7 @@ function App() {
                     layout="horizontal"
                     valueScale={{ type: "linear" }}
                     indexScale={{ type: "band", round: true }}
-                    colors={{ scheme: "nivo" }}
+                    colors={{ scheme: "blues" }}
                     borderColor={{
                       from: "color",
                       modifiers: [["darker", 1.6]],
@@ -3682,10 +3785,17 @@ function App() {
                     )}
                   />
                 )}
+                <p className="my-4 text-gray-800 book-intro-sm max-w-4xl">
+                  {" "}
+                  {t("stacked_bar")}
+                </p>
               </div>
             </div>
           </Element>
           <Element name="analysis">
+            <h3 className="text-gray-800 pb-8">
+              {t("scenario_analyse_title")}
+            </h3>
             <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 py-4">
               <div className=" w-full md:w-1/3">
                 <div className="">
@@ -3838,86 +3948,11 @@ function App() {
               </select>
             </div>
             <div className="overflow-x-scroll sm:overflow-x-auto pt-4">
-              <table className="sm:min-w-full bg-white border book-info-md sm:table-fixed">
-                <thead>
-                  <tr>
-                    <th
-                      width="10%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("benefit_group")}
-                    </th>
-                    <th
-                      width="8%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("total")}
-                    </th>
-                    <th
-                      width="11%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("tree_function")}
-                    </th>
-                    <th
-                      width="30%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("tool")}
-                    </th>
-                    <th
-                      width="15%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("benefit_quant")}
-                    </th>
-                    <th
-                      width="7%"
-                      className="px-6 py-3 border-b text-left text-sm font-semibold text-gray-800"
-                    >
-                      {t("value_per_year")}
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {selectedScenario.benefits.map((benefit, benefitIndex) =>
-                    benefit.rows.map((row, rowIndex) => (
-                      <tr key={`${benefitIndex}-${rowIndex}`}>
-                        {rowIndex === 0 && (
-                          <td
-                            style={{
-                              background: benefit.colour,
-                              color: "white",
-                            }}
-                            rowSpan={benefit.rows.length}
-                          >
-                            {benefit.group}
-                          </td>
-                        )}
-
-                        {rowIndex === 0 && (
-                          <td rowSpan={benefit.rows.length}>
-                            {euro.format(benefit.total)}
-                          </td>
-                        )}
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {row.function}
-                        </td>
-
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {row.tool}
-                        </td>
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {row.amount.toLocaleString() + " " + row.unit}
-                        </td>
-                        <td className="px-6 py-4 border-b text-sm text-gray-600">
-                          {euro.format(row.benefit_per_year)}
-                        </td>
-                      </tr>
-                    )),
-                  )}
-                </tbody>
-              </table>
+              <GroupedTable
+                selectedScenario={selectedScenario}
+                t={t}
+                euro={euro}
+              />
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg my-6">
@@ -3931,7 +3966,8 @@ function App() {
                   id="name"
                   value="loc"
                   cornerRadius={6}
-                  borderColor={{ theme: "background" }}
+                  borderWidth={2}
+                  borderColor="#ffffff"
                   colors={(parent) => {
                     return parent.data.color;
                   }}
@@ -3947,6 +3983,10 @@ function App() {
                   }}
                 />
               </div>
+              <p className="my-4 text-gray-800 book-intro-sm max-w-4xl">
+                {" "}
+                {t("sunburst")}
+              </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg my-6">
@@ -4005,13 +4045,37 @@ function App() {
                   )}
                 />
               </div>
+              <p className="my-4 text-gray-800 book-intro-sm max-w-4xl">
+                {t("benefit_bar")}
+              </p>
             </div>
           </Element>
         </div>
         <div className="py-10 px-4">
-          <p className="medium-intro-sm">Supported by:</p>
-          <img src={TNClogo} alt="TNC logo" />
+          <p className="medium-intro-sm">{t("data_source")}</p>
+          <p className="my-4 text-gray-800 book-intro-sm max-w-5xl">
+            {t("data_source_text")}
+          </p>
+          <p className="medium-intro-sm mt-10">{t("supported_by")}</p>
+          <a
+            href="https://www.nature.org/en-us/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={TNClogo} alt="TNC logo" />
+          </a>
         </div>
+        <Element className="py-20" name="contact">
+          <h3 className="text-gray-800 pb-4">{t("contact")}</h3>
+          <p className="medium-intro-md pb-2">
+            <a href="mailto:treesai@darkmatterlabs.org">
+              treesai@darkmatterlabs.org
+            </a>
+          </p>
+          <p className="medium-intro-md">
+            <a href="mailto:jamie.chan@tnc.org">jamie.chan@tnc.org</a>
+          </p>
+        </Element>
       </div>
       <Footer />
     </>

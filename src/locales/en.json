@@ -20,7 +20,8 @@
     "years": "years",
     "visualisation_of_benefits": "Visualisation of Benefits",
     "benefit_per_function": "Benefit per function",
-    "scenario_comp_title": "Scenario Comparison Dashboard",
+    "scenario_comp_title": "Scenario Comparison Dashboard over 10 years",
+    "scenario_analyse_title": "Scenario Analysis",
     "scenario_a": "Baseline",
     "scenario_b": "Scenario A: Optimistic",
     "scenario_c": "Scenario B: Realistic",
@@ -32,6 +33,13 @@
     "scenario_comp": "Scenario Comparison",
     "nav_title": "Ecosystem Services Valuation",
     "contact": "Contact",
-    "intro_text": "Commissioned by The Nature Conservancy in Europe gGmbH and conducted by the TreesAI team, this report provides an overview of the economic evaluation of tree canopy scenarios. The main objective of this study is to assess the current economic value of ecosystem services provided by existing tree cover along the streets where the construction of the M10 tram line (Turmstraße - S+U Jungfernheide section) is planned in the Southern Mierendorf Island."
+    "intro_text": "Commissioned by The Nature Conservancy in Europe gGmbH and conducted by the TreesAI team, this report provides an overview of the economic evaluation of tree canopy scenarios. The main objective of this study is to assess the current economic value of ecosystem services provided by existing tree cover along the streets where the construction of the M10 tram line (Turmstraße - S+U Jungfernheide section) is planned in the Southern Mierendorf Island.",
+    "total_valuation_bar": "This bar chart compares the total ecosystem service value over a 10-year period for each of the four considered scenarios, focusing on benefits related to climate regulation, public health, and water management.",
+    "stacked_bar": "This stacked bar chart breaks down the 10-year benefits across four scenarios, unpacking the different ecosystem services that contribute to the total valuation.",
+    "sunburst": "This pie chart visualises how different tree functions contribute to the total value in this scenario. The inner ring represents the overall benefit group sectors—climate regulation, health, and water management. The middle ring shows the tree functions contributing to these sectors, and the outer ring highlights the individual benefits derived from each tree function.",
+    "benefit_bar": "This bar chart compares the total benefits per tree function in the selected scenario. The chart illustrates how each tree function.",
+    "data_source": "Data Source",
+    "data_source_text": " Tree inventory data from district street and green space authorities, based on GRIS Berlin (Green Space Information and Management System). The data is available under the Data License Germany - Zero - Version 2.0.",
+    "supported_by": "Supported by"
   }
 }

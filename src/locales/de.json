@@ -20,7 +20,8 @@
     "years": "Jahre",
     "visualisation_of_benefits": "Visualisierung der Vorteile",
     "benefit_per_function": "Nutzen pro Funktion",
-    "scenario_comp_title": "Szenariovergleichs-Dashboard",
+    "scenario_comp_title": "Szenariovergleichs-Dashboard über 10 Jahre",
+    "scenario_analyse_title": "Szenarioanalyse",
     "scenario_a": "Ausgangslage",
     "scenario_b": "Szenario A: Optimistisch",
     "scenario_c": "Szenario B: Realistisch",
@@ -32,6 +33,13 @@
     "scenario_comp": "Szenariovergleich",
     "nav_title": "Bewertung der Ökosystemdienstleistungen",
     "contact": "Kontakt",
-    "intro_text": "Im Auftrag von The Nature Conservancy in Europe gGmbH und durchgeführt vom TreesAI team, gibt dieser Bericht einen Überblick über die wirtschaftliche Bewertung von Baumkronen-Szenarien. Das Hauptziel dieser Untersuchung ist es, den aktuellen ökonomischen Wert der Ökosystemleistungen zu bewerten, die durch den bestehenden Baumbestand entlang der Straßen entstehen, an denen der Bau der Straßenbahnlinie M10 (Abschnitt T urmstraße - S+U Jungfernheide) in der Südlichen Mierendorﬃnsel geplant ist."
+    "intro_text": "Im Auftrag von The Nature Conservancy in Europe gGmbH und durchgeführt vom TreesAI team, gibt dieser Bericht einen Überblick über die wirtschaftliche Bewertung von Baumkronen-Szenarien. Das Hauptziel dieser Untersuchung ist es, den aktuellen ökonomischen Wert der Ökosystemleistungen zu bewerten, die durch den bestehenden Baumbestand entlang der Straßen entstehen, an denen der Bau der Straßenbahnlinie M10 (Abschnitt T urmstraße - S+U Jungfernheide) in der Südlichen Mierendorﬃnsel geplant ist.",
+    "total_valuation_bar": "Dieses Balkendiagramm vergleicht den Gesamtwert der Ökosystemdienstleistungen über einen Zeitraum von 10 Jahren für jedes der vier betrachteten Szenarien und konzentriert sich dabei auf die Vorteile im Zusammenhang mit der Klimaregulierung, der öffentlichen Gesundheit und dem Wassermanagement.",
+    "stacked_bar": "Dieses gestapelte Balkendiagramm schlüsselt die 10-Jahres-Vorteile auf vier Szenarien auf und zeigt die verschiedenen Ökosystemleistungen auf, die zur Gesamtbewertung beitragen.",
+    "sunburst": "Dieses Kreisdiagramm veranschaulicht, wie verschiedene Baumfunktionen zum Gesamtwert in diesem Szenario beitragen. Der innere Ring stellt die Sektoren der Gesamtnutzengruppen dar – Klimaregulierung, Gesundheit und Wassermanagement. Der mittlere Ring zeigt die Baumfunktionen, die zu diesen Sektoren beitragen, und der äußere Ring hebt die individuellen Vorteile hervor, die sich aus jeder Baumfunktion ergeben.",
+    "benefit_bar": "Dieses Balkendiagramm vergleicht den Gesamtnutzen pro Baumfunktion im ausgewählten Szenario. Das Diagramm veranschaulicht die jeweilige Baumfunktion.",
+    "data_source": "Datengrundlage",
+    "data_source_text": "Baumbestandsdaten von den bezirklichen Straßen- und Grünflächenämtern, basierend auf GRIS Berlin (Grünflächeninformations- und -managementsystem). Die Daten sind unter der Datenlizenz Deutschland - Zero - Version 2.0 verfügbar.",
+    "supported_by": "Unterstützt von"
   }
 }

@@ -80,9 +80,9 @@ export default function NavBar(props) {
                         "medium-intro-sm inline-flex items-center border-b-2 px-1 pt-1 cursor-pointer",
                       )}
                     >
-                      <a href="mailto:treesai@darkmatterlabs.org">
+                      <Link to="contact" smooth={true} duration={500}>
                         {t("contact")}
-                      </a>
+                      </Link>
                     </span>
 
                     <span className="inline-flex items-center border-b-2 px-1 pt-1">
