@@ -11,7 +11,7 @@
     "total_es_sv": "Bewertung der gesamten Ökosystemleistungen",
     "avg_val_per_tree": "Durchschnittlicher Wert pro Baum",
     "benefit_group": "Leistungsgruppe",
-    "total": "Gesamt Monetärer Wert",
+    "total": "Gesamt Monetärer Wert über 10 Jahre",
     "tree_function": "Baumfunktion",
     "tool": "Nutzen",
     "benefit_quant": "Nutzenquantifizierung",
@@ -43,6 +43,7 @@
     "benefit_bar": "Dieses Balkendiagramm vergleicht den Gesamtnutzen pro Baumfunktion im ausgewählten Szenario. Das Diagramm veranschaulicht die jeweilige Baumfunktion.",
     "data_source": "Datengrundlage",
     "data_source_text": "Baumbestandsdaten von den bezirklichen Straßen- und Grünflächenämtern, basierend auf GRIS Berlin (Grünflächeninformations- und -managementsystem). Die Daten sind unter der Datenlizenz Deutschland - Zero - Version 2.0 verfügbar.",
-    "supported_by": "Unterstützt von"
+    "supported_by": "Unterstützt von",
+    "map_legend": "Mögliche Bäume zur Entfernung"
   }
 }

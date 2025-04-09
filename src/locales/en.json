@@ -11,7 +11,7 @@
     "total_es_sv": "Total Ecosystem Service Valuation",
     "avg_val_per_tree": "Average Value Generated per Tree",
     "benefit_group": "Benefit Group",
-    "total": "Total Monetary Value",
+    "total": "Total Monetary Value over 10 years",
     "tree_function": "Tree Function",
     "tool": "Benefit",
     "benefit_quant": "Benefit Quantification",
@@ -43,6 +43,7 @@
     "benefit_bar": "This bar chart compares the total benefits per tree function in the selected scenario. The chart illustrates how each tree function.",
     "data_source": "Data Source",
     "data_source_text": " Tree inventory data from district street and green space authorities, based on GRIS Berlin (Green Space Information and Management System). The data is available under the Data License Germany - Zero - Version 2.0.",
-    "supported_by": "Supported by"
+    "supported_by": "Supported by",
+    "map_legend": "Possible trees for removal"
   }
 }

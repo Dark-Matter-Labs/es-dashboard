@@ -765,7 +765,7 @@ const data = [
     id: 2,
     title: "Scenario B - Realistic",
     description:
-      "Ecosystem Services value from all trees considered at risk of being cut off if they are located within the construction area or their crown diameter area overlaps with the construction area based on the Berlin Tree Protection Ordinance.",
+      "Total ecosystem service valuation relates to all trees that are located within the construction area or their crown diameter area overlaps with the construction area based on the Berlin Tree Protection Ordinance - and therefore are at risk of being cut down",
     detail:
       "Trees at risk of removal due to their proximity to the construction area, in compliance with the Berlin Tree Protection Ordinance.",
     trees: -131,
@@ -3606,7 +3606,7 @@ function App() {
                   </Source>
 
                   <div className="control-panel">
-                    <h3>Legend</h3>
+                    <h3>{t("map_legend")}</h3>
                     <div className="flex items-center gap-2 justify-start">
                       <div className="my-2" id="rectangle-base"></div>
                       <p> {t("scenario_a")}</p>
