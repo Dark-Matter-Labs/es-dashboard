@@ -412,7 +412,7 @@ const data = [
     detail:
       "Trees that are planned to be cut down according to a technical survey conducted by the BVG (public transport agency).",
     trees: -35,
-    canopy_cover: 0.31,
+    canopy_cover: 0.32,
     total_benefit: -1035145,
     map: "scenario_b_canopy.geojson",
     tram: "tram_route.geojson",
@@ -1126,7 +1126,7 @@ const data = [
     detail:
       "Trees at risk of removal if tramline extension is constructed in an alternative route.",
     trees: -45,
-    canopy_cover: 0.242,
+    canopy_cover: 0.24,
     total_benefit: -249555,
     map: "alternative_canopy_loss.geojson",
     tram: "alternative_tram_route.geojson",
@@ -1139,7 +1139,7 @@ const data = [
           {
             function: "Shelter from wind",
             tool: "Reduced building energy consumption for heating",
-            amount: -184000,
+            amount: -12640,
             unit: "kWh/yr energy saved",
             benefit_per_year: -896,
             gross_value: -7712,
@@ -1149,7 +1149,7 @@ const data = [
           {
             function: "Shelter from wind",
             tool: "Avoided carbon emissions from building energy saving for heating",
-            amount: -58853,
+            amount: -3248,
             unit: "kgCO2/yr not emitted",
             benefit_per_year: -640,
             gross_value: 0,
@@ -1179,7 +1179,7 @@ const data = [
           {
             function: "Reduction of urban heat island effect",
             tool: "Reduced Hospital Costs from Heat-Related Morbidity",
-            amount: -9,
+            amount: -1,
             unit: "patient days per yr",
             benefit_per_year: -1823,
             gross_value: 0,
@@ -1189,9 +1189,9 @@ const data = [
           {
             function: "Carbon storage and sequestration",
             tool: "Carbon sequestered by trees",
-            amount: -378,
+            amount: -66,
             unit: "kgCO2e sequestered",
-            benefit_per_year: -753,
+            benefit_per_year: -261,
             gross_value: 0,
             indirect: -6680,
             timeframe: 10,
@@ -1206,7 +1206,7 @@ const data = [
           {
             function: "Interception, storage and infiltration of rainwater",
             tool: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
-            amount: -36195993,
+            amount: -8193406,
             unit: "L/yr water diverted from sewers",
             benefit_per_year: 0,
             gross_value: 0,
@@ -1216,7 +1216,7 @@ const data = [
           {
             function: "Interception, storage and infiltration of rainwater",
             tool: "Energy and carbon emissions savings from reduced stormwater volume entering combined sewers",
-            amount: -32033.45,
+            amount: -7251.16,
             unit: "kWh/yr energy saved",
             benefit_per_year: -1440,
             gross_value: -12396,
@@ -1226,7 +1226,7 @@ const data = [
           {
             function: "Interception, storage and infiltration of rainwater",
             tool: "Reduced carbon emissions",
-            amount: -12.72,
+            amount: -2.88,
             unit: "tCO2e/yr carbon saved",
             benefit_per_year: -567,
             gross_value: 0,
@@ -1254,7 +1254,7 @@ const data = [
           {
             function: "Stress and mental illness alleviation",
             tool: "Health cost savings from mental health disorders",
-            amount: -300,
+            amount: -45,
             unit: "number of patients",
             benefit_per_year: -45,
             gross_value: 0,
@@ -1264,7 +1264,7 @@ const data = [
           {
             function: "Air pollution removal",
             tool: "Reduced air pollution",
-            amount: -0.007,
+            amount: -0.001,
             unit: "t/yr of NO2 removed",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -1274,7 +1274,7 @@ const data = [
           {
             function: "Air pollution removal",
             tool: "Reduced air pollution",
-            amount: -0.017,
+            amount: -0.003,
             unit: "t/yr of O3 removed",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -1284,7 +1284,7 @@ const data = [
           {
             function: "Air pollution removal",
             tool: "Reduced air pollution",
-            amount: -0.001,
+            amount: 0.000,
             unit: "t/yr of SO2 removed",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -1294,7 +1294,7 @@ const data = [
           {
             function: "Air pollution removal",
             tool: "Reduced air pollution",
-            amount: -0.039,
+            amount: -0.007,
             unit: "t/yr of SO2 removed",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -1877,7 +1877,7 @@ const data_de = [
     detail:
       "Bäume, deren Fällung laut einer technischen Untersuchung der BVG geplant ist.",
     trees: -35,
-    canopy_cover: 0.31,
+    canopy_cover: 0.32,
     total_benefit: -2882491,
     map: "scenario_b_canopy.geojson",
     tram: "tram_route.geojson",
@@ -2618,7 +2618,7 @@ const data_de = [
     detail:
       "Bei der Verlängerung der Straßenbahnlinie auf einer alternativen Route besteht die Gefahr der Baumfällung.",
     trees: -45,
-    canopy_cover: 0.242,
+    canopy_cover: 0.24,
     total_benefit: -249555,
     map: "alternative_canopy_loss.geojson",
     tram: "alternative_tram_route.geojson",
@@ -2631,7 +2631,7 @@ const data_de = [
           {
             function: "Schutz vor Wind",
             tool: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
-            amount: -184000,
+            amount: -12640,
             unit: "Eingesparte Energie in kWh/Jahr",
             benefit_per_year: -896,
             gross_value: -7712,
@@ -2641,7 +2641,7 @@ const data_de = [
           {
             function: "Schutz vor Wind",
             tool: "Vermeidung von CO2-Emissionen durch Gebäudeenergieeinsparung beim Heizen",
-            amount: -58853,
+            amount: -3248,
             unit: "kgCO2/Jahr nicht emittiert",
             benefit_per_year: -640,
             gross_value: 0,
@@ -2671,7 +2671,7 @@ const data_de = [
           {
             function: "Reduzierung des städtischen Wärmeinseleffekts",
             tool: "Reduzierte Krankenhauskosten durch hitzebedingte Morbidität",
-            amount: -9,
+            amount: -1,
             unit: "Patiententage pro Jahr",
             benefit_per_year: -1823,
             gross_value: 0,
@@ -2681,9 +2681,9 @@ const data_de = [
           {
             function: "Kohlenstoffspeicherung und -bindung",
             tool: "Bäume binden Kohlenstoff",
-            amount: -378,
+            amount: -66,
             unit: "kg CO2e gebunden",
-            benefit_per_year: -753,
+            benefit_per_year: -261,
             gross_value: 0,
             indirect: -6680,
             timeframe: 10,
@@ -2698,7 +2698,7 @@ const data_de = [
           {
             function: "Abfangen, Speichern und Versickern von Regenwasser",
             tool: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
-            amount: -36195993,
+            amount: -8193406,
             unit: "L/Jahr aus der Kanalisation abgeleitetes Wasser",
             benefit_per_year: 0,
             gross_value: 0,
@@ -2708,7 +2708,7 @@ const data_de = [
           {
             function: "Abfangen, Speichern und Versickern von Regenwasser",
             tool: "Energie- und CO2-Einsparungen durch geringere Regenwassermengen in der Mischkanalisation",
-            amount: -32033.45,
+            amount: -7251.16,
             unit: "Eingesparte Energie in kWh/Jahr",
             benefit_per_year: -1440,
             gross_value: -12396,
@@ -2718,7 +2718,7 @@ const data_de = [
           {
             function: "Abfangen, Speichern und Versickern von Regenwasser",
             tool: "Reduzierte CO2-Emissionen",
-            amount: -12.72,
+            amount: -2.88,
             unit: "Eingesparte tCO2e/Jahr",
             benefit_per_year: -567,
             gross_value: 0,
@@ -2746,7 +2746,7 @@ const data_de = [
           {
             function: "Linderung von Stress und psychischen Erkrankungen",
             tool: "Einsparungen bei den Gesundheitskosten durch psychische Störungen",
-            amount: -300,
+            amount: -45,
             unit: "Anzahl der Patienten",
             benefit_per_year: -45,
             gross_value: 0,
@@ -2756,7 +2756,7 @@ const data_de = [
           {
             function: "Beseitigung der Luftverschmutzung",
             tool: "Reduzierte Luftverschmutzung",
-            amount: -0.007,
+            amount: -0.001,
             unit: "t/yr of NO2 removed",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -2766,7 +2766,7 @@ const data_de = [
           {
             function: "Beseitigung der Luftverschmutzung",
             tool: "Reduzierte Luftverschmutzung",
-            amount: -0.017,
+            amount: -0.003,
             unit: "t/Jahr O3 entfernt",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -2776,7 +2776,7 @@ const data_de = [
           {
             function: "Beseitigung der Luftverschmutzung",
             tool: "Reduzierte Luftverschmutzung",
-            amount: -0.001,
+            amount: 0.000,
             unit: "t/Jahr of SO2 entfernt",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -2786,7 +2786,7 @@ const data_de = [
           {
             function: "Beseitigung der Luftverschmutzung",
             tool: "Reduzierte Luftverschmutzung",
-            amount: -0.039,
+            amount: -0.007,
             unit: "t/Jahr of SO2 entfernt",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -3373,7 +3373,7 @@ function App() {
 
                     <tr>
                       <td className="px-6 py-4 border-b text-sm font-bold text-gray-600">
-                        {t("canopy_cover")}(Ha)
+                        {t("canopy_cover")} (Ha)
                       </td>
                       {dataLang.map((scenario) => (
                         <td
@@ -3402,7 +3402,7 @@ function App() {
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.24M
+                        -€0.28M
                       </td>
                     </tr>
 
@@ -3438,15 +3438,15 @@ function App() {
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.14M
+                        -€15K
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.07M
+                        -€76K
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.01M
+                        -€17K
                       </td>
                     </tr>
 
@@ -3460,15 +3460,36 @@ function App() {
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.08M
+                        -€81K
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.02M
+                        -€227K
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.006M
+                        -€35K
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td className="flex items-center px-6 py-4 border-b text-sm font-bold text-gray-600">
+                        {t("value_per_tree")}{" "}
+                      </td>
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        €29K
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        €30K
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        €32K
+                      </td>
+
+                      <td className="px-6 py-4 border-b text-sm text-gray-600">
+                        €6K
                       </td>
                     </tr>
                   </tbody>
