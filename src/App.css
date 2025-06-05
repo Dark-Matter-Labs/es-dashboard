@@ -107,26 +107,50 @@ td {
   outline: none;
 }
 
-#rectangle-base {
+.rectangle-base {
   width: 20px;
   height: 20px;
   background: #2b986f;
 }
 
-#rectangle-a {
+.border-base {
+  width: 20px;
+  height: 20px;
+  border: #2b986f solid 1px;
+}
+
+.rectangle-a {
   width: 20px;
   height: 20px;
   background: #df7aaf;
 }
 
-#rectangle-b {
+.border-a {
+  width: 20px;
+  height: 20px;
+  border: #df7aaf solid 1px;
+}
+
+.rectangle-b {
   width: 20px;
   height: 20px;
   background: #9b185d;
 }
 
-#rectangle-c {
+.border-b-box {
+  width: 20px;
+  height: 20px;
+  border: #9b185d solid 1px;
+}
+
+.rectangle-c {
   width: 20px;
   height: 20px;
   background: #e05813;
+}
+
+.border-c {
+  width: 20px;
+  height: 20px;
+  border: #e05813 solid 1px;
 }

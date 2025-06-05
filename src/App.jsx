@@ -1284,7 +1284,7 @@ const data = [
           {
             function: "Air pollution removal",
             tool: "Reduced air pollution",
-            amount: 0.000,
+            amount: 0.0,
             unit: "t/yr of SO2 removed",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -1874,8 +1874,7 @@ const data_de = [
     title: "Szenario A - Optimistisch",
     description:
       "Wert der Ökosystemdienstleistungen von Bäumen, die gefällt werden sollen, laut eines Gutachtens im Auftrag der BVG.",
-    detail:
-      "Bäume, deren Fällung laut eines Gutachtens der BVG geplant ist.",
+    detail: "Bäume, deren Fällung laut eines Gutachtens der BVG geplant ist.",
     trees: -35,
     canopy_cover: 0.32,
     total_benefit: -2882491,
@@ -2776,7 +2775,7 @@ const data_de = [
           {
             function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
-            amount: 0.000,
+            amount: 0.0,
             unit: "t/Jahr of SO2 entfernt",
             benefit_per_year: -734,
             gross_value: -6510,
@@ -3230,6 +3229,11 @@ function App() {
   const [bPoints, setBPoints] = useState(null);
   const [cPoints, setCPoints] = useState(null);
 
+  const [showBaseline, setShowBaseline] = useState(true);
+  const [showA, setShowA] = useState(true);
+  const [showB, setShowB] = useState(true);
+  const [showC, setShowC] = useState(true);
+
   useEffect(() => {
     if (i18n.language === "de") {
       setDataLang(data_de);
@@ -3610,35 +3614,72 @@ function App() {
                   mapStyle="mapbox://styles/mapbox/light-v9"
                   mapboxAccessToken={MAPBOX_TOKEN}
                 >
-                  <Source type="geojson" data={altAllMap}>
-                    <Layer {...altFillLayer} />
-                  </Source>
-                  <Source type="geojson" data={mapDataAll}>
-                    <Layer {...allFillLayer} />
-                  </Source>
-                  <Source type="geojson" data={aPoints}>
-                    <Layer {...pointFill} />
-                  </Source>
-                  <Source type="geojson" data={cPoints}>
-                    <Layer {...pointCFill} />
-                  </Source>
-                  <Source type="geojson" data={bPoints}>
-                    <Layer {...pointBFill} />
-                  </Source>
+                  {showC && (
+                    <Source type="geojson" data={altAllMap}>
+                      <Layer {...altFillLayer} />
+                    </Source>
+                  )}
+                  {showBaseline && (
+                    <Source type="geojson" data={mapDataAll}>
+                      <Layer {...allFillLayer} />
+                    </Source>
+                  )}
+
+                  {showBaseline && (
+                    <Source type="geojson" data={aPoints}>
+                      <Layer {...pointFill} />
+                    </Source>
+                  )}
+
+                  {showB && (
+                    <Source type="geojson" data={cPoints}>
+                      <Layer {...pointCFill} />
+                    </Source>
+                  )}
+
+                  {showA && (
+                    <Source type="geojson" data={bPoints}>
+                      <Layer {...pointBFill} />
+                    </Source>
+                  )}
 
                   <div className="control-panel">
-                    <h3>{t("map_legend")}</h3>
+                    <p>{t("map_legend")}</p>
                     <div className="flex items-center gap-2 justify-start">
-                      <div className="my-2" id="rectangle-base"></div>
+                      <div
+                        className={
+                          "cursor-pointer my-2 " +
+                          (showBaseline ? "rectangle-base" : "border-base")
+                        }
+                        onClick={() => setShowBaseline(!showBaseline)}
+                      ></div>
                       <p> {t("scenario_a")}</p>
-                      <div className="my-2" id="rectangle-a"></div>
+                      <div
+                        className={
+                          "cursor-pointer my-2 " +
+                          (showA ? "rectangle-a" : "border-a")
+                        }
+                        onClick={() => setShowA(!showA)}
+                      ></div>
                       <p> {t("scenario_b")}</p>
                     </div>
 
                     <div className="flex items-center gap-2 justify-start">
-                      <div className="my-2" id="rectangle-b"></div>
+                      <div
+                        className={
+                          "cursor-pointer my-2 " +
+                          (showB ? "rectangle-b" : "border-b-box")
+                        }
+                        onClick={() => setShowB(!showB)}
+                      ></div>
                       <p> {t("scenario_c")}</p>
-                      <div className="my-2" id="rectangle-c"></div>
+                      <div
+                        className={
+                          "cursor-pointer my-2 " +
+                          (showC ? "rectangle-c" : "border-c")
+                        }
+                        onClick={() => setShowC(!showC)}
+                      ></div>
                       <p> {t("scenario_d")}</p>
                     </div>
                   </div>
@@ -3659,12 +3700,12 @@ function App() {
                       "Air Pollution Removal",
                     ]}
                     indexBy="scenario"
-                    margin={{ top: 50, right: 130, bottom: 50, left: 120 }}
+                    margin={{ top: 50, right: 130, bottom: 50, left: 140 }}
                     padding={0.3}
                     layout="horizontal"
                     valueScale={{ type: "linear" }}
                     indexScale={{ type: "band", round: true }}
-                    colors={{ scheme: "blues" }}
+                    colors={{ scheme: "tableau10" }}
                     borderColor={{
                       from: "color",
                       modifiers: [["darker", 1.6]],
@@ -3684,34 +3725,20 @@ function App() {
                           minimumFractionDigits: 0,
                         })} €`,
                     }}
-                    labelSkipWidth={12}
-                    labelSkipHeight={12}
-                    labelTextColor={{
-                      from: "color",
-                      modifiers: [["darker", 1.6]],
-                    }}
+                    enableLabel={false}
                     legends={[
                       {
                         dataFrom: "keys",
                         anchor: "bottom",
                         direction: "column",
                         justify: false,
-                        translateX: 400,
-                        translateY: -20,
+                        translateX: 200,
+                        translateY: -30,
                         itemsSpacing: 2,
                         itemWidth: 100,
                         itemHeight: 20,
                         itemDirection: "left-to-right",
-                        itemOpacity: 0.85,
                         symbolSize: 20,
-                        effects: [
-                          {
-                            on: "hover",
-                            style: {
-                              itemOpacity: 1,
-                            },
-                          },
-                        ],
                       },
                     ]}
                     role="application"
@@ -3747,7 +3774,7 @@ function App() {
                     layout="horizontal"
                     valueScale={{ type: "linear" }}
                     indexScale={{ type: "band", round: true }}
-                    colors={{ scheme: "blues" }}
+                    colors={{ scheme: "tableau10" }}
                     borderColor={{
                       from: "color",
                       modifiers: [["darker", 1.6]],
@@ -3767,34 +3794,20 @@ function App() {
                           minimumFractionDigits: 0,
                         })} €`,
                     }}
-                    labelSkipWidth={12}
-                    labelSkipHeight={12}
-                    labelTextColor={{
-                      from: "color",
-                      modifiers: [["darker", 1.6]],
-                    }}
+                    enableLabel={false}
                     legends={[
                       {
                         dataFrom: "keys",
                         anchor: "bottom",
                         direction: "column",
                         justify: false,
-                        translateX: 400,
-                        translateY: -20,
+                        translateX: 200,
+                        translateY: -30,
                         itemsSpacing: 2,
                         itemWidth: 100,
                         itemHeight: 20,
                         itemDirection: "left-to-right",
-                        itemOpacity: 0.85,
                         symbolSize: 20,
-                        effects: [
-                          {
-                            on: "hover",
-                            style: {
-                              itemOpacity: 1,
-                            },
-                          },
-                        ],
                       },
                     ]}
                     role="application"
@@ -4030,7 +4043,7 @@ function App() {
                     bottom: 40,
                     left: 100,
                   }}
-                  padding={0.6}
+                  padding={0.4}
                   colors="#2a7ef0"
                   axisTop={null}
                   axisRight={null}
@@ -4039,9 +4052,9 @@ function App() {
                   enableLabel={false}
                   axisBottom={{
                     tickSize: 0,
-                    tickPadding: 10,
+                    tickPadding: 15,
                     tickRotation: 0,
-                    truncateTickAt: 20,
+                    truncateTickAt: 24,
                   }}
                   axisLeft={{
                     tickSize: 0,
