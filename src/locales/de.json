@@ -1,6 +1,6 @@
 {
   "translation": {
-    "title": "Indikatives Bewertungs-Dashboard",
+    "title": "Baumbewertung Dashboard für Berlin Mierendorff-Insel",
     "scenario": "Szenario",
     "description": "Beschreibung",
     "location": "Standort",
@@ -37,7 +37,7 @@
     "scenario_comp": "Szenariovergleich",
     "nav_title": "Bewertung der Ökosystemdienstleistungen",
     "contact": "Kontakt",
-    "intro_text": "Im Auftrag von The Nature Conservancy in Europe gGmbH und durchgeführt vom TreesAI team, gibt dieser Bericht einen Überblick über die wirtschaftliche Bewertung von Baumkronen-Szenarien. Das Hauptziel dieser Untersuchung ist es, den aktuellen ökonomischen Wert der Ökosystemleistungen zu bewerten, die durch den bestehenden Baumbestand entlang der Straßen entstehen, an denen der Bau der Straßenbahnlinie M10 (Abschnitt T urmstraße - S+U Jungfernheide) in der Südlichen Mierendorﬃnsel geplant ist.",
+    "intro_text": "Im Auftrag von The Nature Conservancy in Europe gGmbH und durchgeführt vom TreesAI team, gibt dieser Bericht einen Überblick über die wirtschaftliche Bewertung von Baumkronen-Szenarien. Das Hauptziel dieser Untersuchung ist es, den aktuellen ökonomischen Wert der Ökosystemleistungen zu bewerten, die durch den bestehenden Baumbestand entlang der Straßen entstehen, an denen der Bau der Straßenbahnlinie M10 (Abschnitt T urmstraße - S+U Jungfernheide) in der Mierendorﬃnsel geplant ist.",
     "total_valuation_bar": "Dieses Balkendiagramm vergleicht den Gesamtwert der Ökosystemdienstleistungen über einen Zeitraum von 10 Jahren für jedes der vier betrachteten Szenarien und konzentriert sich dabei auf die positiven Effekte im Zusammenhang mit der Klimaregulierung, der öffentlichen Gesundheit und dem Wassermanagement.",
     "stacked_bar": "Dieses Balkendiagramm schlüsselt die positiven Effekte über 10 Jahre in vier Szenarien auf und zeigt die verschiedenen Ökosystemleistungen in die zur Gesamtbewertung beitragen.",
     "sunburst": "Dieses Kreisdiagramm veranschaulicht, wie verschiedene Baumfunktionen zum Gesamtwert in diesem Szenario beitragen. Der innere Ring stellt die Sektoren der Gesamtnutzengruppen dar – Klimaregulierung, Gesundheit und Wassermanagement. Der mittlere Ring zeigt die Baumfunktionen, die zu diesen Sektoren beitragen, und der äußere Ring hebt die individuellen Vorteile hervor, die sich aus jeder Baumfunktion ergeben.",
