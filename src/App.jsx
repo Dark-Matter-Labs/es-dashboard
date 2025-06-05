@@ -1512,7 +1512,7 @@ const data_de = [
         rows: [
           {
             function: "Schutz vor Wind",
-            tool: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
+            tool: "Gebäudeenergieeinsparung beim Heizen",
             amount: 1166560,
             unit: "kWh/Jahr Energieeinsparung",
             benefit_per_year: 42625,
@@ -1562,7 +1562,7 @@ const data_de = [
           },
           {
             function: "Kohlenstoffspeicherung und -bindung",
-            tool: "Bäume binden Kohlenstoff",
+            tool: "Kohlenstoffbindung durch Bäume",
             amount: 701.43,
             unit: "kgCO2e beschlagnahmt",
             benefit_per_year: 2764,
@@ -1629,7 +1629,7 @@ const data_de = [
             value: 120546,
           },
           {
-            benefit: "Beseitigung der Luftverschmutzung",
+            benefit: "Verbesserung der Luftqualität",
             value: 8980,
           },
         ],
@@ -1656,7 +1656,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: 0.01,
             unit: "t/Jahr entferntes NO2",
@@ -1666,7 +1666,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: 0.03,
             unit: "t/Jahr entferntes O3",
@@ -1676,7 +1676,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: 0.0,
             unit: "t/Jahr entferntes SO2",
@@ -1686,7 +1686,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: 0.07,
             unit: "t/Jahr entferntes PM2.5",
@@ -1710,7 +1710,7 @@ const data_de = [
               color: "hsl(139, 70%, 50%)",
               children: [
                 {
-                  name: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
+                  name: "Gebäudeenergieeinsparung beim Heizen",
                   color: "hsl(260, 70%, 50%)",
                   loc: 42625,
                 },
@@ -1747,7 +1747,7 @@ const data_de = [
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Bäume binden Kohlenstoff",
+                  name: "Kohlenstoffbindung durch Bäume",
                   color: "hsl(349, 70%, 50%)",
                   loc: 2764,
                 },
@@ -1809,7 +1809,7 @@ const data_de = [
               ],
             },
             {
-              name: "Beseitigung der Luftverschmutzung",
+              name: "Verbesserung der Luftqualität",
               color: "hsl(137, 70%, 50%)",
               children: [
                 {
@@ -1864,7 +1864,7 @@ const data_de = [
         value: 120546,
       },
       {
-        benefit: "Beseitigung der Luftverschmutzung",
+        benefit: "Verbesserung der Luftqualität",
         value: 8980 * 4,
       },
     ],
@@ -1873,9 +1873,9 @@ const data_de = [
     id: 1,
     title: "Szenario A - Optimistisch",
     description:
-      "Wert der Ökosystemdienstleistungen von Bäumen, die gefällt werden sollen, laut einer technischen Untersuchung im Auftrag der BVG.",
+      "Wert der Ökosystemdienstleistungen von Bäumen, die gefällt werden sollen, laut eines Gutachtens im Auftrag der BVG.",
     detail:
-      "Bäume, deren Fällung laut einer technischen Untersuchung der BVG geplant ist.",
+      "Bäume, deren Fällung laut eines Gutachtens der BVG geplant ist.",
     trees: -35,
     canopy_cover: 0.32,
     total_benefit: -2882491,
@@ -1889,7 +1889,7 @@ const data_de = [
         rows: [
           {
             function: "Schutz vor Wind",
-            tool: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
+            tool: "Gebäudeenergieeinsparung beim Heizen",
             amount: -82400,
             unit: "Eingesparte Energie in kWh/Jahr",
             benefit_per_year: -7129,
@@ -1939,7 +1939,7 @@ const data_de = [
           },
           {
             function: "Kohlenstoffspeicherung und -bindung",
-            tool: "Bäume binden Kohlenstoff",
+            tool: "Kohlenstoffbindung durch Bäume",
             amount: -87,
             unit: "kg CO2e gebunden",
             benefit_per_year: -344,
@@ -2013,7 +2013,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.002,
             unit: "t/Jahr entferntes NO2",
@@ -2023,7 +2023,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.004,
             unit: "t/Jahr entferntesf O3",
@@ -2033,7 +2033,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: 0.0,
             unit: "t/Jahr entferntes SO2",
@@ -2043,7 +2043,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.009,
             unit: "t/Jahr entferntes PM2.5",
@@ -2067,7 +2067,7 @@ const data_de = [
               color: "hsl(139, 70%, 50%)",
               children: [
                 {
-                  name: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
+                  name: "Gebäudeenergieeinsparung beim Heizen",
                   color: "hsl(260, 70%, 50%)",
                   loc: 7129,
                 },
@@ -2104,7 +2104,7 @@ const data_de = [
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Bäume binden Kohlenstoff",
+                  name: "Kohlenstoffbindung durch Bäume",
                   color: "hsl(349, 70%, 50%)",
                   loc: 344,
                 },
@@ -2166,7 +2166,7 @@ const data_de = [
               ],
             },
             {
-              name: "Beseitigung der Luftverschmutzung",
+              name: "Verbesserung der Luftqualität",
               color: "hsl(137, 70%, 50%)",
               children: [
                 {
@@ -2221,7 +2221,7 @@ const data_de = [
         value: -41630,
       },
       {
-        benefit: "Beseitigung der Luftverschmutzung",
+        benefit: "Verbesserung der Luftqualität",
         value: -947 * 4,
       },
     ],
@@ -2246,7 +2246,7 @@ const data_de = [
         rows: [
           {
             function: "Schutz vor Wind",
-            tool: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
+            tool: "Gebäudeenergieeinsparung beim Heizen",
             amount: -184000,
             unit: "Eingesparte Energie in kWh/Jahr",
             benefit_per_year: -16907,
@@ -2296,7 +2296,7 @@ const data_de = [
           },
           {
             function: "Kohlenstoffspeicherung und -bindung",
-            tool: "Bäume binden Kohlenstoff",
+            tool: "Kohlenstoffbindung durch Bäume",
             amount: -378,
             unit: "kg CO2e gebunden",
             benefit_per_year: -1489,
@@ -2370,7 +2370,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.007,
             unit: "t/yr of NO2 removed",
@@ -2380,7 +2380,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.017,
             unit: "t/Jahr O3 entfernt",
@@ -2390,7 +2390,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.001,
             unit: "t/Jahr of SO2 entfernt",
@@ -2400,7 +2400,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.039,
             unit: "t/Jahr of SO2 entfernt",
@@ -2424,7 +2424,7 @@ const data_de = [
               color: "hsl(139, 70%, 50%)",
               children: [
                 {
-                  name: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
+                  name: "Gebäudeenergieeinsparung beim Heizen",
                   color: "hsl(260, 70%, 50%)",
                   loc: 16907,
                 },
@@ -2461,7 +2461,7 @@ const data_de = [
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Bäume binden Kohlenstoff",
+                  name: "Kohlenstoffbindung durch Bäume",
                   color: "hsl(349, 70%, 50%)",
                   loc: 1489,
                 },
@@ -2523,7 +2523,7 @@ const data_de = [
               ],
             },
             {
-              name: "Beseitigung der Luftverschmutzung",
+              name: "Verbesserung der Luftqualität",
               color: "hsl(137, 70%, 50%)",
               children: [
                 {
@@ -2600,7 +2600,7 @@ const data_de = [
         value: -108600,
       },
       {
-        benefit: "Beseitigung der Luftverschmutzung",
+        benefit: "Verbesserung der Luftqualität",
         value: -4183 * 4,
       },
       {
@@ -2616,7 +2616,7 @@ const data_de = [
     description:
       "Eine neue Trasse wird auf Grundlage anderer, in den Bauantragsunterlagen aufgeführter Verlängerungsoptionen geprüft. Alle Bäume gelten als gefährdet, gefällt zu werden, wenn ein 1,5 m breiter Puffer von ihrer Krone in den Baubereich hineinragt.",
     detail:
-      "Bei der Verlängerung der Straßenbahnlinie auf einer alternativen Route besteht die Gefahr der Baumfällung.",
+      "Gefährdete Bäume bei der Verlängerung der Straßenbahnlinie auf einer alternativen Route.",
     trees: -45,
     canopy_cover: 0.24,
     total_benefit: -249555,
@@ -2630,7 +2630,7 @@ const data_de = [
         rows: [
           {
             function: "Schutz vor Wind",
-            tool: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
+            tool: "Gebäudeenergieeinsparung beim Heizen",
             amount: -12640,
             unit: "Eingesparte Energie in kWh/Jahr",
             benefit_per_year: -896,
@@ -2680,7 +2680,7 @@ const data_de = [
           },
           {
             function: "Kohlenstoffspeicherung und -bindung",
-            tool: "Bäume binden Kohlenstoff",
+            tool: "Kohlenstoffbindung durch Bäume",
             amount: -66,
             unit: "kg CO2e gebunden",
             benefit_per_year: -261,
@@ -2754,7 +2754,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.001,
             unit: "t/yr of NO2 removed",
@@ -2764,7 +2764,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.003,
             unit: "t/Jahr O3 entfernt",
@@ -2774,7 +2774,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: 0.000,
             unit: "t/Jahr of SO2 entfernt",
@@ -2784,7 +2784,7 @@ const data_de = [
             timeframe: 10,
           },
           {
-            function: "Beseitigung der Luftverschmutzung",
+            function: "Verbesserung der Luftqualität",
             tool: "Reduzierte Luftverschmutzung",
             amount: -0.007,
             unit: "t/Jahr of SO2 entfernt",
@@ -2808,7 +2808,7 @@ const data_de = [
               color: "hsl(139, 70%, 50%)",
               children: [
                 {
-                  name: "Reduzierter Energieverbrauch des Gebäudes für die Heizung",
+                  name: "Gebäudeenergieeinsparung beim Heizen",
                   color: "hsl(260, 70%, 50%)",
                   loc: 896,
                 },
@@ -2845,7 +2845,7 @@ const data_de = [
               color: "hsl(89, 70%, 50%)",
               children: [
                 {
-                  name: "Bäume binden Kohlenstoff",
+                  name: "Kohlenstoffbindung durch Bäume",
                   color: "hsl(349, 70%, 50%)",
                   loc: 753,
                 },
@@ -2907,7 +2907,7 @@ const data_de = [
               ],
             },
             {
-              name: "Beseitigung der Luftverschmutzung",
+              name: "Verbesserung der Luftqualität",
               color: "hsl(137, 70%, 50%)",
               children: [
                 {
@@ -2962,7 +2962,7 @@ const data_de = [
         value: -45,
       },
       {
-        benefit: "Beseitigung der Luftverschmutzung",
+        benefit: "Verbesserung der Luftqualität",
         value: -734 * 4,
       },
     ],
@@ -3021,7 +3021,7 @@ const tempData_de = [
     "Kohlenstoffspeicherung und -bindung": -753,
     "Bereitstellung von Bewegungsmöglichkeiten": 0,
     "Linderung von Stress und psychischen Erkrankungen": -45,
-    "Beseitigung der Luftverschmutzung": -734,
+    "Verbesserung der Luftqualität": -734,
   },
   {
     scenario: "Szenario B: Realistisch",
@@ -3031,7 +3031,7 @@ const tempData_de = [
     "Kohlenstoffspeicherung und -bindung": -1489,
     "Bereitstellung von Bewegungsmöglichkeiten": 0,
     "Linderung von Stress und psychischen Erkrankungen": -108600,
-    "Beseitigung der Luftverschmutzung": -4183,
+    "Verbesserung der Luftqualität": -4183,
   },
   {
     scenario: "Szenario A: Optimistisch",
@@ -3041,7 +3041,7 @@ const tempData_de = [
     "Kohlenstoffspeicherung und -bindung": -344,
     "Bereitstellung von Bewegungsmöglichkeiten": 0,
     "Linderung von Stress und psychischen Erkrankungen": -41630,
-    "Beseitigung der Luftverschmutzung": -967,
+    "Verbesserung der Luftqualität": -967,
   },
   {
     scenario: "Ausgangslage",
@@ -3051,7 +3051,7 @@ const tempData_de = [
     "Kohlenstoffspeicherung und -bindung": 2764,
     "Bereitstellung von Bewegungsmöglichkeiten": 286158,
     "Linderung von Stress und psychischen Erkrankungen": 120546,
-    "Beseitigung der Luftverschmutzung": 8980,
+    "Verbesserung der Luftqualität": 8980,
   },
 ];
 
@@ -3739,7 +3739,7 @@ function App() {
                       "Kohlenstoffspeicherung und -bindung",
                       "Bereitstellung von Bewegungsmöglichkeiten",
                       "Linderung von Stress und psychischen Erkrankungen",
-                      "Beseitigung der Luftverschmutzung",
+                      "Verbesserung der Luftqualität",
                     ]}
                     indexBy="scenario"
                     margin={{ top: 50, right: 130, bottom: 50, left: 180 }}
