@@ -8,7 +8,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import GroupedTable from "./components/GroupedTable";
 import DataInfoPopover from "./components/DataInfoPopover";
-import TNClogo from "./assets/TNC.svg";
+import TNClogo from "./assets/TNC.jpg";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -3394,19 +3394,19 @@ function App() {
                         {t("total")}
                       </td>
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        €10.51M
+                        €10.5M
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€1.03M
+                        -€1.0M
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€4.15M
+                        -€4.2M
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.28M
+                        -€0.3M
                       </td>
                     </tr>
 
@@ -3416,19 +3416,19 @@ function App() {
                         <DataInfoPopover description={t("climate_reg_desc")} />
                       </td>
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        €7.6M
+                        €7600K
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.93M
+                        -€940K
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -3.85M
+                        -3850K
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        -€0.22M
+                        -€220K
                       </td>
                     </tr>
 
@@ -3438,7 +3438,7 @@ function App() {
                         <DataInfoPopover description={t("water_mgmt_desc")} />
                       </td>
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        €0.16M
+                        €160K
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
@@ -3460,7 +3460,7 @@ function App() {
                         <DataInfoPopover description={t("health_desc")} />
                       </td>
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
-                        €2.73M
+                        €2730K
                       </td>
 
                       <td className="px-6 py-4 border-b text-sm text-gray-600">
@@ -4101,7 +4101,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={TNClogo} alt="TNC logo" />
+            <img className="w-80" src={TNClogo} alt="TNC logo" />
           </a>
         </div>
         <Element className="py-20" name="contact">
