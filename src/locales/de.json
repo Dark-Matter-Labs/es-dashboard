@@ -45,6 +45,6 @@
     "data_source": "Datengrundlage",
     "data_source_text": "Baumbestandsdaten von den bezirklichen Straßen- und Grünflächenämtern, basierend auf GRIS Berlin (Grünflächeninformations- und -managementsystem). Die Daten sind unter der Datenlizenz Deutschland - Zero - Version 2.0 verfügbar.",
     "supported_by": "Unterstützt von",
-    "map_legend": "Mögliche Bäume zur Entfernung - Klicken Sie auf das Kästchen, um die Sichtbarkeit umzuschalten"
+    "map_legend": "Potentiell gefährdete Bäume - Klicken Sie auf das Kästchen, um die Sichtbarkeit umzuschalten"
   }
 }
