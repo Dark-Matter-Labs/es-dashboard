@@ -19,7 +19,7 @@ const data = [
     description:
       "Ecosystem Services value from all existing trees in a 50m buffer from road.",
     detail:
-      "Current tree canopy based on all existing trees within a 50-meter buffer from the tram line.",
+      "All existing trees within a 50m buffer along the main tramline extension (Osnabrücker Str., Kaiserin-Augusta-Allee, and Tegeler Weg).",
     trees: 357,
     canopy_cover: 2.56,
     total_benefit: 10510563,
@@ -1484,7 +1484,7 @@ const data_de = [
     description:
       "Wert der Ökosystemdienstleistungen durch alle vorhandenen Bäume in einem Puffer von 50m von der Straße.",
     detail:
-      "Aktueller Baumbestand basierend auf allen vorhandenen Bäumen innerhalb eines 50-Meter-Pufferbereichs von der Straßenbahnlinie.",
+      "Allen bestehenden Bäumen innerhalb eines 50-m-Pufferbereichs entlang der Hauptverlängerung der Straßenbahnlinie (Osnabrücker Straße, Kaiserin-Augusta-Allee und Tegeler Weg).",
     trees: 357,
     canopy_cover: 2.56,
     total_benefit: 10510563,
